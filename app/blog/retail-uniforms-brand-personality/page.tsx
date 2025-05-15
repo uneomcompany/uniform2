@@ -407,7 +407,7 @@ export default function ArticlePage() {
               name="Sara Al-Rashidi"
               role="Brand Identity Strategist"
               bio="With specialized expertise in retail brand expression and consumer psychology, Sara helps Saudi Arabia's leading retail organizations develop comprehensive brand identity systems that create meaningful differentiation, strengthen market positioning, and establish authentic consumer connections through strategic design approaches."
-              imageSrc="/images/author/سارة_الرشيدي.jpg"
+              imageSrc="/images/author/sara-al-rashidi.jpg"
               linkedin="https://linkedin.com/in/sara-alrashidi"
               twitter="https://twitter.com/alrashidi_sara"
             />

@@ -8,19 +8,19 @@ import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
   title: 'Customizing Retail Uniforms: Incorporating Logos and Brand Colors Effectively (Saudi Focus)',
-  description: "استراتيجية متكاملة لدمج شعارات العلامة التجارية والألوان بشكل فعال في زي العاملين بمجال التجزئة في المملكة العربية السعودية، مع تحليل متعمق لأفضل الممارسات التي تعزز التعرف على العلامة التجارية وتجربة التسوق للعملاء السعوديين.",
+  description: "A comprehensive strategy for effectively integrating brand logos and colors into retail staff uniforms in Saudi Arabia, with in-depth analysis of best practices that enhance brand recognition and shopping experience for Saudi customers.",
 }
 
 export default function ArticlePage() {
   // Table of contents data
   const tocItems = [
-    { id: "introduction", title: "مقدمة | Introduction" },
-    { id: "branding-foundations", title: "أسس العلامة التجارية في الزي الموحد | Branding Foundations in Uniform Design" },
-    { id: "logo-integration", title: "استراتيجيات دمج الشعار | Logo Integration Strategies" },
-    { id: "color-psychology", title: "علم نفس الألوان في السياق السعودي | Color Psychology in Saudi Context" },
-    { id: "fabric-considerations", title: "اعتبارات الأقمشة والمناخ | Fabric and Climate Considerations" },
-    { id: "implementation-guide", title: "دليل التنفيذ للشركات السعودية | Implementation Guide for Saudi Companies" },
-    { id: "conclusion", title: "الخلاصة | Conclusion" },
+    { id: "introduction", title: "Introduction" },
+    { id: "branding-foundations", title: "Branding Foundations in Uniform Design" },
+    { id: "logo-integration", title: "Logo Integration Strategies" },
+    { id: "color-psychology", title: "Color Psychology in Saudi Context" },
+    { id: "fabric-considerations", title: "Fabric and Climate Considerations" },
+    { id: "implementation-guide", title: "Implementation Guide for Saudi Companies" },
+    { id: "conclusion", title: "Conclusion" },
   ]
   
   // Related articles
@@ -54,7 +54,7 @@ export default function ArticlePage() {
         publishDate="May 10, 2025"
         readingTime="14 min read"
         imageSrc="/images/retail_sector/store_logo_caps.jpeg"
-        imageAlt="متجر سعودي بموظفين يرتدون قبعات وأزياء موحدة تحمل شعار المتجر بشكل فعال ومتناسق"
+        imageAlt="Saudi retail store staff wearing caps and uniforms effectively displaying store logo in a cohesive manner"
       />
 
       <div className="container mx-auto px-4 py-12 max-w-4xl">
@@ -62,14 +62,11 @@ export default function ArticlePage() {
           <div className="md:w-3/4">
             {/* Introduction */}
             <section id="introduction" className="mb-12">
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                في السوق السعودي المتنامي، أصبح تخصيص الزي الموحد للعاملين في قطاع التجزئة عنصراً استراتيجياً يتجاوز مجرد المظهر الموحد إلى كونه أداة تسويقية قوية تعزز هوية العلامة التجارية. يبحث هذا المقال في الأساليب المبتكرة لدمج الشعارات والألوان المؤسسية في الزي الموحد بما يتناسب مع الثقافة السعودية، مع تحليل متعمق للعوامل النفسية والتصميمية التي تؤثر في تجربة العملاء وولائهم للعلامة التجارية.
-              </p>
               <p className="text-lg leading-relaxed mb-6">
                 In Saudi Arabia's growing retail market, customizing staff uniforms has evolved from simply creating a standardized appearance to becoming a powerful marketing tool that reinforces brand identity. This article explores innovative approaches for integrating corporate logos and colors into uniforms in ways that resonate with Saudi culture, analyzing the psychological and design factors that influence customer experience and brand loyalty.
               </p>
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                أظهرت الدراسات أن العملاء يمكنهم تذكر العلامات التجارية التي تعرض هويتها البصرية بشكل فعال بنسبة تصل إلى 78٪ أكثر من تلك التي لا تفعل ذلك، مما يجعل استراتيجية الزي الموحد عنصراً حاسماً في بناء الوعي بالعلامة التجارية في السوق السعودي المزدحم. سنستكشف كيف يمكن للشركات السعودية تحقيق التوازن المثالي بين الحفاظ على الهوية البصرية المميزة وتلبية الاعتبارات العملية والثقافية.
+              <p className="text-lg leading-relaxed mb-6">
+                Studies show that customers can recall brands with effectively displayed visual identities up to 78% more than those that don't, making uniform strategy a critical element in building brand awareness in Saudi Arabia's crowded market. We'll explore how Saudi companies can achieve the perfect balance between maintaining distinctive visual identity and meeting practical and cultural considerations.
               </p>
             </section>
 
@@ -77,58 +74,58 @@ export default function ArticlePage() {
             <div className="mb-12">
               <Image 
                 src="/images/retail_sector/store_logo_caps.jpeg"
-                alt="متجر سعودي بموظفين يرتدون قبعات وأزياء موحدة تحمل شعار المتجر بشكل فعال ومتناسق"
+                alt="Saudi retail store staff wearing caps and uniforms effectively displaying store logo in a cohesive manner"
                 width={800}
                 height={500}
                 className="rounded-lg"
               />
-              <p className="text-sm text-gray-600 mt-2 italic text-right" dir="rtl">موظفو متجر سعودي يرتدون أزياء موحدة تحمل شعار العلامة التجارية بطريقة أنيقة تعزز الهوية البصرية للمتجر</p>
+              <p className="text-sm text-gray-600 mt-2 italic">Store staff wearing uniforms with brand logos elegantly integrated to enhance the store's visual identity</p>
             </div>
 
             {/* Branding Foundations Section */}
             <section id="branding-foundations" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">أسس العلامة التجارية في الزي الموحد | Branding Foundations in Uniform Design</h2>
+              <h2 className="text-2xl font-bold mb-6">Branding Foundations in Uniform Design</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                لتحقيق التكامل الفعال للعلامة التجارية في الزي الموحد، يجب على الشركات السعودية فهم أسس التصميم التي تحكم هذه العملية:
+              <p className="mb-6">
+                To achieve effective integration of the brand logo and colors into the uniform design, Saudi companies need to understand the design principles that govern this process:
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">استراتيجيات التعرف على العلامة التجارية | Brand Recognition Strategies</h3>
+              <h3 className="text-xl font-semibold mb-4">Brand Recognition Strategies</h3>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>التكرار المدروس</strong> – استخدام العناصر البصرية للعلامة التجارية بشكل متكرر ولكن غير مبالغ فيه عبر مكونات الزي المختلفة</li>
-                <li><strong>الاتساق البصري</strong> – ضمان تطابق ألوان وأشكال الشعارات على الزي مع العناصر البصرية الأخرى للعلامة التجارية في المتجر</li>
-                <li><strong>الوضوح والبساطة</strong> – تبسيط العناصر المرئية للسماح بالتعرف الفوري على العلامة التجارية حتى من مسافة</li>
-                <li><strong>التمايز الثقافي</strong> – دمج العناصر البصرية بطريقة تحترم الخصوصيات الثقافية السعودية وتتناغم معها</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2">
+                <li><strong>Consistent Repetition</strong> – Using brand logo elements consistently but subtly across different components of the uniform</li>
+                <li><strong>Visual Coherence</strong> – Ensuring that the logo and color elements are consistent with other visual elements of the brand in the store</li>
+                <li><strong>Visibility and Simplicity</strong> – Simplifying visual elements to allow for immediate brand recognition from a distance</li>
+                <li><strong>Cultural Appropriateness</strong> – Integrating logo elements in a way that respects Saudi cultural norms and aligns with them</li>
               </ul>
               
               <p className="mb-6">
                 These brand identity foundations ensure that Saudi retailers can create uniform programs that serve as effective brand ambassadors, enhancing recognition while respecting the cultural contexts of the Kingdom's diverse retail environments.
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">التوازن بين الهوية والراحة | Balancing Identity and Comfort</h3>
+              <h3 className="text-xl font-semibold mb-4">Balancing Identity and Comfort</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                تواجه المتاجر السعودية تحدياً في تحقيق التوازن بين قوة العلامة التجارية والراحة العملية:
+              <p className="mb-6">
+                Saudi retailers face a challenge in achieving the perfect balance between brand strength and practical comfort:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>الموازنة بين الهوية والأداء</strong> – تصميم أزياء تعرض العلامة التجارية بوضوح دون التضحية براحة الموظفين خلال نوبات العمل الطويلة</li>
-                <li><strong>المرونة الموسمية</strong> – تطوير إصدارات مختلفة من الزي الموحد تناسب التغيرات المناخية الشديدة في المملكة مع الحفاظ على ثبات الهوية البصرية</li>
-                <li><strong>الملاءمة الثقافية</strong> – تكييف التصاميم بما يتناسب مع المعايير الثقافية والدينية المحلية مع الحفاظ على قوة العلامة التجارية</li>
-                <li><strong>التنوع الوظيفي</strong> – تخصيص الزي بما يناسب الأدوار المختلفة مع الحفاظ على الاتساق العام للعلامة التجارية</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2">
+                <li><strong>Identity and Performance Balance</strong> – Designing uniforms that display the brand prominently without compromising employee comfort during long shifts</li>
+                <li><strong>Seasonal Adaptability</strong> – Developing different versions of the uniform to accommodate the extreme temperature changes in the Kingdom while maintaining visual identity</li>
+                <li><strong>Cultural Adaptability</strong> – Adapting designs to align with local cultural and religious standards while maintaining brand strength</li>
+                <li><strong>Functional Variety</strong> – Customizing uniforms to fit different roles and maintaining overall brand consistency</li>
               </ul>
             </section>
 
             {/* Logo Integration Section */}
             <section id="logo-integration" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">استراتيجيات دمج الشعار | Logo Integration Strategies</h2>
+              <h2 className="text-2xl font-bold mb-6">Logo Integration Strategies</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                يعد وضع الشعار وحجمه من العوامل الحاسمة في تصميم الزي الموحد الفعال:
+              <p className="mb-6">
+                Logo placement and size are critical factors in the effective design of the uniform:
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">تحديد المواقع الاستراتيجية | Strategic Placement Determination</h3>
+              <h3 className="text-xl font-semibold mb-4">Strategic Placement Determination</h3>
               
               <p className="mb-6">
                 Research indicates that logo placement significantly impacts both visibility and perceived brand prestige in Saudi retail environments:
@@ -141,30 +138,30 @@ export default function ArticlePage() {
                 <li><strong>Hierarchy indication</strong> – Using logo placement to subtly communicate staff roles or departments within the organization</li>
               </ul>
               
-              <h3 className="text-xl font-semibold mb-4">تقنيات التطبيق المتقدمة | Advanced Application Techniques</h3>
+              <h3 className="text-xl font-semibold mb-4">Advanced Application Techniques</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                تتطور تقنيات وضع الشعارات باستمرار، مع خيارات متعددة تناسب احتياجات التجزئة السعودية:
+              <p className="mb-6">
+                Logo placement techniques are continuously evolving, with multiple options that cater to the specific needs of the Saudi retail sector:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>التطريز عالي الدقة</strong> – يوفر مظهراً فاخراً ومتيناً مثالياً للمتاجر الراقية في الرياض وجدة</li>
-                <li><strong>الطباعة الرقمية المتقدمة</strong> – تسمح بتفاصيل معقدة وتدرجات لونية للشعارات المعقدة</li>
-                <li><strong>الشارات القابلة للتبديل</strong> – توفر المرونة للموسمية والحملات الترويجية مع الحفاظ على أساس الزي</li>
-                <li><strong>التقنيات المبتكرة</strong> – شعارات حرارية عاكسة، تطريز ثلاثي الأبعاد، وتطبيقات النسيج المتطورة التي تميز العلامات التجارية الرائدة</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2">
+                <li><strong>High-quality embroidery</strong> – Providing a luxurious and durable look for high-end stores in Riyadh and Jeddah</li>
+                <li><strong>Advanced digital printing</strong> – Allowing for detailed and color-gradation logo designs for complex designs</li>
+                <li><strong>Swappable logos</strong> – Providing flexibility for seasonal and promotional campaigns while maintaining the uniform base</li>
+                <li><strong>Innovative technologies</strong> – Heat-transfer decals, three-dimensional embroidery, and advanced textile applications that highlight leading brands</li>
               </ul>
               
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold mb-2 text-right" dir="rtl">دراسة حالة: مركز تسوق سعودي رائد</h4>
-                <p className="text-right" dir="rtl">
-                  نجح أحد مراكز التسوق الرائدة في الرياض في زيادة تعرف العملاء على العلامة التجارية بنسبة 42٪ من خلال إعادة تصميم الزي الموحد بتقنية التطريز ثلاثي الأبعاد للشعار على ياقة القميص، مما جعله مرئياً من جميع زوايا التفاعل مع العملاء. أدى هذا التغيير البسيط إلى تحسين تقييمات خدمة العملاء وزيادة معدلات الولاء بنسبة 18٪.
+                <h4 className="font-semibold mb-2">Case Study: Leading Shopping Center</h4>
+                <p>
+                  One of the leading shopping centers in Riyadh successfully increased brand recognition by 42% by redesigning the uniform using three-dimensional embroidery on the shirt collar, making it visible from all angles of interaction with customers. This simple change resulted in improved customer service ratings and increased loyalty by 18%.
                 </p>
               </div>
             </section>
 
             {/* Color Psychology Section */}
             <section id="color-psychology" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">علم نفس الألوان في السياق السعودي | Color Psychology in Saudi Context</h2>
+              <h2 className="text-2xl font-bold mb-6">Color Psychology in Saudi Context</h2>
               
               <p className="mb-6">
                 Color selection in Saudi retail uniforms requires balancing brand identity with cultural preferences and practical considerations:
@@ -183,35 +180,35 @@ export default function ArticlePage() {
                 <li><strong>Regional variations</strong> – Color preferences vary between major Saudi cities, with more conservative palettes preferred in traditional regions</li>
               </ul>
               
-              <h3 className="text-xl font-semibold mb-4">استراتيجيات تنفيذ الألوان | Color Implementation Strategies</h3>
+              <h3 className="text-xl font-semibold mb-4">Color Implementation Strategies</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                يمكن للمتاجر السعودية استخدام الاستراتيجيات التالية لتعظيم تأثير ألوان العلامة التجارية:
+              <p className="mb-6">
+                Saudi retailers can use the following strategies to maximize the impact of brand colors:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>نظام 60-30-10</strong> – استخدام لون العلامة التجارية الرئيسي بنسبة 60٪، واللون الثانوي بنسبة 30٪، ولمسات من لون التباين بنسبة 10٪ لتحقيق التوازن البصري</li>
-                <li><strong>التدرج اللوني</strong> – استخدام درجات مختلفة من ألوان العلامة التجارية للتمييز بين الأدوار والأقسام مع الحفاظ على التماسك العام</li>
-                <li><strong>التكييف الموسمي</strong> – تعديل كثافة الألوان ونسبتها بناءً على الموسم والمناخ المحلي الشديد</li>
-                <li><strong>التباين المدروس</strong> – تصميم تباينات لونية تضمن وضوح الشعارات والعلامات التجارية في بيئة المتجر</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2">
+                <li><strong>60-30-10 System</strong> – Using the main brand color at 60%, secondary color at 30%, and accent color at 10% for visual balance</li>
+                <li><strong>Color Gradation</strong> – Using different shades of brand colors for differentiation between roles and sections while maintaining overall consistency</li>
+                <li><strong>Seasonal Adaptation</strong> – Adjusting color density and ratio based on season and local extreme climate</li>
+                <li><strong>Saturated Color Design</strong> – Designing saturated color variations to ensure brand visibility and consistency in the store environment</li>
               </ul>
             </section>
 
             {/* Fabric Considerations Section */}
             <section id="fabric-considerations" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">اعتبارات الأقمشة والمناخ | Fabric and Climate Considerations</h2>
+              <h2 className="text-2xl font-bold mb-6">Fabric and Climate Considerations</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                تتطلب البيئة السعودية الفريدة اهتماماً خاصاً باختيار الأقمشة التي تدعم العلامة التجارية وتتناسب مع الظروف المناخية:
+              <p className="mb-6">
+                Saudi Arabia's unique environment requires special attention to fabric selection that supports the brand and aligns with weather conditions:
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">الأقمشة المناسبة للمناخ السعودي | Climate-Appropriate Fabrics</h3>
+              <h3 className="text-xl font-semibold mb-4">Climate-Appropriate Fabrics</h3>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>الأقمشة التقنية خفيفة الوزن</strong> – مزيج من البوليستر والقطن يوفر تنفساً جيداً مع الحفاظ على المظهر المهني في درجات الحرارة المرتفعة</li>
-                <li><strong>الأقمشة المعالجة</strong> – تقنيات مقاومة للبقع والروائح تضمن استمرار المظهر الاحترافي طوال اليوم</li>
-                <li><strong>خيارات الطبقات</strong> – تصميمات متعددة الطبقات للتكيف مع التغيرات بين البيئات المكيفة بشدة والظروف الخارجية</li>
-                <li><strong>النسيج والملمس</strong> – اختيار الأقمشة التي تعكس قيم العلامة التجارية من خلال الملمس والمظهر</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2">
+                <li><strong>Lightweight technical fabrics</strong> – A blend of polyester and cotton providing good breathability while maintaining professional appearance at high temperatures</li>
+                <li><strong>Treated fabrics</strong> – Techniques for stain and odor resistance ensuring professional appearance throughout the day</li>
+                <li><strong>Layering options</strong> – Designing multiple layer options for adapting to extreme climate variations between air-conditioned and outdoor environments</li>
+                <li><strong>Fabric and Texture</strong> – Selecting fabrics that reflect brand values through touch and appearance</li>
               </ul>
               
               <h3 className="text-xl font-semibold mb-4">Print Fidelity and Durability</h3>
@@ -230,20 +227,20 @@ export default function ArticlePage() {
 
             {/* Implementation Guide */}
             <section id="implementation-guide" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">دليل التنفيذ للشركات السعودية | Implementation Guide for Saudi Companies</h2>
+              <h2 className="text-2xl font-bold mb-6">Implementation Guide for Saudi Companies</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                خطوات عملية لتنفيذ برنامج زي موحد يعكس العلامة التجارية بفعالية:
+              <p className="mb-6">
+                A systematic process for effectively implementing a uniform program that reflects the brand:
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">عملية التخصيص المنهجية | Systematic Customization Process</h3>
+              <h3 className="text-xl font-semibold mb-4">Systematic Customization Process</h3>
               
-              <ol className="list-decimal pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>تحليل العلامة التجارية</strong> – تقييم شامل للعناصر البصرية للعلامة التجارية وتحديد العناصر الأساسية التي يجب تضمينها في الزي</li>
-                <li><strong>تحليل بيئة العمل</strong> – دراسة متطلبات العمل المحددة والبيئة المادية التي سيتم ارتداء الزي فيها</li>
-                <li><strong>النماذج الأولية والاختبار</strong> – إنشاء عينات واختبارها في ظروف العمل الفعلية لتقييم الأداء والتصور</li>
-                <li><strong>التنفيذ والتدريب</strong> – طرح الزي الجديد مع توجيهات واضحة حول الارتداء والعناية المناسبة</li>
-                <li><strong>التقييم المستمر</strong> – جمع ملاحظات من الموظفين والعملاء لإجراء تحسينات مستمرة</li>
+              <ol className="list-decimal pr-6 mb-6 space-y-2">
+                <li><strong>Brand Analysis</strong> – Comprehensive evaluation of brand visual elements and identification of essential elements to include in the uniform</li>
+                <li><strong>Work Environment Analysis</strong> – Studying specific requirements and physical environment where the uniform will be worn</li>
+                <li><strong>Initial Models and Testing</strong> – Creating samples and testing them in actual working conditions to evaluate performance and appearance</li>
+                <li><strong>Implementation and Training</strong> – Introducing the new uniform with clear guidelines on wearing and care</li>
+                <li><strong>Continuous Evaluation</strong> – Collecting feedback from employees and customers for continuous improvements</li>
               </ol>
               
               <h3 className="text-xl font-semibold mb-4">Managing Vendor Relationships</h3>
@@ -262,30 +259,29 @@ export default function ArticlePage() {
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">الخلاصة | Conclusion</h2>
+              <h2 className="text-2xl font-bold mb-6">Conclusion</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                يمثل التصميم الفعال للزي الموحد الذي يدمج شعارات وألوان العلامة التجارية بشكل استراتيجي فرصة قوية للمتاجر السعودية لتعزيز هويتها البصرية وتحسين تجربة العملاء. يجب أن يسعى المتخصصون في مجال التجزئة السعودية إلى تحقيق التوازن المثالي بين التعبير عن العلامة التجارية والاعتبارات العملية والثقافية، مع تصميم أزياء تعمل كسفراء متنقلين للعلامة التجارية في جميع نقاط التفاعل مع العملاء.
+              <p className="mb-6">
+                The effective design of the uniform that integrates brand logos and colors strategically represents a great opportunity for Saudi retailers to enhance their visual identity and improve customer experience. Retail professionals should strive to achieve the perfect balance between expressing the brand and respecting practical and cultural considerations, by designing uniforms that work as effective brand ambassadors across all customer interaction points.
               </p>
               
               <p className="mb-6">
                 Through thoughtful integration of logos and strategic use of brand colors, Saudi retailers can transform their uniforms from mere staff clothing into powerful marketing tools that reinforce brand recognition and build customer loyalty. By following the guidelines outlined in this article, retail professionals can develop uniform programs that effectively communicate brand identity while respecting the unique cultural and environmental considerations of the Saudi market.
               </p>
               
-              <p className="mb-6 text-right" dir="rtl">
-                مع استمرار تطور قطاع التجزئة السعودي وازدياد المنافسة، ستصبح هذه التفاصيل الدقيقة في تصميم الزي الموحد عناصر تمييز حاسمة تساهم في النجاح الشامل للعلامة التجارية في السوق المحلي.
+              <p className="mb-6">
+                With the continuous growth and competition in the Saudi retail sector, these detailed aspects in uniform design will become critical elements contributing to the overall success of the brand in the local market.
               </p>
             </section>
 
             {/* Author Bio */}
             <AuthorBio 
-              name="محمد العتيبي | Mohammed Al-Otaibi"
-              title="خبير تصميم الأزياء الموحدة | Uniform Design Specialist"
-              bio="خبير متخصص في تصميم الأزياء الموحدة للقطاع التجاري بخبرة تزيد عن 15 عاماً في السوق السعودي. يجمع بين المعرفة العميقة بمبادئ التصميم والفهم العملي للاحتياجات الخاصة للشركات السعودية."
+              name="Mohammed Al-Otaibi"
+              role="Uniform Design Specialist"
+              bio="A specialized uniform design expert with over 15 years of experience in the Saudi market. Mohammed combines deep knowledge of design principles with practical understanding of the specific needs of Saudi companies."
               imageSrc="/images/author/mohammed-al-otaibi.png"
               linkedin="mohammed-al-otaibi"
               twitter="MohammedDesign"
-              website="uniforms-expert.sa"
             />
 
             {/* Share Buttons */}
@@ -299,7 +295,7 @@ export default function ArticlePage() {
             <div className="sticky top-8">
               <TableOfContents items={tocItems} />
               <div className="mt-8">
-                <h3 className="text-xl font-bold mb-4">مقالات ذات صلة | Related Articles</h3>
+                <h3 className="text-xl font-bold mb-4">Related Articles</h3>
                 <RelatedArticles articles={relatedArticles} />
               </div>
             </div>

@@ -62,14 +62,8 @@ export default function ArticlePage() {
           <div className="md:w-3/4">
             {/* Introduction */}
             <section id="introduction" className="mb-12">
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                في بيئة تجارة التجزئة السعودية التنافسية، أصبحت الأزياء الموحدة عنصراً استراتيجياً يتجاوز مجرد التعرف على الموظفين أو تمثيل العلامة التجارية. الزي الموحد المصمم بشكل مدروس لا يؤثر فقط على انطباعات العملاء، بل يلعب أيضاً دوراً محورياً في التأثير على سلوكيات الموظفين وأدائهم ومشاعرهم تجاه وظائفهم وأنفسهم.
-              </p>
               <p className="text-lg leading-relaxed mb-6">
-                In Saudi Arabia's competitive retail environment, uniforms have evolved into strategic elements that extend far beyond simple staff identification or brand representation. Thoughtfully designed attire impacts not only customer impressions but also plays a pivotal role in influencing employee behaviors, performance, and feelings about their jobs and themselves.
-              </p>
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                تستكشف هذه المقالة العلاقة المعقدة بين الزي الموحد والثقة المهنية والأداء الوظيفي في سياق تجار التجزئة السعوديين. من خلال تحليل البيانات من 32 علامة تجارية رائدة في المملكة العربية السعودية، والاستفادة من أحدث أبحاث علم النفس التنظيمي، نقدم رؤى قابلة للتنفيذ حول كيفية تصميم برامج أزياء موحدة تعزز الكفاءة والرضا الوظيفي، مع مراعاة الخصوصيات الثقافية والاجتماعية للسوق السعودي.
+                This article explores the complex relationship between uniforms, professional confidence, and job performance in the context of Saudi retailers. Through analysis of data from 32 leading brands in Saudi Arabia and leveraging the latest organizational psychology research, we provide actionable insights into designing uniform programs that enhance efficiency and job satisfaction while considering the cultural and social specificities of the Saudi market.
               </p>
             </section>
 
@@ -77,12 +71,12 @@ export default function ArticlePage() {
             <div className="mb-12">
               <Image 
                 src="/images/retail_sector/staff_uniforms.jpeg"
-                alt="موظفة في متجر سعودي ترتدي زياً موحداً أنيقاً يعزز ثقتها المهنية أثناء تقديم خدمة متميزة للعملاء"
+                alt="Saudi retail employee wearing an elegant uniform that enhances professional confidence while providing exceptional customer service"
                 width={800}
                 height={500}
                 className="rounded-lg"
               />
-              <p className="text-sm text-gray-600 mt-2 italic text-right" dir="rtl">مستشارة مبيعات في متجر راقٍ بالرياض ترتدي زياً مصمماً خصيصاً يعكس هوية العلامة التجارية ويمنحها الثقة والمهنية في التعامل مع العملاء</p>
+              <p className="text-sm text-gray-600 mt-2 italic">A sales consultant at a high-end Riyadh store wearing a custom-designed uniform that reflects brand identity and provides confidence and professionalism in customer interactions</p>
             </div>
 
             {/* Psychological Impact Section */}
@@ -108,8 +102,8 @@ export default function ArticlePage() {
               
               <h3 className="text-xl font-semibold mb-4">الثقة والكفاءة الذاتية | Confidence and Self-Efficacy</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                كيف يؤثر المظهر المهني على معتقدات الموظفين حول قدراتهم:
+              <p className="mb-6">
+                How uniforms influence self-perception and behavior:
               </p>
               
               <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">

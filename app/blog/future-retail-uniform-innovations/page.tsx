@@ -14,13 +14,13 @@ export const metadata = {
 export default function ArticlePage() {
   // Table of contents data
   const tocItems = [
-    { id: "introduction", title: "مقدمة | Introduction" },
-    { id: "smart-fabrics", title: "الأقمشة الذكية | Smart Fabrics & Textiles" },
-    { id: "wearable-tech", title: "التقنيات القابلة للارتداء | Wearable Technology Integration" },
-    { id: "personalization", title: "التخصيص وتجربة العملاء | Personalization & Customer Experience" },
-    { id: "implementation", title: "استراتيجيات التنفيذ | Implementation Strategies" },
-    { id: "saudi-context", title: "السياق السعودي | Saudi Market Context" },
-    { id: "conclusion", title: "الخلاصة | Conclusion" },
+    { id: "introduction", title: "Introduction" },
+    { id: "smart-fabrics", title: "Smart Fabrics & Textiles" },
+    { id: "wearable-tech", title: "Wearable Technology Integration" },
+    { id: "personalization", title: "Personalization & Customer Experience" },
+    { id: "implementation", title: "Implementation Strategies" },
+    { id: "saudi-context", title: "Saudi Market Context" },
+    { id: "conclusion", title: "Conclusion" },
   ]
   
   // Related articles
@@ -54,7 +54,7 @@ export default function ArticlePage() {
         publishDate="May 20, 2025"
         readingTime="15 min read"
         imageSrc="/images/retail_sector/store_uniform_design.jpeg"
-        imageAlt="موظفة سعودية ترتدي زياً موحداً ذكياً مدمجاً بتقنيات متطورة تتيح تجربة تسوق شخصية وتفاعلية للعملاء"
+        imageAlt="Saudi retail employee wearing a smart uniform integrated with advanced technologies enabling personalized and interactive shopping experiences"
       />
 
       <div className="container mx-auto px-4 py-12 max-w-4xl">
@@ -62,14 +62,8 @@ export default function ArticlePage() {
           <div className="md:w-3/4">
             {/* Introduction */}
             <section id="introduction" className="mb-12">
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                مع استمرار تطور مشهد تجارة التجزئة في المملكة العربية السعودية، نشهد تحولاً ثورياً في وظيفة وتصميم الأزياء الموحدة للموظفين. لم تعد هذه الأزياء مجرد وسيلة للتعرف على العلامة التجارية أو تمييز الموظفين، بل أصبحت منصة للابتكار التكنولوجي وتخصيص تجربة العملاء وتعزيز كفاءة العمليات.
-              </p>
               <p className="text-lg leading-relaxed mb-6">
-                As Saudi Arabia's retail landscape continues to evolve, we're witnessing a revolutionary transformation in the function and design of employee uniforms. These garments are no longer mere vehicles for brand recognition or staff identification, but have become platforms for technological innovation, customer experience personalization, and operational efficiency enhancement.
-              </p>
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                تستكشف هذه المقالة الاتجاهات الناشئة والابتكارات المستقبلية في مجال أزياء البيع بالتجزئة في المملكة، مع التركيز على كيفية دمج الأقمشة الذكية والتقنيات القابلة للارتداء وحلول التخصيص لخلق تجارب تسوق فريدة. سنحلل كيف ستؤثر هذه التطورات على تفاعلات العملاء، وكفاءة الموظفين، والأداء التشغيلي العام لتجار التجزئة السعوديين في مستقبل التسوق الذي يمزج بشكل متزايد بين العالمين المادي والرقمي.
+                This article explores emerging trends and future innovations in retail uniforms in the Kingdom, focusing on how smart fabrics, wearable technology, and customization solutions can create unique shopping experiences. We'll analyze how these developments will impact customer interactions, employee efficiency, and overall operational performance for Saudi retailers in a future where physical and digital shopping increasingly blend.
               </p>
             </section>
 
@@ -77,17 +71,17 @@ export default function ArticlePage() {
             <div className="mb-12">
               <Image 
                 src="/images/retail_sector/store_uniform_design.jpeg"
-                alt="موظفة سعودية ترتدي زياً موحداً ذكياً مدمجاً بتقنيات متطورة تتيح تجربة تسوق شخصية وتفاعلية للعملاء"
+                alt="Saudi retail employee wearing a smart uniform integrated with advanced technologies enabling personalized and interactive shopping experiences"
                 width={800}
                 height={500}
                 className="rounded-lg"
               />
-              <p className="text-sm text-gray-600 mt-2 italic text-right" dir="rtl">مستشارة مبيعات في متجر تقني بالرياض ترتدي زياً موحداً مزوداً بشاشة تفاعلية مدمجة وأجهزة استشعار لتقديم تجربة تسوق شخصية ومعززة بالتكنولوجيا</p>
+              <p className="text-sm text-gray-600 mt-2 italic">A sales consultant at a tech-forward Riyadh store wearing a uniform equipped with integrated interactive display and sensors for delivering personalized, technology-enhanced shopping experiences</p>
             </div>
 
             {/* Smart Fabrics Section */}
             <section id="smart-fabrics" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">الأقمشة الذكية | Smart Fabrics & Textiles</h2>
+              <h2 className="text-2xl font-bold mb-6">Smart Fabrics & Textiles</h2>
               
               <p className="mb-6">
                 The evolution of textile technology creating new possibilities for retail uniforms:
@@ -108,15 +102,15 @@ export default function ArticlePage() {
               
               <h3 className="text-xl font-semibold mb-4">التقنيات الوظيفية المتقدمة | Advanced Functional Technologies</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                ابتكارات تحسن أداء الموظفين وراحتهم أثناء نوبات العمل:
+              <p className="mb-6">
+                Innovations that enhance employee comfort and performance:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>أقمشة مضادة للميكروبات</strong> – معالجات متقدمة تمنع نمو البكتيريا والروائح، مما يحافظ على نظافة الزي خلال نوبات العمل الطويلة في البيئات المزدحمة</li>
-                <li><strong>أنسجة مقاومة للبقع</strong> – تقنيات نانوية تمنع امتصاص السوائل والبقع، مما يقلل تكاليف الصيانة ويضمن مظهراً احترافياً طوال اليوم</li>
-                <li><strong>أقمشة متوازنة الشحنات</strong> – معالجات تقلل تراكم الكهرباء الساكنة، وهي مشكلة شائعة في المناخ الجاف السعودي</li>
-                <li><strong>نسيج مضاد للتجاعيد</strong> – مواد متطورة تحافظ على مظهر أنيق بدون كي متكرر، مما يقلل تكاليف الصيانة ويحسن المظهر المهني</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2 text-right">
+                <li><strong>Antimicrobial fabrics</strong> – Advanced treatments that prevent bacterial growth and odor, maintaining garment cleanliness during long shifts in crowded environments</li>
+                <li><strong>Stain-resistant fabrics</strong> – Nano-technologies that repel liquids and stains, reducing maintenance costs and ensuring professional appearance throughout the day</li>
+                <li><strong>Balanced charge fabrics</strong> – Advanced treatments that reduce static electricity buildup, a common issue in Saudi Arabia's dry climate</li>
+                <li><strong>Anti-aging fabrics</strong> – Advanced materials that maintain a sleek appearance without repeated washing, reducing maintenance costs and improving professional appearance</li>
               </ul>
               
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
@@ -142,19 +136,19 @@ export default function ArticlePage() {
 
             {/* Wearable Technology Section */}
             <section id="wearable-tech" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">التقنيات القابلة للارتداء | Wearable Technology Integration</h2>
+              <h2 className="text-2xl font-bold mb-6">Wearable Technology Integration</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                دمج الأجهزة الإلكترونية القابلة للارتداء في أزياء موظفي التجزئة:
+              <p className="mb-6">
+                Integrating wearable electronics into retail uniforms:
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">تقنيات تعزيز خدمة العملاء | Customer Service Enhancement Technologies</h3>
+              <h3 className="text-xl font-semibold mb-4">Customer Service Enhancement Technologies</h3>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>شارات هوية ذكية</strong> – شارات تعرض معلومات ديناميكية مثل اللغات التي يتحدثها الموظف أو مجالات خبرته، مما يساعد العملاء على إيجاد المساعدة المناسبة</li>
-                <li><strong>ترجمة فورية مدمجة</strong> – أجهزة صغيرة متصلة بالزي الموحد توفر ترجمة فورية، مفيدة خاصة في مناطق التسوق السياحية بالمملكة</li>
-                <li><strong>شاشات مدمجة صغيرة</strong> – تقنية عرض مرنة في أكمام أو صدر الزي لعرض معلومات المنتج أو العروض الترويجية للعملاء</li>
-                <li><strong>أزرار وصول سريع</strong> – عناصر تحكم مدمجة بإيماءات بسيطة تتيح استدعاء المساعدة أو الوصول إلى معلومات المنتج بدون مقاطعة التفاعل مع العميل</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2 text-right">
+                <li><strong>Smart Badges/IDs</strong> – Dynamic information displays that show employee languages and experience areas, helping customers find the appropriate assistance</li>
+                <li><strong>Instant Translation</strong> – Small devices attached to the uniform that provide instant translation, particularly useful in tourist areas in the Kingdom</li>
+                <li><strong>Integrated Display Screens</strong> – Flexible display technology in the uniform for showing product information or promotional offers to customers</li>
+                <li><strong>Quick Access Buttons</strong> – Integrated controls with simple gestures that allow staff to call for assistance or access product information without interrupting customer interaction</li>
               </ul>
               
               <h3 className="text-xl font-semibold mb-4">Operational Enhancement Devices</h3>
@@ -204,17 +198,17 @@ export default function ArticlePage() {
                 </table>
               </div>
               
-              <h3 className="text-xl font-semibold mb-4">تصميم دمج التقنية بشكل مدروس | Thoughtful Technology Integration Design</h3>
+              <h3 className="text-xl font-semibold mb-4">Thoughtful Technology Integration Design</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                اعتبارات تصميمية لضمان أن التقنيات القابلة للارتداء تكون مفيدة وغير متطفلة:
+              <p className="mb-6">
+                Design considerations to ensure wearable technologies are useful and not intrusive:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>تكامل غير ملحوظ</strong> – دمج التكنولوجيا بطرق لا تغير المظهر التقليدي للزي أو تثقل كاهل الموظف</li>
-                <li><strong>القابلية للفصل</strong> – تصميم المكونات التكنولوجية بحيث يمكن إزالتها بسهولة للغسيل والصيانة</li>
-                <li><strong>التوازن البصري</strong> – الحفاظ على مظهر جمالي وأنيق للزي رغم دمج العناصر التقنية</li>
-                <li><strong>الوضوح في التفعيل</strong> – ضمان أن العملاء يمكنهم تمييز متى تكون التكنولوجيا المدمجة نشطة، لتعزيز الشفافية والثقة</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2 text-right">
+                <li><strong>Non-disruptive integration</strong> – Integrating technologies in ways that don't alter the traditional appearance of the garment or add bulk to the wearer</li>
+                <li><strong>Removable components</strong> – Designing technology components to be easily removed for washing and maintenance</li>
+                <li><strong>Visual balance</strong> – Maintaining a visually appealing and sleek appearance of the garment despite integrating technological elements</li>
+                <li><strong>Active awareness</strong> – Ensuring customers can easily tell when the integrated technologies are active, enhancing transparency and trust</li>
               </ul>
               
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
@@ -227,7 +221,7 @@ export default function ArticlePage() {
 
             {/* Personalization Section */}
             <section id="personalization" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">التخصيص وتجربة العملاء | Personalization & Customer Experience</h2>
+              <h2 className="text-2xl font-bold mb-6">Personalization & Customer Experience</h2>
               
               <p className="mb-6">
                 How next-generation uniforms facilitate individualized retail experiences:
@@ -246,17 +240,17 @@ export default function ArticlePage() {
                 <li><strong>Loyalty integration interfaces</strong> – Wearable tools that access loyal customers' profiles to create more relevant shopping experiences</li>
               </ul>
               
-              <h3 className="text-xl font-semibold mb-4">تخصيص التفاعلات في الوقت الفعلي | Real-Time Interaction Customization</h3>
+              <h3 className="text-xl font-semibold mb-4">Real-Time Interaction Customization</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                تكييف تجربة التسوق بناءً على السياق والعميل:
+              <p className="mb-6">
+                Customizing shopping experiences based on context and customer:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>عناصر عرض تفاعلية</strong> – مكونات في الزي تعرض محتوى مخصص بناءً على ما يستعرضه العميل أو يتفاعل معه</li>
-                <li><strong>تكييف اللغة التلقائي</strong> – أنظمة تكتشف لغة العميل المفضلة وتنبه الموظف أو تعرض معلومات باللغة المناسبة</li>
-                <li><strong>تخصيص المنتج في الموقع</strong> – تقنيات مدمجة تسمح للموظفين بعرض خيارات تخصيص المنتج بناءً على تفضيلات العميل</li>
-                <li><strong>تكييف الإضاءة والعرض</strong> – عناصر في الزي يمكنها تعديل سطوعها أو لونها لخلق تجربة مخصصة للعميل</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2 text-right">
+                <li><strong>Interactive display elements</strong> – Components in the garment that display customized content based on what the customer views or interacts with</li>
+                <li><strong>Automated language detection</strong> – Systems that detect the preferred language of the customer and notify the staff or show information in the appropriate language</li>
+                <li><strong>Product customization at the point of sale</strong> – Integrated technologies that allow staff to display product customization options based on customer preferences</li>
+                <li><strong>Lighting and display customization</strong> – Elements in the garment that can adjust its brightness or color to create a personalized experience for the customer</li>
               </ul>
               
               <h3 className="text-xl font-semibold mb-4">Bridging Physical and Digital Experiences</h3>
@@ -273,30 +267,30 @@ export default function ArticlePage() {
               </ul>
               
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold mb-2 text-right" dir="rtl">اعتبارات الخصوصية والثقة</h4>
-                <p className="text-right" dir="rtl">
-                  مع تطور تكنولوجيا التخصيص، يجب على تجار التجزئة في المملكة العربية السعودية الموازنة بين تعزيز تجربة العملاء واحترام الخصوصية الشخصية. من الضروري تطوير أنظمة واضحة للموافقة والشفافية، مع إتاحة خيارات متعددة لمستويات التخصيص المختلفة. البحوث تشير إلى أن 67٪ من المتسوقين السعوديين يرحبون بالتجارب المخصصة، لكن 78٪ يريدون تحكماً واضحاً في البيانات المستخدمة لهذا الغرض. يجب تصميم الأزياء الموحدة التي تدمج تقنيات التخصيص مع مراعاة هذا التوازن الدقيق.
+                <h4 className="font-semibold mb-2">Privacy and Trust Considerations</h4>
+                <p>
+                  As technology evolves, retailers in Saudi Arabia must balance enhancing customer experiences with respecting individual privacy. It's important to develop clear systems for consent and transparency, with multiple customization levels. Research indicates that 67% of Saudi shoppers welcome personalized experiences, but 78% want clear control over the data used for this purpose. Retailers must design uniforms that integrate technologies while considering this delicate balance.
                 </p>
               </div>
             </section>
 
             {/* Implementation Strategies Section */}
             <section id="implementation" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">استراتيجيات التنفيذ | Implementation Strategies</h2>
+              <h2 className="text-2xl font-bold mb-6">Implementation Strategies</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                النهج العملي لإدخال أزياء موحدة متطورة في عمليات البيع بالتجزئة:
+              <p className="mb-6">
+                Practical approach to implementing advanced uniforms in retail operations:
               </p>
               
-              <h3 className="text-xl font-semibold mb-4">التنفيذ المرحلي | Phased Implementation</h3>
+              <h3 className="text-xl font-semibold mb-4">Phased Implementation</h3>
               
-              <ol className="list-decimal pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>التقييم والتخطيط الاستراتيجي</strong> – تحديد الأهداف التجارية المحددة والمقاييس التي ستتحسن من خلال الأزياء المتطورة</li>
-                <li><strong>الاختبار التجريبي المحدود</strong> – البدء بمجموعة محددة من التقنيات في فرع واحد أو قسم معين لتقييم الفعالية</li>
-                <li><strong>جمع البيانات والتعديل</strong> – استخدام النتائج الأولية لتحسين التصميم والوظائف قبل التوسع</li>
-                <li><strong>التدريب المتخصص</strong> – تطوير برامج شاملة لإعداد الموظفين لاستخدام التقنيات الجديدة بفعالية</li>
-                <li><strong>النشر التدريجي</strong> – توسيع البرنامج على مراحل مع التركيز المستمر على التحسين</li>
-                <li><strong>التكامل مع الأنظمة</strong> – ضمان التكامل السلس مع تقنيات المتجر الأخرى ومنصات التجارة الإلكترونية</li>
+              <ol className="list-decimal pr-6 mb-6 space-y-2 text-right">
+                <li><strong>Strategic Alignment and Planning</strong> – Identifying specific business goals and metrics that will improve through advanced uniforms</li>
+                <li><strong>Limited Pilot Testing</strong> – Starting with a selected set of technologies in one branch or department for performance evaluation</li>
+                <li><strong>Data Collection and Iteration</strong> – Using initial results to improve design and functionality before expansion</li>
+                <li><strong>Specialized Training</strong> – Developing comprehensive programs for employees to use new technologies effectively</li>
+                <li><strong>Gradual Rollout</strong> – Expanding the program in stages with continuous focus on improvement</li>
+                <li><strong>System Integration</strong> – Ensuring seamless integration with other store technologies and e-commerce platforms</li>
               </ol>
               
               <h3 className="text-xl font-semibold mb-4">Strategic Partnership Development</h3>
@@ -346,23 +340,23 @@ export default function ArticlePage() {
                 </table>
               </div>
               
-              <h3 className="text-xl font-semibold mb-4">التكامل مع برامج تدريب الموظفين | Staff Training Integration</h3>
+              <h3 className="text-xl font-semibold mb-4">Staff Training Integration</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                تأهيل الموظفين للاستفادة القصوى من التكنولوجيا المدمجة:
+              <p className="mb-6">
+                Training employees to maximize the benefits of integrated technologies:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>برامج تعليمية تفاعلية</strong> – استخدام الواقع المعزز والواقع الافتراضي لتدريب الموظفين على استخدام تقنيات الزي الجديدة</li>
-                <li><strong>أنظمة التدريب المستمر</strong> – توفير تحديثات منتظمة ودورات تنشيطية مع تطور الوظائف والتقنيات</li>
-                <li><strong>مجتمعات تبادل المعرفة</strong> – إنشاء منصات للموظفين لمشاركة الممارسات المثلى والتعلم من تجارب بعضهم البعض</li>
-                <li><strong>ربط بمسارات التطوير المهني</strong> – دمج إتقان التقنيات الجديدة في مسارات الترقية وتطوير المهارات</li>
+              <ul className="list-disc pr-6 mb-6 space-y-2 text-right">
+                <li><strong>Interactive Training Programs</strong> – Using augmented reality and virtual reality for training employees on new technology</li>
+                <li><strong>Continuous Training Systems</strong> – Providing regular updates and training sessions with technology and function advancements</li>
+                <li><strong>Knowledge Sharing Communities</strong> – Creating platforms for employees to share best practices and learn from each other's experiences</li>
+                <li><strong>Development Path Integration</strong> – Integrating new technology skills into promotion and development paths</li>
               </ul>
             </section>
 
             {/* Saudi Market Context Section */}
             <section id="saudi-context" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">السياق السعودي | Saudi Market Context</h2>
+              <h2 className="text-2xl font-bold mb-6">Saudi Market Context</h2>
               
               <p className="mb-6">
                 Unique factors influencing smart uniform adoption in the Kingdom:
@@ -381,17 +375,17 @@ export default function ArticlePage() {
                 <li><strong>Digital transformation showcase</strong> – Visible examples of how technology integration enhances traditional retail models in the Kingdom</li>
               </ul>
               
-              <h3 className="text-xl font-semibold mb-4">السياق الثقافي والتكيف | Cultural Context and Adaptation</h3>
+              <h3 className="text-xl font-semibold mb-4">Cultural Context and Adaptation</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                اعتبارات السوق السعودي الفريدة عند تطوير الأزياء الذكية:
+              <p className="mb-6">
+                Considerations for Saudi market uniqueness when developing smart uniforms:
               </p>
               
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>التكامل المحترم</strong> – تصميم التقنيات القابلة للارتداء بطرق تتوافق مع معايير الاحتشام والقيم السعودية</li>
-                <li><strong>تعدد اللغات الآلي</strong> – أنظمة مصممة للتعامل بسلاسة مع العربية والإنجليزية ولغات أخرى شائعة بين العملاء</li>
-                <li><strong>مراعاة فصل الجنسين</strong> – تصميم تقنيات تعمل بشكل مناسب في متاجر أو أقسام محددة للنساء أو الرجال</li>
-                <li><strong>الانسجام مع المواسم المهمة</strong> – قدرة الأزياء الذكية على التكيف مع المناسبات الثقافية والدينية المهمة مثل رمضان والعيدين</li>
+              <ul className="list-disc pl-6 mb-6 space-y-2">
+                <li><strong>Respectful Integration</strong> – Designing wearable technologies in ways that align with Saudi modesty standards and values</li>
+                <li><strong>Automated Multilingual Support</strong> – Systems designed to seamlessly handle Arabic, English, and other common customer languages</li>
+                <li><strong>Gender Segregation Consideration</strong> – Technologies designed to work appropriately in gender-specific stores or sections</li>
+                <li><strong>Seasonal Adaptability</strong> – Smart uniforms capable of adapting to important cultural and religious occasions like Ramadan and Eid</li>
               </ul>
               
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
@@ -417,19 +411,7 @@ export default function ArticlePage() {
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">الخلاصة | Conclusion</h2>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                تقف المملكة العربية السعودية على أعتاب ثورة في مجال أزياء تجارة التجزئة، حيث تتحول هذه الأزياء من مجرد عناصر تعريفية إلى منصات تكنولوجية متكاملة تعزز تجربة التسوق وتحسن الكفاءة التشغيلية. مع تطور الأقمشة الذكية والتقنيات القابلة للارتداء وحلول التخصيص، ستصبح الأزياء الموحدة عنصراً أساسياً في استراتيجيات تجار التجزئة الذين يتطلعون إلى التميز في سوق تنافسية متزايدة.
-              </p>
-              
-              <p className="mb-6">
-                Saudi Arabia stands at the threshold of a retail uniform revolution, where these garments evolve from simple identification elements into integrated technology platforms that enhance shopping experiences and improve operational efficiency. As smart fabrics, wearable technologies, and personalization solutions evolve, uniforms will become central elements in retailers' strategies for differentiation in an increasingly competitive marketplace.
-              </p>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                الشركات التي تستثمر مبكراً في هذه التقنيات، مع التركيز على التنفيذ المدروس والمتكامل، ستكتسب ميزة تنافسية كبيرة. بالنسبة للمتسوقين السعوديين، ستوفر هذه الابتكارات تجارب أكثر سلاسة وتخصيصاً، بينما ستمنح الموظفين أدوات جديدة لتقديم خدمة استثنائية. في المستقبل القريب، ستعكس الأزياء الموحدة المتطورة رؤية المملكة 2030 للابتكار التكنولوجي والتحول الرقمي، مما يضع تجار التجزئة السعوديين في طليعة اتجاهات التجزئة العالمية.
-              </p>
+              <h2 className="text-2xl font-bold mb-6">Conclusion</h2>
               
               <p className="mb-6">
                 Companies investing early in these technologies, with a focus on thoughtful and integrated implementation, will gain significant competitive advantage. For Saudi shoppers, these innovations will provide more seamless and personalized experiences, while giving employees new tools to deliver exceptional service. In the near future, advanced uniforms will reflect the Kingdom's Vision 2030 goals of technological innovation and digital transformation, positioning Saudi retailers at the forefront of global retail trends.
@@ -457,7 +439,7 @@ export default function ArticlePage() {
             <div className="sticky top-8">
               <TableOfContents items={tocItems} />
               <div className="mt-8">
-                <h3 className="text-xl font-bold mb-4">مقالات ذات صلة | Related Articles</h3>
+                <h3 className="text-xl font-bold mb-4">Related Articles</h3>
                 <RelatedArticles articles={relatedArticles} />
               </div>
             </div>

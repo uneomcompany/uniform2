@@ -339,12 +339,11 @@ export default function ArticlePage() {
             {/* Author Bio */}
             <AuthorBio 
               name="أحمد الشمري | Ahmed Al-Shammari"
-              title="خبير سلاسل التوريد وإدارة المشتريات | Supply Chain & Procurement Expert"
+              role="خبير سلاسل التوريد وإدارة المشتريات | Supply Chain & Procurement Expert"
               bio="متخصص في سلاسل التوريد للقطاع التجاري مع خبرة تزيد عن 10 سنوات في تطوير استراتيجيات التوريد للشركات الكبرى في المملكة العربية السعودية. يركز عمله على بناء شراكات مستدامة مع الموردين وتحسين كفاءة سلاسل التوريد."
               imageSrc="/images/author/ahmed-al-shammari.png"
               linkedin="ahmed-alshammari"
-              twitter="SupplyChainSA"
-              website="procurement-expert.sa"
+              twitter="AhmedSupplyChain"
             />
 
             {/* Share Buttons */}

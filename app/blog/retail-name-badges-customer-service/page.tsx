@@ -333,12 +333,11 @@ export default function ArticlePage() {
             {/* Author Bio */}
             <AuthorBio 
               name="نورة العتيبي | Noura Al-Otaibi"
-              title="خبيرة تجربة العملاء | Customer Experience Specialist"
+              role="خبيرة تجربة العملاء | Customer Experience Specialist"
               bio="متخصصة في تطوير استراتيجيات تجربة العملاء للعلامات التجارية الفاخرة في المملكة العربية السعودية، مع خبرة أكثر من 8 سنوات في مجال تحسين التفاعل الشخصي وبناء الولاء للعلامات التجارية في قطاع التجزئة السعودي."
               imageSrc="/images/author/noura-al-otaibi.png"
               linkedin="noura-alotaibi"
-              twitter="NouraCX"
-              website="customer-excellence.sa"
+              twitter="NouraRetailCX"
             />
 
             {/* Share Buttons */}

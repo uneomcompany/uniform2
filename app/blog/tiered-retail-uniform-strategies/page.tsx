@@ -299,12 +299,11 @@ export default function ArticlePage() {
             {/* Author Bio */}
             <AuthorBio 
               name="سارة القحطاني | Sara Al-Qahtani"
-              title="مستشارة التجزئة وإدارة العلامات التجارية | Retail & Brand Management Consultant"
+              role="مستشارة التجزئة وإدارة العلامات التجارية | Retail & Brand Management Consultant"
               bio="خبيرة في إدارة التجزئة وتطوير الفرق مع تركيز خاص على بناء الثقافة المؤسسية من خلال استراتيجيات الزي الموحد. تمتلك أكثر من 12 عاماً من الخبرة في مجال تطوير العلامات التجارية في المملكة العربية السعودية."
               imageSrc="/images/author/sara-al-qahtani.png"
               linkedin="sara-alqahtani"
-              twitter="SaraQConsulting"
-              website="retail-excellence.sa"
+              twitter="SaraRetailKSA"
             />
 
             {/* Share Buttons */}

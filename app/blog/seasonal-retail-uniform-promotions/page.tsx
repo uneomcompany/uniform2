@@ -62,14 +62,11 @@ export default function ArticlePage() {
           <div className="md:w-3/4">
             {/* Introduction */}
             <section id="introduction" className="mb-12">
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                في المشهد التجاري السعودي المتطور، أصبح تكييف الزي الموحد للموظفين مع الحملات الموسمية استراتيجية تسويقية متكاملة تتجاوز مجرد التغيير البصري لتصبح جزءًا أساسيًا من تجربة التسوق الشاملة. تستكشف هذه المقالة كيف يمكن للعلامات التجارية في المملكة استخدام تعديلات الزي الموحد الاستراتيجية لتعزيز الحملات الموسمية، وإثراء تجربة العملاء، وتعزيز المبيعات مع الحفاظ على الهوية الأساسية للعلامة التجارية.
-              </p>
               <p className="text-lg leading-relaxed mb-6">
                 In Saudi Arabia's evolving retail landscape, adapting employee uniforms for seasonal campaigns has transformed from a mere visual change to an integral component of the comprehensive shopping experience. This article explores how brands in the Kingdom can leverage strategic uniform modifications to enhance seasonal campaigns, enrich customer experiences, and boost sales while maintaining core brand identity.
               </p>
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                تشير الدراسات إلى أن المتاجر التي تدمج عناصر موسمية في أزياء موظفيها تشهد زيادة في إشراك العملاء بنسبة تصل إلى 37٪ وتحسينًا في معدلات التحويل بنسبة 24٪ خلال فترات الحملات. سنقدم إطارًا شاملاً للتخطيط والتنفيذ والقياس لبرامج الزي الموحد الموسمية التي تستجيب للسياق الثقافي الفريد للمملكة العربية السعودية والتقويم التجاري المتنوع.
+              <p className="text-lg leading-relaxed mb-6">
+                Studies indicate that stores incorporating seasonal elements into staff uniforms see up to 37% increase in customer engagement and a 24% improvement in conversion rates during campaign periods. We'll provide a comprehensive framework for planning, implementing, and measuring seasonal uniform programs that respond to Saudi Arabia's unique cultural context and diverse retail calendar.
               </p>
             </section>
 
@@ -77,12 +74,12 @@ export default function ArticlePage() {
             <div className="mb-12">
               <Image 
                 src="/images/retail_sector/seasonal_uniforms.jpg"
-                alt="فريق متجر سعودي يرتدي أزياء موحدة مكيفة لموسم رمضان، مع عناصر تصميم تعكس روح المناسبة وتناسق مع حملة ترويجية"
+                alt="Saudi store team wearing uniforms adapted for Ramadan season, with design elements reflecting the spirit of the occasion and coordinating with promotional campaign"
                 width={800}
                 height={500}
                 className="rounded-lg"
               />
-              <p className="text-sm text-gray-600 mt-2 italic text-right" dir="rtl">فريق مبيعات سعودي يرتدي أزياء موحدة مصممة خصيصًا لموسم رمضان، تعكس روح الشهر الكريم مع الحفاظ على الهوية المميزة للعلامة التجارية</p>
+              <p className="text-sm text-gray-600 mt-2 italic">Sales team wearing uniforms specially designed for Ramadan season, reflecting the holy month's spirit while maintaining the brand's distinctive identity</p>
             </div>
 
             {/* Seasonal Strategy Section */}
@@ -216,13 +213,13 @@ export default function ArticlePage() {
               </ul>
               
               <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold mb-2 text-right" dir="rtl">نصائح للتنفيذ الناجح</h4>
-                <ul className="list-disc pr-6 space-y-1 text-right" dir="rtl">
-                  <li>البدء بمشروع تجريبي في فرع واحد قبل التوسع</li>
-                  <li>جمع آراء الموظفين والعملاء حول كل موسم لتحسين المواسم المستقبلية</li>
-                  <li>إنشاء دليل مرئي للموظفين يوضح كيفية ارتداء العناصر الموسمية بشكل صحيح</li>
-                  <li>ضمان توفر مخزون إضافي للطوارئ خاصة للمواسم المهمة مثل رمضان</li>
-                  <li>توثيق النتائج والدروس المستفادة من كل موسم في قاعدة معرفية للرجوع إليها مستقبلاً</li>
+                <h4 className="font-semibold mb-2">Tips for Successful Implementation</h4>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Start with a pilot project in one branch before expanding</li>
+                  <li>Gather employee and customer feedback for each season to improve future seasons</li>
+                  <li>Create a visual guide for staff showing how to properly wear seasonal elements</li>
+                  <li>Ensure extra inventory for emergencies, especially during important seasons like Ramadan</li>
+                  <li>Document results and lessons learned from each season in a knowledge base for future reference</li>
                 </ul>
               </div>
             </section>
