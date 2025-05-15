@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Store Manager Uniforms Placeholder</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      height: 600px;
+      background: #3B82F6;
+      background: linear-gradient(135deg, #3B82F6 0%, #1E3A8A 100%);
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    h2 {
+      margin: 0 0 10px 0;
+      font-size: 40px;
+    }
+    p {
+      margin: 0;
+      opacity: 0.8;
+      font-size: 26px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Store Manager Uniforms</h2>
+    <p>Placeholder Image</p>
+  </div>
+</body>
+</html>
