@@ -9,6 +9,7 @@
   NEXT_PUBLIC_NETLIFY = "true"
   NODE_ENV = "production"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NODE_VERSION = "18"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
