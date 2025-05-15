@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Saudi Uniform Solutions',
   description: 'Professional uniform solutions for various sectors in Saudi Arabia',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://gregarious-sawine-ed40c7.netlify.app'),
 }
 
 export default function RootLayout({
