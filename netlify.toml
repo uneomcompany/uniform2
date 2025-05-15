@@ -1,0 +1,43 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_SITE_URL = "https://gregarious-sawine-ed40c7.netlify.app"
+  NEXT_PUBLIC_DOMAIN = "gregarious-sawine-ed40c7.netlify.app"
+  NETLIFY = "true"
+  NEXT_PUBLIC_NETLIFY = "true"
+  NODE_ENV = "production"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.app; img-src 'self' data: blob: *.netlify.app; media-src 'self' *.netlify.app; connect-src 'self' *.netlify.app;"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+  conditions = {Role = ["admin"]}
+
+# Handle 404 errors
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+
+# Force HTTPS
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true 
