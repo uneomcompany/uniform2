@@ -33,34 +33,18 @@ export default function SafeImage({
   useEffect(() => {
     if (currentSrcIndex < allPaths.length) {
       setError(false);
-      // Increment key to force Image re-render
       imageKey.current += 1;
     }
   }, [currentSrcIndex, allPaths.length]);
 
-  // This function will be used in the window.onerror event
-  useEffect(() => {
-    const handleImageError = (event: Event) => {
-      const target = event.target as HTMLImageElement;
-      // Check if this is our image that failed
-      if (target.tagName === 'IMG' && target.src.includes(currentSrc?.toString() || '')) {
-    // Try the next fallback path
+  // Handle image load error
+  const handleError = () => {
     if (currentSrcIndex < allPaths.length - 1) {
-          setCurrentSrcIndex(prev => prev + 1);
+      setCurrentSrcIndex(prev => prev + 1);
     } else {
-      // If we've exhausted all fallbacks, show placeholder
       setError(true);
     }
-      }
-    };
-
-    // Add global error handler for images
-    window.addEventListener('error', handleImageError, { capture: true });
-    
-    return () => {
-      window.removeEventListener('error', handleImageError, { capture: true });
-    };
-  }, [currentSrc, currentSrcIndex, allPaths.length]);
+  };
 
   if (error || !currentSrc) {
     return (
@@ -81,6 +65,8 @@ export default function SafeImage({
       width={width}
       height={height}
       className={className}
+      onError={handleError}
+      unoptimized
       {...props}
     />
   );
