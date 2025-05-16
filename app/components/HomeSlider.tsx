@@ -57,7 +57,7 @@ export default function HomeSlider({ slides }: HomeSliderProps) {
   };
 
   return (
-    <section className="relative h-[650px] mb-16 -mx-4 overflow-hidden">
+    <section className="relative h-[650px] mb-16 -mx-4 -mt-8 overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div 

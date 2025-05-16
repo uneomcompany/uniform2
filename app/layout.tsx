@@ -33,8 +33,8 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
-        <div className="pt-24">
-          <main className="container mx-auto px-4 py-8">
+        <div>
+          <main className="inner-page-container">
             {children}
           </main>
         </div>

@@ -45,6 +45,16 @@
     @apply bg-white rounded-lg shadow-md overflow-hidden;
   }
   
+  /* Container for pages other than homepage */
+  .inner-page-container {
+    @apply container mx-auto px-4 py-8;
+  }
+
+  /* Special handling for the homepage */
+  .home-page .inner-page-container {
+    @apply pt-0;
+  }
+  
   /* RTL specific components */
   .rtl .space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 1;
