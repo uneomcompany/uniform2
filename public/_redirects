@@ -1,0 +1,9 @@
+# Redirect rules for Netlify
+/images/*  /images/:splat  200
+/_next/static/*  /_next/static/:splat  200
+
+# Handle direct page routes
+/*  /:splat.html  200
+
+# Fallback to index only when needed
+/*  /index.html  200 

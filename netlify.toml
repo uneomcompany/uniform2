@@ -34,9 +34,23 @@
   to = "/_next/static/:splat"
   status = 200
 
-# SPA fallback
+# For direct page routes - try serving the HTML file directly
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
+  status = 200
+  force = false
+
+# For directory routes - serve index.html from the directory
+[[redirects]]
+  from = "/*/"
+  to = ":splat/index.html"
+  status = 200
+  force = false
+  
+# Only as a fallback when nothing else matches
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true 
+  force = false 
