@@ -3,6 +3,7 @@ import './globals.css'
 import './local-fonts.css'
 import Link from 'next/link'
 import Header from './components/Header'
+import CanonicalLinkTags from './components/CanonicalLinkTags'
 
 export const metadata: Metadata = {
   title: 'Saudi Uniform Solutions',
@@ -33,6 +34,7 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
+        <CanonicalLinkTags />
         <div>
           <main className="container mx-auto px-4 py-8">
             {children}
