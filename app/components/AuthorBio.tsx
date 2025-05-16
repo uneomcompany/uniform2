@@ -1,23 +1,79 @@
+"use client"
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 interface AuthorBioProps {
-  name: string;
-  role: string;
-  bio: string;
-  imageSrc: string;
+  name?: string;
+  role?: string;
+  bio?: string;
+  imageSrc?: string;
   linkedin?: string;
   twitter?: string;
+  author?: string; // Added for backward compatibility
 }
 
-export default function AuthorBio({
-  name,
-  role,
-  bio,
-  imageSrc,
-  linkedin,
-  twitter
-}: AuthorBioProps) {
+// Default author data
+const defaultAuthors: Record<string, any> = {
+  'محمد_الصالح': {
+    name: 'محمد الصالح',
+    role: 'Uniform Specialist',
+    bio: 'Expert in corporate and industrial uniform solutions with over 10 years of experience in the Saudi market.',
+    imageSrc: '/images/author/محمد_الصالح.jpg'
+  },
+  'سارة_القحطاني': {
+    name: 'سارة القحطاني',
+    role: 'Retail Industry Consultant',
+    bio: 'Specializes in retail uniform design and implementation strategies for Saudi businesses.',
+    imageSrc: '/images/author/سارة_القحطاني.jpg'
+  },
+  'فهد_المحمود': {
+    name: 'فهد المحمود',
+    role: 'Supply Chain Specialist',
+    bio: 'Expert in logistics and supply chain management for uniform distribution across Saudi Arabia.',
+    imageSrc: '/images/author/فهد_المحمود.jpg'
+  },
+  'عبدالله_الخالدي': {
+    name: 'عبدالله الخالدي',
+    role: 'Transport Sector Consultant',
+    bio: 'Specializes in uniform solutions for the transportation and logistics sectors in KSA.',
+    imageSrc: '/images/author/عبدالله_الخالدي.jpg'
+  },
+  'نورة_القحطاني': {
+    name: 'نورة القحطاني',
+    role: 'Uniform Design Specialist',
+    bio: 'Creative professional focused on culturally appropriate and modern uniform designs for Saudi businesses.',
+    imageSrc: '/images/author/نورة_القحطاني.jpg'
+  },
+  'خالد_العتيبي': {
+    name: 'خالد العتيبي',
+    role: 'Aviation Industry Specialist',
+    bio: 'Expert in aviation uniform standards and compliance for Saudi airlines and airports.',
+    imageSrc: '/images/author/خالد_العتيبي.jpg'
+  }
+}
+
+export default function AuthorBio(props: AuthorBioProps) {
+  // If author ID is provided, use the default data
+  const authorData = props.author ? defaultAuthors[props.author] || {} : {};
+  
+  // Fallback image for error handling
+  const [imgError, setImgError] = useState(false);
+  
+  // Merge props with default data, with props taking precedence
+  const {
+    name = authorData.name || 'Author',
+    role = authorData.role || 'Specialist',
+    bio = authorData.bio || 'Expert in uniform solutions for Saudi businesses.',
+    imageSrc = authorData.imageSrc || '/images/author/placeholder.jpg',
+    linkedin,
+    twitter
+  } = props;
+
+  // Use a placeholder image if there's an error or no image source
+  const displayImageSrc = imgError ? '/images/author/placeholder.jpg' : imageSrc;
+
   return (
     <div className="border-t border-gray-200 pt-8 mb-12">
       <h3 className="text-xl font-bold mb-4">About the Author</h3>
@@ -25,10 +81,12 @@ export default function AuthorBio({
         <div className="mr-4 mb-4 sm:mb-0">
           <div className="relative h-16 w-16 overflow-hidden rounded-full">
             <Image 
-              src={imageSrc} 
+              src={displayImageSrc} 
               alt={`Photo of ${name}`} 
-              fill
+              width={64}
+              height={64}
               className="object-cover"
+              onError={() => setImgError(true)}
             />
           </div>
         </div>

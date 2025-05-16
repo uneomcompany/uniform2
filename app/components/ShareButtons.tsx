@@ -3,8 +3,8 @@
 import { useState, useEffect } from 'react'
 
 interface ShareButtonsProps {
-  url: string;
   title: string;
+  url?: string; // Make URL optional
 }
 
 export default function ShareButtons({ url, title }: ShareButtonsProps) {
@@ -13,8 +13,10 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
   useEffect(() => {
     // Get the full URL including domain when component mounts
     if (typeof window !== 'undefined') {
+      // If URL is not provided, use the current page URL
       const baseUrl = window.location.origin;
-      setFullUrl(`${baseUrl}${url}`);
+      const currentPath = url || window.location.pathname;
+      setFullUrl(`${baseUrl}${currentPath}`);
     }
   }, [url]);
 
