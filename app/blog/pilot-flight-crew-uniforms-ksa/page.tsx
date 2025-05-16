@@ -467,53 +467,86 @@ export default function ArticlePage() {
           </div>
 
           {/* Related Articles */}
-          <div className="mb-12">
-            <h3 className="font-bold text-xl mb-6">Related Articles</h3>
+          <div className="mt-16 border-t border-gray-200 pt-8">
+            <h2 className="text-2xl font-bold mb-6">Related Articles</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="border border-gray-200 rounded-lg overflow-hidden">
-                <Link href="/blog/aviation-uniform-trends-2025">
-                  <div className="h-48 relative">
+                <Link href="/blog/aviation-uniform-trends-2025" className="block hover:opacity-90 transition">
+                  <div className="relative h-48">
                     <Image 
                       src="/images/aviation_sector/aviation_uniforms.jpg" 
                       alt="Aviation uniform trends" 
-                      fill 
+                      fill
                       className="object-cover"
                     />
                   </div>
                   <div className="p-4">
-                    <div className="text-sm text-blue-600 font-semibold mb-2">Aviation</div>
-                    <h4 className="font-bold mb-2">Elevating Sky-High Standards: 2025 Uniform Trends for Saudi Aviation Professionals</h4>
-                    <p className="text-gray-600 text-sm">Discover the latest uniform innovations shaping Saudi Arabia's aviation industry</p>
+                    <span className="text-xs font-semibold text-blue-600 bg-blue-50 rounded-full py-1 px-2">Aviation</span>
+                    <h3 className="font-bold mt-2">Elevating Sky-High Standards: 2025 Uniform Trends for Saudi Aviation Professionals</h3>
                   </div>
                 </Link>
               </div>
               
               <div className="border border-gray-200 rounded-lg overflow-hidden">
-                <Link href="/blog/comprehensive-aviation-uniform-solutions">
-                  <div className="h-48 relative">
+                <Link href="/blog/ground-staff-uniforms-brand-identity" className="block hover:opacity-90 transition">
+                  <div className="relative h-48">
                     <Image 
-                      src="/images/aviation_sector/air_crew_attire.jpg" 
-                      alt="Comprehensive uniform solutions" 
-                      fill 
+                      src="/images/aviation_sector/ground_crew_uniforms.jpeg" 
+                      alt="Ground staff uniforms" 
+                      fill
                       className="object-cover"
                     />
                   </div>
                   <div className="p-4">
-                    <div className="text-sm text-blue-600 font-semibold mb-2">Aviation</div>
-                    <h4 className="font-bold mb-2">Beyond the Cabin Crew: Comprehensive Uniform Solutions for Saudi Airports in 2025</h4>
-                    <p className="text-gray-600 text-sm">How Saudi airports are implementing holistic uniform solutions across all staff roles</p>
+                    <span className="text-xs font-semibold text-blue-600 bg-blue-50 rounded-full py-1 px-2">Aviation</span>
+                    <h3 className="font-bold mt-2">The Importance of Ground Staff Uniforms for Brand Identity at Saudi Airports</h3>
+                  </div>
+                </Link>
+              </div>
+              
+              <div className="border border-gray-200 rounded-lg overflow-hidden">
+                <Link href="/blog/aviation-maintenance-crew-uniforms" className="block hover:opacity-90 transition">
+                  <div className="relative h-48">
+                    <Image 
+                      src="/images/aviation_sector/aircraft_technician_wear.jpeg" 
+                      alt="Aviation maintenance crew uniforms" 
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <span className="text-xs font-semibold text-blue-600 bg-blue-50 rounded-full py-1 px-2">Aviation</span>
+                    <h3 className="font-bold mt-2">Choosing Durable and Functional Uniforms for Aviation Maintenance Crews in KSA</h3>
+                  </div>
+                </Link>
+              </div>
+              
+              <div className="border border-gray-200 rounded-lg overflow-hidden">
+                <Link href="/blog/NouraSustainable" className="block hover:opacity-90 transition">
+                  <div className="relative h-48">
+                    <Image 
+                      src="/images/sustainability/eco_friendly_uniforms.jpg" 
+                      alt="Sustainable uniform practices" 
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <span className="text-xs font-semibold text-green-600 bg-green-50 rounded-full py-1 px-2">Sustainability</span>
+                    <h3 className="font-bold mt-2">Sustainable Uniform Practices in Saudi Arabia: Embracing Eco-Friendly Corporate Wear</h3>
                   </div>
                 </Link>
               </div>
             </div>
           </div>
-
+          
           {/* Call to Action */}
-          <div className="bg-blue-50 rounded-lg p-8">
-            <h3 className="font-bold text-xl mb-4">Need Professional Flight Crew Uniforms?</h3>
-            <p className="mb-6">Our team specializes in creating functional, stylish, and culturally appropriate uniforms for Saudi Arabian airlines and aviation companies.</p>
-            <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
-              Request a Consultation
+          <div className="mt-12 bg-blue-50 rounded-xl p-8 text-center">
+            <h3 className="text-2xl font-bold mb-3">Need Specialized Aviation Uniforms?</h3>
+            <p className="text-gray-700 mb-6">We provide custom uniform solutions for airlines and aviation companies across Saudi Arabia.</p>
+            <Link href="/request-quote" 
+                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition">
+              Request a Quote
             </Link>
           </div>
         </div>
