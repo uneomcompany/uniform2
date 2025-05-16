@@ -15,7 +15,7 @@ module.exports = {
         lightgray: '#F5F5F5',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        sans: ['var(--font-inter)'],
         heading: ['Inter', 'sans-serif'],
       },
       animation: {
