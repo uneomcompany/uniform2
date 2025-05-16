@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/fix-static-export.js",
+    "build": "npm install && next build && node scripts/fix-static-export.js",
     "start": "next start",
     "lint": "next lint"
   },
