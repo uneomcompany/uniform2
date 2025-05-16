@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import BlogHeader from '../../components/BlogHeader'
-import AuthorBio from '../../components/AuthorBio'
-import RelatedArticles from '../../components/RelatedArticles'
-import ShareButtons from '../../components/ShareButtons'
-import TableOfContents from '../../components/TableOfContents'
+import BlogHeader from '../../../components/BlogHeader'
+import AuthorBio from '../../../components/AuthorBio'
+import RelatedArticles from '../../../components/RelatedArticles'
+import ShareButtons from '../../../components/ShareButtons'
+import TableOfContents from '../../../components/TableOfContents'
 
 export const metadata = {
   title: 'How to Choose a Reliable Uniform Supplier in Saudi Arabia',

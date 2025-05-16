@@ -42,24 +42,21 @@ async function fixImportsInFile(filePath) {
     // Create the correct import prefix based on directory depth
     const importPrefix = '../'.repeat(levels);
     
-    // Replace various relative import patterns with absolute paths
-    let fixedContent = content;
+    console.log(`File: ${filePath}, Levels: ${levels}, Prefix: ${importPrefix}`);
     
-    // Replace pattern: import X from '../../components/Y'
-    fixedContent = fixedContent.replace(
-      /import\s+(\w+)\s+from\s+['"]\.\.\/\.\.\/components\/(\w+)['"]/g,
-      `import $1 from '${importPrefix}../components/$2'`
-    );
+    // First check if the imports already have the correct path
+    if (content.includes(`from '${importPrefix}../components/`)) {
+      console.log(`✅ Imports already correct in ${filePath}`);
+      return;
+    }
     
-    // Replace pattern: import X from '../../../components/Y'
-    fixedContent = fixedContent.replace(
-      /import\s+(\w+)\s+from\s+['"]\.\.\/\.\.\/\.\.\/components\/(\w+)['"]/g,
-      `import $1 from '${importPrefix}../components/$2'`
-    );
+    // Create a regular expression that matches any import from components directory
+    // regardless of how many ../ are used
+    const importRegex = /import\s+(\w+)\s+from\s+['"]\.\.+\/+components\/([^'"]+)['"]/g;
     
-    // Replace pattern: import X from '../../../../components/Y'
-    fixedContent = fixedContent.replace(
-      /import\s+(\w+)\s+from\s+['"]\.\.\/\.\.\/\.\.\/\.\.\/components\/(\w+)['"]/g,
+    // Replace all component imports with the correct path
+    const fixedContent = content.replace(
+      importRegex,
       `import $1 from '${importPrefix}../components/$2'`
     );
     

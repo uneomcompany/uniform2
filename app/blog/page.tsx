@@ -3,7 +3,7 @@ import Image from 'next/image'
 import BlogPostCard from '../components/BlogPostCard'
 
 // Import LazyPosts directly, we'll handle the client-side loading properly
-import LazyPosts from '../components/LazyPosts'
+import LazyPosts from '../../components/LazyPosts'
 
 export const metadata = {
   title: 'Blog - Saudi Uniform Solutions',
