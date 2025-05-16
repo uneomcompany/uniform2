@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
   ignore = "git diff --quiet HEAD^ HEAD ./"
 
 [build.environment]
@@ -22,7 +22,7 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.app; img-src 'self' data: blob: *.netlify.app; media-src 'self' *.netlify.app; connect-src 'self' *.netlify.app;"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.app; img-src 'self' data: blob: *.netlify.app images.unsplash.com; media-src 'self' *.netlify.app; connect-src 'self' *.netlify.app;"
 
 # These redirects ensure that all routes work with Next.js
 [[redirects]]
@@ -37,6 +37,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/server"
-  status = 200
-  force = true 
+  to = "/index.html"
+  status = 200 
