@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#003366', // Dark blue - professional color for corporate feel
+        primary: '#1a365d',
+        secondary: '#ed8936',
         'primary-dark': '#002244', // Darker shade for hover states
-        secondary: '#E6B800', // Gold - for accent/highlight
         darkgray: '#333333',
         lightgray: '#F5F5F5',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        heading: ['Poppins', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        heading: ['Inter', 'sans-serif'],
       },
       animation: {
         'spin': 'spin 1s linear infinite',

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  trailingSlash: false,
   images: {
     // Making sure our images are optimized
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
@@ -15,8 +15,11 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'gregarious-sawine-ed40c7.netlify.app',
+      }
     ],
-    domains: ['gregarious-sawine-ed40c7.netlify.app'],
     unoptimized: true,
   },
   // Allow us to use /public in image paths

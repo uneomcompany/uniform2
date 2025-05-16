@@ -1,5 +1,5 @@
 [build]
-  command = "npm install --include=dev && npm run build"
+  command = "npm run build"
   publish = ".next"
 
 [build.environment]
@@ -8,7 +8,6 @@
   NETLIFY = "true"
   NEXT_PUBLIC_NETLIFY = "true"
   NODE_ENV = "production"
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
   NODE_VERSION = "18"
   NPM_FLAGS = "--no-audit --no-fund"
 
@@ -24,22 +23,18 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.app; img-src 'self' data: blob: *.netlify.app; media-src 'self' *.netlify.app; connect-src 'self' *.netlify.app;"
 
+# These redirects ensure that all routes work with Next.js
+[[redirects]]
+  from = "/_next/static/*"
+  to = "/_next/static/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
-  force = false
-  conditions = {Role = ["admin"]}
-
-# Handle 404 errors
-[[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
-
-# Force HTTPS
-[[redirects]]
-  from = "http://*"
-  to = "https://:splat"
-  status = 301
-  force = true 
+  status = 200 
