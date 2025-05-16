@@ -1,14 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import './local-fonts.css'
 import Link from 'next/link'
 import Header from './components/Header'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  preload: true,
-})
 
 export const metadata: Metadata = {
   title: 'Saudi Uniform Solutions',
@@ -22,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en">
       <body>
         <Header />
         <div className="pt-24">
