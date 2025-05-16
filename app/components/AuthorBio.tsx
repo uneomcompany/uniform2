@@ -59,20 +59,16 @@ export default function AuthorBio(props: AuthorBioProps) {
   const authorData = props.author ? defaultAuthors[props.author] || {} : {};
   
   // Fallback image for error handling
-  const [imgError, setImgError] = useState(false);
+  const [imgSrc, setImgSrc] = useState(props.imageSrc || authorData.imageSrc || '/images/author/placeholder.jpg');
   
   // Merge props with default data, with props taking precedence
   const {
     name = authorData.name || 'Author',
     role = authorData.role || 'Specialist',
     bio = authorData.bio || 'Expert in uniform solutions for Saudi businesses.',
-    imageSrc = authorData.imageSrc || '/images/author/placeholder.jpg',
     linkedin,
     twitter
   } = props;
-
-  // Use a placeholder image if there's an error or no image source
-  const displayImageSrc = imgError ? '/images/author/placeholder.jpg' : imageSrc;
 
   return (
     <div className="border-t border-gray-200 pt-8 mb-12">
@@ -81,12 +77,13 @@ export default function AuthorBio(props: AuthorBioProps) {
         <div className="mr-4 mb-4 sm:mb-0">
           <div className="relative h-16 w-16 overflow-hidden rounded-full">
             <Image 
-              src={displayImageSrc} 
+              src={imgSrc} 
               alt={`Photo of ${name}`} 
               width={64}
               height={64}
               className="object-cover"
-              onError={() => setImgError(true)}
+              onError={() => setImgSrc('/images/author/placeholder.jpg')}
+              priority
             />
           </div>
         </div>
