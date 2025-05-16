@@ -8,6 +8,15 @@ export const metadata: Metadata = {
   title: 'Saudi Uniform Solutions',
   description: 'Professional uniform solutions for various sectors in Saudi Arabia',
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://gregarious-sawine-ed40c7.netlify.app'),
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ],
+    apple: [
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -17,6 +26,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+      </head>
       <body>
         <Header />
         <div className="pt-24">
