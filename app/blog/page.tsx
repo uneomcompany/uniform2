@@ -798,6 +798,29 @@ export default function BlogPage() {
         </div>
       </section>
 
+      {/* Featured Posts */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl font-bold mb-4">Featured Articles</h2>
+            <p className="text-gray-700">Discover our most popular articles from across different sectors</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {featuredPosts.map((post, index) => (
+              <BlogPostCard
+                key={index}
+                title={post.title}
+                imageSrc={post.imageSrc}
+                url={post.url}
+                category={post.category}
+                categoryColor={post.categoryColor}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Categories Section - Moved up */}
       <section id="categories" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -836,7 +859,7 @@ export default function BlogPage() {
             <p className="text-gray-700">Explore our complete collection of articles across different sectors</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="w-full">
             <LazyPosts posts={allPosts} />
           </div>
         </div>

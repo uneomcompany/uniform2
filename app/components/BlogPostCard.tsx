@@ -11,9 +11,9 @@ interface BlogPostCardProps {
 
 export default function BlogPostCard({ title, imageSrc, url, category, categoryColor = 'bg-blue-600' }: BlogPostCardProps) {
   return (
-    <div className="group overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:shadow-xl bg-white">
-      <Link href={url} className="block">
-        <div className="relative h-48 overflow-hidden">
+    <div className="group overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:shadow-xl bg-white border border-gray-100">
+      <Link href={url} className="block h-full">
+        <div className="relative h-52 overflow-hidden">
           <Image 
             src={imageSrc} 
             alt={title}
@@ -26,8 +26,8 @@ export default function BlogPostCard({ title, imageSrc, url, category, categoryC
             </div>
           )}
         </div>
-        <div className="p-5">
-          <h3 className="text-lg font-bold mb-2 text-gray-800 line-clamp-2 group-hover:text-blue-600 transition-colors">
+        <div className="p-6">
+          <h3 className="text-xl font-bold mb-3 text-gray-800 line-clamp-2 group-hover:text-blue-600 transition-colors">
             {title}
           </h3>
           <div className="mt-4 flex items-center">
