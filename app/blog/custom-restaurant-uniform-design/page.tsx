@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/custom-restaurant-uniform-design',
   title: "Custom Uniform Design to Reflect Your KSA Restaurant's Brand and Theme",
   description: "Comprehensive guide to creating custom restaurant uniforms that perfectly align with your Saudi establishment's brand identity, theme, and customer experience while maintaining cultural appropriateness and operational functionality.",
 }

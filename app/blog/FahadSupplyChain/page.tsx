@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/FahadSupplyChain',
   title: 'Optimizing Supply Chain Management for Uniform Distribution',
   description: 'Expert insights on streamlining supply chain processes for efficient uniform distribution across Saudi Arabia.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/factory-floor-branding-uniforms',
   title: 'Branding on the Factory Floor: Professionalizing Your Saudi Industrial Team with Uniforms',
   description: 'Strategic framework for leveraging industrial uniforms as powerful branding tools within Saudi Arabia\'s manufacturing sector, featuring comprehensive approaches for enhancing professional identity, team cohesion, and corporate visibility through thoughtful uniform design.',
 }

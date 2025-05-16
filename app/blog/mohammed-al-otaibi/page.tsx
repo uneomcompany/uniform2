@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/mohammed-al-otaibi',
   title: 'Industrial Workwear Safety Standards in Saudi Manufacturing',
   description: 'A comprehensive guide to industrial workwear safety standards for manufacturing facilities in Saudi Arabia.',
 }

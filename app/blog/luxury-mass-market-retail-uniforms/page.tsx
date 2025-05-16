@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/luxury-mass-market-retail-uniforms',
   title: 'Uniform Solutions for Luxury Boutiques vs. Mass Market Retailers in Saudi Arabia',
   description: "Comprehensive analysis of distinct uniform strategies for luxury and mass market retail in Saudi Arabia, exploring targeted approaches that enhance brand positioning, customer experience, and operational effectiveness across diverse retail segments.",
 }

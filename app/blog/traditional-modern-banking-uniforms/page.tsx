@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/traditional-modern-banking-uniforms',
   title: 'Balancing Tradition and Modernity in Saudi Banking Uniform Design (2025)',
   description: 'Explore how Saudi financial institutions are creating innovative banking uniform designs that harmoniously blend traditional cultural elements with contemporary professional aesthetics for 2025.',
 }

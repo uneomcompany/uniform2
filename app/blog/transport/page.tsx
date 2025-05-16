@@ -3,6 +3,7 @@ import Image from 'next/image'
 import BlogPostCard from '../../components/BlogPostCard'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/transport',
   title: 'Transport Sector Uniforms - Blog | Saudi Uniform',
   description: 'Explore articles about professional uniforms for drivers and transport operators that enhance safety and corporate image in Saudi Arabia.',
 }

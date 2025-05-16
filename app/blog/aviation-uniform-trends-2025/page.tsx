@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation-uniform-trends-2025',
   title: 'Elevating Sky-High Standards: 2025 Uniform Trends for Saudi Aviation Professionals',
   description: 'Discover the latest cutting-edge uniform trends shaping Saudi Arabia\'s aviation industry in 2025. Explore innovative designs, smart fabrics, and sustainability features revolutionizing airline staff attire.',
 }

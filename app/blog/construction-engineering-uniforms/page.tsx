@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/construction-engineering-uniforms',
   title: 'Uniforms for Construction and Engineering Projects in Saudi Arabia\'s Giga-Projects (2025 Focus)',
   description: 'Comprehensive guide to specialized workwear solutions for Saudi Arabia\'s mega construction initiatives, featuring site-specific uniform requirements, advanced protection technologies, and implementation strategies optimized for the Kingdom\'s largest engineering projects.',
 }

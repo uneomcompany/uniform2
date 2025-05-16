@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-uniform-trends-2025',
   title: 'Dishing Out Style: 2025 Restaurant Uniform Trends for Saudi Arabia',
   description: 'Comprehensive guide to emerging restaurant uniform trends for Saudi Arabia in 2025, featuring innovative fabrics, cultural fusion designs, tech-integrated elements, and sustainability approaches reshaping hospitality attire in the Kingdom.',
 }

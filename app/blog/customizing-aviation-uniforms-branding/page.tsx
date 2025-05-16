@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/customizing-aviation-uniforms-branding',
   title: 'Customizing Aviation Uniforms to Reflect Saudi Airline Branding and Heritage',
   description: 'Discover effective strategies for integrating authentic Saudi cultural heritage and brand identity into aviation uniforms while maintaining international standards and operational functionality.',
 }

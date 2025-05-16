@@ -5,6 +5,7 @@ import AuthorBio from '../../components/AuthorBio';
 import TableOfContents from '../../components/TableOfContents';
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/NouraSustainable',
   title: 'Sustainable Uniform Practices in Saudi Arabia - Noura Al-Khalidi',
   description: 'Insights on sustainable uniform practices and eco-friendly materials for corporate uniforms in Saudi Arabia, exploring latest innovations in environmentally responsible workwear.',
   openGraph: {

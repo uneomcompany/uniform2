@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/sustainable-retail-uniforms',
   title: 'Sustainable Retail Uniforms: Appealing to Eco-Conscious Saudi Consumers (2025)',
   description: "دراسة شاملة لكيفية تبني الأزياء الموحدة المستدامة في قطاع التجزئة السعودي كاستراتيجية فعالة لجذب المستهلكين المهتمين بالاستدامة البيئية، مع تحليل متعمق للمواد الصديقة للبيئة، وممارسات التصنيع المسؤولة، وتأثيرها الإيجابي على سمعة العلامة التجارية والمبيعات.",
 }

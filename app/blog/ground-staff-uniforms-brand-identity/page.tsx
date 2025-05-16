@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/ground-staff-uniforms-brand-identity',
   title: 'The Importance of Ground Staff Uniforms for Brand Identity at Saudi Airports',
   description: 'Learn how strategically designed ground staff uniforms strengthen brand identity, enhance passenger experience, and communicate professionalism at Saudi Arabian airports in 2025.',
 }

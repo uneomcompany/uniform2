@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/bank-uniforms-security-identification',
   title: 'Uniforms as a Tool for Enhancing Security and Identification in KSA Banks',
   description: 'Strategic approaches for leveraging banking uniforms to strengthen security protocols, improve staff identification, and enhance customer trust in Saudi Arabian financial institutions.',
 }

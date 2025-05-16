@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/chef-uniforms-professionalism-hygiene',
   title: 'Chef Uniforms in Saudi Arabia: Balancing Professionalism, Comfort, and Hygiene (2025)',
   description: 'Comprehensive guide to chef uniforms in Saudi Arabia, exploring innovative materials, design considerations, and cultural adaptations that optimize kitchen performance while meeting the unique requirements of the Kingdom\'s diverse culinary environments.',
 }

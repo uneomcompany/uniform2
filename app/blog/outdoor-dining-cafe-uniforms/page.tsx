@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/outdoor-dining-cafe-uniforms',
   title: "Uniforms for Outdoor Dining and Cafe Staff in Saudi Arabia's Climate (2025)",
   description: "Comprehensive guide to designing weather-adaptive, functional uniforms for outdoor dining and cafe staff in Saudi Arabia that provide comfort, protection, and professional appearance across the Kingdom's challenging climate conditions.",
 }

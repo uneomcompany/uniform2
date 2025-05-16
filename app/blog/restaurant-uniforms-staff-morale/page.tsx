@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-uniforms-staff-morale',
   title: 'The ROI of Investing in Stylish Uniforms for Staff Morale in Saudi Restaurants',
   description: "Comprehensive analysis of how premium restaurant uniforms impact staff satisfaction, retention, and performance in Saudi Arabia, with actionable strategies for leveraging uniform quality as a strategic investment in team engagement and operational excellence.",
 }

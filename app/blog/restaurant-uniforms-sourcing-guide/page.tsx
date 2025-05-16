@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-uniforms-sourcing-guide',
   title: "Sourcing High-Quality Restaurant Uniforms in Riyadh, Jeddah & Dammam (2025 Guide)",
   description: "Comprehensive guide to finding the best restaurant uniform suppliers across Saudi Arabia's major cities, with detailed analysis of local and international options, customization services, and procurement strategies for 2025.",
 }

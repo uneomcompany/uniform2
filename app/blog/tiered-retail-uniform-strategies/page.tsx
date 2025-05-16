@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/tiered-retail-uniform-strategies',
   title: 'From Sales Associates to Managers: Tiered Uniform Strategies for KSA Retail Teams',
   description: "تحليل شامل لاستراتيجيات الزي الموحد المتدرج لفرق البيع بالتجزئة في المملكة، مع إرشادات مفصلة حول تصميم أنظمة زي تعكس التسلسل الهرمي وتعزز كفاءة الخدمة وتحترم القيم الثقافية السعودية.",
 }

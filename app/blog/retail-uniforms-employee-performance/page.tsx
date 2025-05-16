@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/retail-uniforms-employee-performance',
   title: 'The Impact of Uniforms on Employee Confidence and Performance in KSA Retail',
   description: "دراسة متعمقة لتأثير الزي الموحد على الثقة المهنية والأداء الوظيفي للموظفين في قطاع التجزئة السعودي، مع تحليل شامل للعوامل النفسية والاجتماعية والعملية التي تسهم في تعزيز الإنتاجية ورضا الموظفين من خلال تصميم الزي الموحد المناسب.",
 }

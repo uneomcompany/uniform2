@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/banking-finance/top-5-trends-in-banking-uniforms',
   title: 'Top 5 Trends in Banking Uniforms for 2023 - Saudi Uniform Solutions',
   description: 'Discover the latest trends in banking and finance sector uniforms that combine professionalism with modern style. Learn how leading banks are updating their staff appearance.',
 }

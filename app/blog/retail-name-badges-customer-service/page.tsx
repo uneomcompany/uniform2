@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/retail-name-badges-customer-service',
   title: 'The Power of a Name Badge: Enhancing Customer Service Through Retail Uniforms in KSA',
   description: "تحليل عميق لتأثير شارات الأسماء على تجربة العملاء في متاجر التجزئة السعودية، مع استراتيجيات للتصميم والتنفيذ الفعال وأفضل الممارسات التي تعزز التواصل الشخصي وتدعم قيم الضيافة العربية الأصيلة.",
 }

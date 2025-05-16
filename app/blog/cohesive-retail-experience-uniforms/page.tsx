@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/cohesive-retail-experience-uniforms',
   title: 'The Role of Uniforms in Creating a Cohesive In-Store Experience in KSA',
   description: "Comprehensive analysis of how strategic uniform programs contribute to cohesive retail environments in Saudi Arabia, exploring how synchronized staff presentation enhances brand perception, customer navigation, and overall shopping experiences in the Kingdom's evolving retail landscape.",
 }

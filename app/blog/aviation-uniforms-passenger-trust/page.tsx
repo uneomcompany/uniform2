@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation-uniforms-passenger-trust',
   title: 'The Psychological Impact of Professional Aviation Uniforms on Passenger Trust in KSA',
   description: 'Explore how aviation uniforms influence passenger perception, trust, and confidence in Saudi Arabian airlines and how carriers can leverage visual psychology to enhance their service experience.',
 }

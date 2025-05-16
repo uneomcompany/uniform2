@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/subtle-bank-logo-branding',
   title: 'Subtle Branding: Incorporating Bank Logos Elegantly into KSA Uniforms',
   description: 'Learn sophisticated approaches for integrating bank logos and branding elements into Saudi banking uniforms with refinement and elegance that enhances institutional identity without overwhelming design.',
 }

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import BlogPostCard from '../../components/BlogPostCard'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/banking-finance',
   title: 'Banking & Finance Sector Uniforms - Blog | Saudi Uniform',
   description: 'Explore articles about elegant and professional uniforms for banks, financial institutions, and administrative offices in Saudi Arabia.',
 }

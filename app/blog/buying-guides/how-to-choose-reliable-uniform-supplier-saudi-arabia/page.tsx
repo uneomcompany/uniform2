@@ -7,6 +7,7 @@ import ShareButtons from '../../../components/ShareButtons'
 import TableOfContents from '../../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/buying-guides/how-to-choose-reliable-uniform-supplier-saudi-arabia',
   title: 'How to Choose a Reliable Uniform Supplier in Saudi Arabia',
   description: 'Comprehensive guide on selecting the best uniform supplier in Saudi Arabia for your business needs with tips on quality, delivery, and service.',
 }

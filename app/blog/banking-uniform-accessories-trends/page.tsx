@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/banking-uniform-accessories-trends',
   title: 'Beyond the Suit: Accessory and Detail Trends for Saudi Banking Uniforms in 2025',
   description: 'Explore the latest trends in banking uniform accessories and details for Saudi financial institutions, elevating professional presentation through sophisticated elements that enhance brand identity.',
 }

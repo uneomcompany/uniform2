@@ -3,6 +3,7 @@ import Image from 'next/image'
 import SafeImage from '../../components/SafeImage'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/sectors/transport',
   title: 'Transport Sector - Uniform Solutions | Saudi Uniform',
   description: 'Specialized uniform solutions for the transport sector in Saudi Arabia. Comfortable and professional attire for drivers and service staff that meets safety standards.',
 }

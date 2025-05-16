@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/retail-uniform-trends-2025',
   title: 'Dressing for Sales: Top Retail Uniform Trends in Saudi Arabia for 2025',
   description: "Comprehensive analysis of emerging retail uniform trends in Saudi Arabia for 2025, exploring innovative designs, materials, and strategies that enhance brand identity, customer experience, and staff performance in the Kingdom's evolving retail landscape.",
 }

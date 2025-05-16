@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation-uniform-compliance',
   title: 'Ensuring Compliance: Meeting GACA and International Standards for Aviation Uniforms in KSA',
   description: 'A comprehensive guide to navigating the complex regulatory landscape for aviation uniforms in Saudi Arabia, including GACA requirements, international standards, and implementation best practices.',
 }

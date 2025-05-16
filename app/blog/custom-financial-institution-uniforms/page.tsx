@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/custom-financial-institution-uniforms',
   title: 'Custom Corporate Wear: Tailoring Uniforms for Saudi Financial Institutions',
   description: 'Discover how custom-tailored uniform programs can enhance brand identity, employee satisfaction, and customer perception for Saudi Arabian banks and financial institutions.',
 }

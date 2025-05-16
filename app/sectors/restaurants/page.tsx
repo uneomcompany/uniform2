@@ -3,6 +3,7 @@ import Image from 'next/image'
 import SafeImage from '../../components/SafeImage'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/sectors/restaurants',
   title: 'Restaurant Sector - Uniform Solutions | Saudi Uniform',
   description: 'Specialized uniform solutions for restaurants and food service businesses in Saudi Arabia. Stylish and practical uniforms for all restaurant staff, from kitchen to customer service.',
 }

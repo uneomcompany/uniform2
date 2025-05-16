@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/eco-friendly-industrial-uniforms',
   title: 'Sustainability in Action: Eco-Friendly and Recyclable Industrial Uniforms for KSA',
   description: 'Comprehensive guide to implementing sustainable industrial uniform programs in Saudi Arabia, featuring innovative eco-friendly materials, circular economy approaches, and practical frameworks aligned with the Kingdom\'s sustainability initiatives.',
 }

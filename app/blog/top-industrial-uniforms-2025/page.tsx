@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/top-industrial-uniforms-2025',
   title: 'Safety First, Style Second: 2025\'s Top Industrial Uniforms for Saudi Arabia',
   description: 'Explore the leading industrial uniform solutions for Saudi Arabia in 2025, featuring advanced safety technologies, regulatory compliance, and innovative designs that protect workers in harsh environments.',
 }

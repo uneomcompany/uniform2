@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/sustainable-restaurant-uniforms',
   title: 'Sustainable and Ethical Uniform Choices for Eco-Conscious Saudi Restaurants',
   description: "Comprehensive guide to implementing environmentally responsible restaurant uniforms in Saudi Arabia, featuring sustainable material options, ethical sourcing strategies, and practical approaches that align with both Vision 2030 sustainability goals and operational requirements.",
 }

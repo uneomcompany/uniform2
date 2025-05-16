@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/future-restaurant-uniform-technology',
   title: 'The Future of Restaurant Attire: Tech-Infused and Adaptable Uniforms for KSA (2025)',
   description: "Comprehensive analysis of emerging smart uniform technologies for Saudi Arabia's restaurant sector, exploring performance-enhancing innovations, adaptable design systems, and strategic implementation approaches that provide competitive advantages in the Kingdom's evolving hospitality landscape.",
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/future-aviation-workwear-innovations',
   title: 'The Future of Aviation Workwear: Innovations for the Saudi Market in 2025',
   description: 'Explore cutting-edge technological innovations in aviation workwear specifically designed for the Saudi market, addressing unique climate challenges, cultural considerations, and operational requirements.',
 }

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation-maintenance-crew-uniforms',
   title: 'Choosing Durable and Functional Uniforms for Aviation Maintenance Crews in KSA',
   description: 'Explore the latest advancements in aviation maintenance uniforms designed for Saudi Arabia\'s unique climate, with insights on durability, safety features, and functionality for 2025.',
 }

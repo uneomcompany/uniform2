@@ -3,6 +3,7 @@ import Image from 'next/image';
 import SafeImage from '../../components/SafeImage';
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/sectors/aviation',
   title: 'Aviation Sector Uniforms - Saudi Uniform Solutions',
   description: 'Professional uniforms for airline staff, ground crew, and aviation personnel. High-quality, customizable aviation uniforms designed for Saudi Arabian airlines and airports.',
 }

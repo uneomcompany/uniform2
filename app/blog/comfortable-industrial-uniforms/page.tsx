@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/comfortable-industrial-uniforms',
   title: 'The Importance of Fit and Comfort in Industrial Uniforms for KSA Workforce Productivity',
   description: 'Comprehensive analysis of how properly fitted and comfortable industrial uniforms significantly enhance worker productivity, safety compliance, and satisfaction in Saudi Arabia\'s demanding industrial environments.',
 }

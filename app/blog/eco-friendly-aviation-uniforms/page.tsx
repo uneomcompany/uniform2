@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/eco-friendly-aviation-uniforms',
   title: 'Sustainability in the Skies: Eco-Friendly Uniform Options for Saudi Airlines (2025)',
   description: 'Explore cutting-edge sustainable aviation uniform solutions for Saudi carriers, balancing environmental responsibility with performance, cultural considerations, and brand identity in 2025.',
 }

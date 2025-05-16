@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/bank-uniform-styles-2025',
   title: 'Projecting Trust & Professionalism: 2025 Uniform Styles for Saudi Banks',
   description: 'Discover the latest uniform trends shaping Saudi banking in 2025, focusing on designs that enhance brand identity, build customer trust, and combine traditional values with modern professionalism.',
 }

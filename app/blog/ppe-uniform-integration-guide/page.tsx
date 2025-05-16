@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/ppe-uniform-integration-guide',
   title: 'A Comprehensive Guide to PPE and Uniform Integration for KSA Industrial Safety',
   description: 'Strategic framework for optimally integrating personal protective equipment with industrial uniforms in Saudi Arabian environments, featuring comprehensive compatibility strategies, implementation approaches, and practical solutions for maximizing worker protection.',
 }

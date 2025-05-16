@@ -4,6 +4,12 @@ import Link from 'next/link'
 import HomeSlider from './components/HomeSlider'
 import SectorIcon from './components/SectorIcon'
 
+export const metadata = {
+  canonical: 'https://abjdeat.com',
+  title: 'Abjdeat - Saudi Arabia\'s Premier Uniform Provider',
+  description: 'Professional uniform solutions for all sectors in Saudi Arabia including transport, aviation, banking, industrial, restaurant, and retail industries.'
+};
+
 export default function Home() {
   const sectors = [
     {

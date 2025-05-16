@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/mining-heavy-industry-uniforms',
   title: 'Specialized Uniforms for Mining and Heavy Industry Sectors in Saudi Arabia',
   description: 'Comprehensive guide to specialized workwear requirements for Saudi Arabia\'s expanding mining and heavy industrial sectors, featuring advanced protection technologies, material innovations, and implementation frameworks optimized for extreme operational environments.',
 }

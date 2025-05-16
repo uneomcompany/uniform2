@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/comprehensive-aviation-uniform-solutions',
   title: 'Beyond the Cabin Crew: Comprehensive Uniform Solutions for Saudi Airports in 2025',
   description: 'Explore how Saudi airports are implementing holistic uniform solutions across all staff roles, enhancing brand consistency, operational efficiency, and passenger experience in 2025.',
 }

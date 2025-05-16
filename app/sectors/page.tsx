@@ -5,6 +5,7 @@ import ImagePlaceholder from '../components/ImagePlaceholder';
 import SafeImage from '../components/SafeImage';
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/sectors',
   title: 'Industry Sectors - Uniform Solutions | Saudi Uniform',
   description: 'Specialized uniform solutions for various industry sectors in Saudi Arabia. Discover professional uniforms tailored for your specific industry needs.',
 };

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/bank-uniform-guidelines',
   title: 'Uniform Guidelines for Tellers, Customer Service, and Management in Saudi Banks',
   description: 'Comprehensive uniform guidelines for Saudi banking institutions covering role-specific requirements for tellers, customer service representatives, and management personnel in 2025.',
 }

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/pilot-flight-crew-uniforms-ksa',
   title: 'Safety, Style, and Comfort: Designing Pilot & Flight Crew Uniforms for KSA Airlines (2025)',
   description: 'Discover the latest advancements in pilot and flight crew uniforms for Saudi Arabian airlines in 2025, balancing safety, functionality, cultural elements, and brand identity.',
 }

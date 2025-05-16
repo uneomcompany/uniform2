@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/sara-alqahtani-tech',
   title: 'Future of Uniforms: Smart Fabrics and IoT Integration',
   description: 'Exploring the cutting-edge developments in smart fabrics and IoT integration in the uniform industry for Saudi businesses.',
 }

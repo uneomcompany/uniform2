@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/waitstaff-uniforms-customer-experience',
   title: 'Waitstaff Uniforms That Enhance Customer Experience in Saudi Restaurants',
   description: 'Comprehensive guide to designing waitstaff uniforms that elevate guest experiences in Saudi Arabian restaurants, including psychological impacts, strategic design approaches, and practical implementation frameworks for various dining concepts.',
 }

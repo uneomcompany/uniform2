@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/cohesive-bank-branch-uniforms',
   title: 'Ensuring a Cohesive Brand Image Across All Branches with Uniform Standards in KSA',
   description: 'Strategic approaches for Saudi banks to develop and implement consistent uniform programs that maintain brand cohesion across multiple locations while accommodating regional variations.',
 }

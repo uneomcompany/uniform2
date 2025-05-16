@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/ecommerce-fulfillment-uniforms',
   title: 'Uniforms for E-commerce Fulfillment Staff: Branding Behind the Scenes in KSA (2025)',
   description: "تحليل شامل لأهمية الزي الموحد لموظفي مراكز التوزيع الإلكتروني في المملكة العربية السعودية، يستكشف كيف تساهم الأزياء الوظيفية المدروسة في تعزيز كفاءة العمليات، وتحسين تجربة الموظفين، وتقوية هوية العلامة التجارية حتى في الأدوار غير المرئية للعملاء.",
 }

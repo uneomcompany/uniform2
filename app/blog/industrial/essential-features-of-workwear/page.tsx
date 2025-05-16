@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/industrial/essential-features-of-workwear',
   title: 'Essential Features of Industrial Workwear - Saudi Uniform Solutions',
   description: "Discover the key features to look for in industrial workwear that ensure safety, durability, and comfort for your workforce in Saudi Arabia's demanding industries.",
 }

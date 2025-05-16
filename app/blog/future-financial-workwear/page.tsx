@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/future-financial-workwear',
   title: 'The Future of Financial Workwear: Smart & Sustainable Options for Saudi Banks (2025)',
   description: 'Explore innovative smart fabric technologies and sustainable approaches transforming banking uniforms in Saudi Arabia, balancing technological advancement with cultural values and environmental responsibility.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/sourcing-heavy-duty-uniforms',
   title: 'Sourcing Heavy-Duty Industrial Uniforms in Saudi Arabia: What to Look For (2025)',
   description: 'Comprehensive guide for procurement specialists on sourcing durable, compliant, and cost-effective heavy-duty industrial uniforms in Saudi Arabia, featuring material science insights, regional supplier analysis, and strategic procurement frameworks.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/sara-alqahtani',
   title: 'Color Psychology in Uniform Design for Brand Recognition',
   description: 'Understanding how color psychology in uniform design can significantly impact brand recognition and consumer perception.',
 }

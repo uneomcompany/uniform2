@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation-uniform-best-practices',
   title: 'Global Best Practices in Aviation Uniforms: What Saudi Carriers Can Learn (2025)',
   description: 'Discover how Saudi airlines can implement international aviation uniform best practices to enhance brand identity, operational efficiency, and passenger experience in 2025.',
 }

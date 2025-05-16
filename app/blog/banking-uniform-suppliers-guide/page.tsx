@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/banking-uniform-suppliers-guide',
   title: 'A Guide to Selecting Uniform Suppliers for the Saudi Banking & Finance Sector',
   description: 'Comprehensive guide for Saudi financial institutions on evaluating, selecting, and partnering with the right uniform suppliers to ensure quality, compliance, and consistent brand representation.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/transport-uniform-materials',
   title: 'Best Materials for Transport Sector Uniforms in Saudi Arabia',
   description: 'Analysis of the most suitable materials for transport sector uniforms considering Saudi Arabia\'s climate and working conditions.',
 }

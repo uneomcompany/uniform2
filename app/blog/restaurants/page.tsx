@@ -3,6 +3,7 @@ import Image from 'next/image'
 import BlogPostCard from '../../components/BlogPostCard'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurants',
   title: 'Restaurants Sector Uniforms - Blog | Saudi Uniform',
   description: 'Explore articles about elegant and practical uniforms for all restaurant workers, from kitchen to customer service in Saudi Arabia.',
 }

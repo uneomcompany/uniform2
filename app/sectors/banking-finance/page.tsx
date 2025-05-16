@@ -4,6 +4,7 @@ import SafeImage from '../../components/SafeImage'
 import FallbackImage from '../../components/FallbackImage'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/sectors/banking-finance',
   title: 'Banking & Finance Sector Uniforms | Saudi Uniform Solutions',
   description: 'High-quality, professional uniforms for banks and financial institutions in Saudi Arabia. Elevate your corporate image with our elegant uniform solutions.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation-uniform-suppliers-ksa',
   title: 'Sourcing Guide: Finding Top Aviation Uniform Suppliers in Saudi Arabia (2025)',
   description: 'A comprehensive guide to sourcing high-quality aviation uniforms in Saudi Arabia, with insights on top suppliers, evaluation criteria, and procurement best practices for 2025.',
 }

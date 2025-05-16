@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/high-visibility-protective-workwear',
   title: 'High-Visibility & Protective Workwear: Essential Uniforms for KSA Industrial Sites',
   description: 'Comprehensive analysis of high-visibility workwear solutions for Saudi industrial environments, featuring advanced safety standards, visibility-enhancing technologies, and implementation strategies for maximum worker protection.',
 }

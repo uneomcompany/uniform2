@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/stain-resistant-restaurant-fabrics',
   title: "Choosing Stain-Resistant and Easy-to-Clean Fabrics for KSA Food Service Uniforms",
   description: "Comprehensive guide to selecting high-performance, stain-resistant fabrics for restaurant uniforms in Saudi Arabia that maintain professional appearance while withstanding the demands of food service environments.",
 }

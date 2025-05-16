@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/smart-aviation-uniforms',
   title: 'Integrating Technology: Smart Uniforms for Enhanced Efficiency in Saudi Aviation (2025)',
   description: 'Discover how Saudi airlines are implementing cutting-edge smart uniform technologies to improve operational efficiency, safety monitoring, and passenger service in 2025.',
 }

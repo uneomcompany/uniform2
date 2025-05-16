@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/seasonal-retail-uniform-promotions',
   title: 'Adapting Retail Uniforms for Seasonal Promotions and Campaigns in Saudi Arabia',
   description: "استراتيجيات شاملة لتكييف أزياء العاملين في قطاع التجزئة للحملات الترويجية الموسمية في المملكة العربية السعودية، مع تحليل متعمق لكيفية تعزيز تجربة العملاء والمبيعات من خلال تحديثات الزي الموحد المتناسقة مع المواسم والمناسبات المحلية.",
 }

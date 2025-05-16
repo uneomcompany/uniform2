@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/labor-law-protective-uniforms',
   title: 'Meeting Saudi Labor Law Requirements for Protective Industrial Uniforms',
   description: 'Comprehensive guide to navigating Saudi Arabia\'s complex regulatory framework for industrial protective uniforms, featuring detailed compliance requirements, implementation strategies, and practical approaches for meeting 2025 labor law standards.',
 }

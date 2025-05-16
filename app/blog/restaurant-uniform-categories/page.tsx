@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-uniform-categories',
   title: 'From Fine Dining to Fast Casual: Choosing the Right Uniforms for Your KSA Eatery',
   description: 'Comprehensive guide for Saudi restaurateurs on selecting appropriate uniforms across different dining categories, with detailed analysis of style requirements, functional considerations, and brand alignment strategies for various establishment types.',
 }

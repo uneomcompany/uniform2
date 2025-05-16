@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/vip-aviation-uniform-requirements',
   title: 'Uniform Requirements for Private Jet & VIP Aviation Services in Saudi Arabia',
   description: 'Explore the specialized uniform requirements for Saudi Arabia\'s luxury private aviation sector, balancing prestigious branding, cultural considerations, and elite service standards.',
 }

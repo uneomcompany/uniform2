@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/SaraRetailTech',
   title: 'Technology Integration in Modern Retail Uniforms',
   description: 'Discover how technology is being integrated into retail uniforms to enhance employee performance and customer service.',
 }

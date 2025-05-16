@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/retail-uniforms-brand-personality',
   title: 'Choosing Retail Uniforms That Reflect Your Brand\'s Personality in the Saudi Market',
   description: "Comprehensive guide for selecting retail uniforms that authentically express brand personality in Saudi Arabia, exploring strategic design approaches that align staff presentation with core values, target audiences, and market positioning while respecting cultural context.",
 }

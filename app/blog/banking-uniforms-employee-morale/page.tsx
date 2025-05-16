@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/banking-uniforms-employee-morale',
   title: 'The ROI of High-Quality Uniforms for Employee Morale in KSA Banking',
   description: 'Discover how investing in premium banking uniforms yields measurable returns through improved employee morale, retention, and performance in Saudi Arabian financial institutions.',
 }

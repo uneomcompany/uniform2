@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/unified-aviation-uniform-strategies',
   title: 'From Pilots to Porters: Unified Uniform Strategies for Saudi Aviation Hubs',
   description: 'Learn how integrated uniform strategies across all aviation roles can enhance operational efficiency, strengthen brand cohesion, and improve passenger experience in Saudi Arabian airports.',
 }

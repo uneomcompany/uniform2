@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/MohammedDesign',
   title: 'Modern Uniform Design Principles for Corporate Identity',
   description: 'Discover how modern uniform design can enhance your corporate identity and brand recognition in the Saudi market.',
 }

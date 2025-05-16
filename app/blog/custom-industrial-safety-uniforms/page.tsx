@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/custom-industrial-safety-uniforms',
   title: 'Custom Industrial Uniforms: Meeting Specific Safety Standards in Saudi Arabia',
   description: 'Strategic guidance on developing customized industrial uniform programs that address Saudi Arabia\'s unique safety requirements, industry regulations, and environmental challenges while maintaining operational efficiency.',
 }

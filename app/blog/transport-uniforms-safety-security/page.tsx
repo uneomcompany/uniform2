@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/transport-uniforms-safety-security',
   title: 'Transport Uniforms: Enhancing Safety and Security Standards (2025)',
   description: 'Comprehensive guide to implementing advanced safety and security features in transport sector uniforms, addressing modern challenges in Saudi Arabia\'s evolving transportation landscape.'
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/smart-fabric-industrial-workwear',
   title: 'Innovations in Industrial Workwear: Smart Fabrics and Integrated Tech for Saudi Arabia',
   description: 'Comprehensive analysis of cutting-edge smart fabric technologies and integrated digital solutions for Saudi Arabia\'s industrial workwear sector, featuring emerging innovations, implementation strategies, and practical applications across diverse industrial environments.',
 }

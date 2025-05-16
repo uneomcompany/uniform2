@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons';
 import TableOfContents from '../../components/TableOfContents';
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/durable-weather-appropriate-uniforms',
   title: 'Durable Weather-Appropriate Uniforms for Saudi Transport Sector (2025)',
   description: 'Comprehensive guide to selecting and implementing durable, weather-resistant uniforms for transport workers in Saudi Arabia\'s challenging climate conditions.'
 };

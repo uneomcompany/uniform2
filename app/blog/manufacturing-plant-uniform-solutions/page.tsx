@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/manufacturing-plant-uniform-solutions',
   title: 'Uniform Solutions for Manufacturing Plants and Factories in KSA (2025 Trends)',
   description: 'Comprehensive analysis of cutting-edge uniform solutions optimized for Saudi Arabian manufacturing environments, featuring industry-specific designs, advanced materials, and implementation strategies that enhance safety and productivity.',
 }

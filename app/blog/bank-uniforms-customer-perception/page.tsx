@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/bank-uniforms-customer-perception',
   title: 'Dressing for Success: How Uniforms Impact Customer Perception in Saudi Banks',
   description: 'Explore how banking uniform design influences customer trust, perception, and loyalty in Saudi financial institutions, with insights into effective design strategies for 2025.',
 }

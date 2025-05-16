@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/customizing-retail-uniforms-branding',
   title: 'Customizing Retail Uniforms: Incorporating Logos and Brand Colors Effectively (Saudi Focus)',
   description: "A comprehensive strategy for effectively integrating brand logos and colors into retail staff uniforms in Saudi Arabia, with in-depth analysis of best practices that enhance brand recognition and shopping experience for Saudi customers.",
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/flame-resistant-oil-gas-uniforms',
   title: 'Choosing Durable and Flame-Resistant Uniforms for Saudi Oil & Gas Workers (2025)',
   description: 'Strategic guidance for selecting optimal flame-resistant uniforms for Saudi Arabia\'s oil and gas sector, featuring advanced protection technologies, compliance requirements, and implementation strategies for maximum worker safety.',
 }

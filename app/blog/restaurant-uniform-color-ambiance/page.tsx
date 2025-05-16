@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-uniform-color-ambiance',
   title: 'The Impact of Uniform Color and Style on Restaurant Ambiance in KSA',
   description: 'Comprehensive analysis of how uniform color palettes and design choices influence restaurant atmosphere in Saudi Arabia, with expert insights on cultural considerations, psychological effects, and strategic implementation for various dining concepts.',
 }

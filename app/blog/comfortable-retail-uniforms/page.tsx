@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/comfortable-retail-uniforms',
   title: 'Comfort and Style: Uniforms for Long Shifts on the KSA Retail Floor (2025)',
   description: "Comprehensive guide to designing retail uniforms that maximize staff comfort during extended shifts in Saudi Arabia, exploring innovative materials, ergonomic design principles, and practical considerations that enhance employee wellbeing while maintaining professional appearance.",
 }

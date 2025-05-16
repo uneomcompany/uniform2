@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/modern-cultural-restaurant-uniforms',
   title: 'Balancing Modern Trends with Cultural Sensitivities in KSA Restaurant Uniforms',
   description: "Comprehensive guide for Saudi Arabian restaurateurs on designing contemporary staff uniforms that honor cultural traditions while incorporating global hospitality trends, creating distinctive presentations that respect local values and enhance guest experience.",
 }

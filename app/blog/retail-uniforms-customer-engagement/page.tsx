@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/retail-uniforms-customer-engagement',
   title: 'How Store Uniforms Impact Customer Engagement and Brand Loyalty in KSA',
   description: "Comprehensive analysis of the psychological and operational influences of retail uniforms on customer engagement and loyalty in Saudi Arabia, exploring strategic design approaches that enhance consumer trust, elevate shopping experiences, and build lasting brand relationships.",
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-uniform-accessories',
   title: 'Aprons, Headwear, and Accessories: Completing Your Saudi Restaurant Uniform Look',
   description: "Comprehensive guide to restaurant uniform accessories for Saudi Arabian establishments, exploring how professional aprons, headwear, and finishing touches elevate brand identity, enhance functionality, and complete your dining establishment's professional image.",
 }

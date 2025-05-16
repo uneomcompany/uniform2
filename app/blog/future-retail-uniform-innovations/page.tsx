@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/future-retail-uniform-innovations',
   title: 'Future of Retail Fashion: Smart Uniforms & Personalized Experiences in KSA (2025)',
   description: "استكشاف الاتجاهات المستقبلية في أزياء موظفي التجزئة في المملكة العربية السعودية، مع التركيز على الأقمشة الذكية، والتقنيات القابلة للارتداء، وحلول التخصيص، وكيف ستغير هذه الابتكارات تجربة التسوق وتعزز الأداء التشغيلي في قطاع البيع بالتجزئة.",
 }

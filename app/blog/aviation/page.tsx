@@ -3,6 +3,7 @@ import Image from 'next/image'
 import BlogPostCard from '../../components/BlogPostCard'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/aviation',
   title: 'Aviation Sector Uniforms - Blog | Saudi Uniform',
   description: 'Explore articles about luxury uniforms for flight crews, airport staff, and ground services in Saudi Arabia.',
 }

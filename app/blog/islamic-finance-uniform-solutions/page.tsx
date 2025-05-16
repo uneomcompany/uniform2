@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/islamic-finance-uniform-solutions',
   title: 'Uniform Solutions for Islamic Finance Institutions in Saudi Arabia (2025)',
   description: 'Explore comprehensive uniform design approaches for Shariah-compliant financial institutions in Saudi Arabia that authentically reflect Islamic values while meeting contemporary professional standards.',
 }

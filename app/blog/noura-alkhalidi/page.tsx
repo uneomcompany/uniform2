@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/noura-alkhalidi',
   title: 'Sustainable Fabric Choices for Corporate Uniforms',
   description: 'Learn about eco-friendly fabric options for corporate uniforms that maintain professionalism while supporting sustainability goals.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/modern-banking-uniform-solutions',
   title: 'The Evolution of Banker Attire: Modern Uniform Solutions for KSA Finance Sector (2025)',
   description: 'Explore the transformation of banking uniforms in Saudi Arabia and discover modern solutions that balance tradition with innovation for today\'s financial institutions.',
 }

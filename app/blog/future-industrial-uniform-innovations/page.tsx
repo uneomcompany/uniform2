@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/future-industrial-uniform-innovations',
   title: 'The Future of Industrial Uniforms: Enhanced Protection and Comfort for KSA (2025)',
   description: 'Comprehensive guide to emerging technologies and innovations transforming industrial workwear in Saudi Arabia, featuring smart textiles, advanced material science, integrated monitoring systems, and next-generation comfort solutions optimized for the Kingdom\'s demanding operating environments.',
 }

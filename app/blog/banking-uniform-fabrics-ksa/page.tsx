@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/banking-uniform-fabrics-ksa',
   title: 'Choosing the Right Fabrics for Comfortable and Professional Banking Uniforms in KSA\'s Climate',
   description: 'Expert guidance on selecting optimal fabrics for banking uniforms in Saudi Arabia that balance professionalism, comfort, and durability in the Kingdom\'s unique climate conditions.',
 }

@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/retail-uniform-suppliers-guide',
   title: 'Sourcing Guide: Finding Reliable Retail Uniform Suppliers in Saudi Arabia (2025)',
   description: "دليل شامل للعثور على موردي الزي الموحد لقطاع التجزئة في المملكة العربية السعودية، مع تحليل متعمق للخيارات المحلية والدولية، ومعايير اختيار الموردين، واستراتيجيات التفاوض الفعالة المناسبة للسوق السعودي.",
 }

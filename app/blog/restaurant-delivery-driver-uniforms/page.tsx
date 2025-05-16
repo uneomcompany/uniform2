@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/restaurant-delivery-driver-uniforms',
   title: 'Uniforms for Delivery Drivers: Branding Your KSA Restaurant on the Go (2025)',
   description: "Comprehensive guide to designing effective delivery driver uniforms for Saudi Arabian restaurants, maximizing brand visibility, enhancing safety, and creating positive customer impressions through mobile brand representatives in the Kingdom's expanding food delivery market.",
 }

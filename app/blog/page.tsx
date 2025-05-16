@@ -6,6 +6,7 @@ import BlogPostCard from '../components/BlogPostCard'
 import LazyPosts from '../../components/LazyPosts'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog',
   title: 'Blog - Saudi Uniform Solutions',
   description: 'Explore articles and insights about uniform solutions for various sectors in Saudi Arabia including transport, aviation, banking, industrial, restaurants, and retail.',
 }

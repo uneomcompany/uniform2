@@ -7,6 +7,7 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
+  canonical: 'https://abjdeat.com/blog/fahad-alanazi',
   title: 'Corporate Uniform Policies: Best Practices for Saudi Companies',
   description: 'Learn effective strategies for developing and implementing corporate uniform policies in Saudi Arabian companies.',
 }
