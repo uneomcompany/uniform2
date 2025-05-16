@@ -1,12 +1,21 @@
 "use client"
 
 import React, { useState, useRef, useEffect } from 'react';
-import Image, { ImageProps } from 'next/image';
+import StaticImageFix from './StaticImageFix';
 import FallbackImage from './FallbackImage';
 
-interface SafeImageProps extends Omit<ImageProps, 'onError'> {
+interface SafeImageProps {
+  src: string;
+  alt: string;
   fallbackPaths?: string[];
   placeholderText?: string;
+  width?: number | string;
+  height?: number | string;
+  className?: string;
+  fill?: boolean;
+  style?: React.CSSProperties;
+  priority?: boolean;
+  onClick?: () => void;
 }
 
 export default function SafeImage({ 
@@ -17,27 +26,20 @@ export default function SafeImage({
   width,
   height,
   className,
-  ...props 
+  fill,
+  style,
+  priority,
+  onClick
 }: SafeImageProps) {
   const [currentSrcIndex, setCurrentSrcIndex] = useState(0);
   const [error, setError] = useState(false);
-  const imageKey = useRef(0);
   
   // Create an array with the original source and all fallback paths
-  const allPaths = [src.toString(), ...fallbackPaths];
+  const allPaths = [src, ...fallbackPaths];
   
   // Current source to try
   const currentSrc = currentSrcIndex < allPaths.length ? allPaths[currentSrcIndex] : null;
   
-  // When currentSrcIndex changes, reset the error state
-  useEffect(() => {
-    if (currentSrcIndex < allPaths.length) {
-      setError(false);
-      imageKey.current += 1;
-    }
-  }, [currentSrcIndex, allPaths.length]);
-
-  // Handle image load error
   const handleError = () => {
     if (currentSrcIndex < allPaths.length - 1) {
       setCurrentSrcIndex(prev => prev + 1);
@@ -49,7 +51,7 @@ export default function SafeImage({
   if (error || !currentSrc) {
     return (
       <FallbackImage 
-        alt={placeholderText || alt.toString()}
+        alt={placeholderText || alt}
         width={typeof width === 'number' ? width : 800}
         height={typeof height === 'number' ? height : 600}
         className={typeof className === 'string' ? className : 'relative h-64'} 
@@ -57,17 +59,28 @@ export default function SafeImage({
     );
   }
 
+  // Prepare styles for the fill property
+  const imageStyle: React.CSSProperties = fill ? {
+    position: 'absolute' as const,
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    width: '100%',
+    height: '100%',
+    ...(style || {})
+  } : (style || {});
+
   return (
-    <Image
-      key={imageKey.current}
+    <StaticImageFix
       src={currentSrc}
       alt={alt}
-      width={width}
-      height={height}
+      width={fill ? '100%' : width}
+      height={fill ? '100%' : height}
       className={className}
-      onError={handleError}
-      unoptimized
-      {...props}
+      style={imageStyle}
+      onClick={onClick}
+      fallbackSrc={fallbackPaths[fallbackPaths.length - 1] || '/images/fallback-image.jpg'}
     />
   );
 } 

@@ -22,17 +22,19 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.netlify.app; img-src 'self' data: blob: *.netlify.app images.unsplash.com; media-src 'self' *.netlify.app; connect-src 'self' *.netlify.app;"
 
-# These redirects ensure that all routes work with Next.js
+# Specific redirects for static assets
+[[redirects]]
+  from = "/images/*"
+  to = "/images/:splat"
+  status = 200
+
+# Handle _next static files
 [[redirects]]
   from = "/_next/static/*"
   to = "/_next/static/:splat"
   status = 200
 
-[[redirects]]
-  from = "/api/*"
-  to = "/api/:splat"
-  status = 200
-
+# SPA fallback
 [[redirects]]
   from = "/*"
   to = "/index.html"
