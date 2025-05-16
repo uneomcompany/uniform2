@@ -7,8 +7,8 @@ import ShareButtons from '../../components/ShareButtons'
 import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
-  title: 'Retail Uniform Trends Shaping Saudi Arabia's Customer Experience',
-  description: 'Explore how retail uniform trends are evolving to enhance customer experience in Saudi Arabia's competitive retail landscape.',
+  title: 'Retail Uniform Trends Shaping Saudi Arabia\'s Customer Experience',
+  description: 'Explore how retail uniform trends are evolving to enhance customer experience in Saudi Arabia\'s competitive retail landscape.',
 }
 
 export default function ArticlePage() {
