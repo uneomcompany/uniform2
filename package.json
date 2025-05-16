@@ -5,18 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint",
-    "netlify-build": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.41.3",
-    "@netlify/esbuild": "^0.14.39",
     "@types/node": "^20.17.47",
     "@types/react": "^18.3.21",
     "@types/react-dom": "18.2.14",
     "autoprefixer": "10.4.16",
-    "esbuild": "^0.14.39",
     "eslint": "8.52.0",
     "eslint-config-next": "14.0.1",
     "next": "14.0.1",

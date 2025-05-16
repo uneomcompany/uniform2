@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  ignore = "git diff --quiet HEAD^ HEAD ./"
 
 [build.environment]
   NEXT_PUBLIC_SITE_URL = "https://gregarious-sawine-ed40c7.netlify.app"
@@ -9,7 +10,7 @@
   NEXT_PUBLIC_NETLIFY = "true"
   NODE_ENV = "production"
   NODE_VERSION = "18"
-  NPM_FLAGS = "--no-audit --no-fund"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
@@ -37,4 +38,5 @@
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200 
+  status = 200
+  force = false 
