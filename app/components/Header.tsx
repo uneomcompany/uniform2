@@ -9,7 +9,7 @@ import HeaderLogo from './HeaderLogo'
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const [isSectorsDropdownOpen, setIsSectorsDropdownOpen] = useState(false)
+  const [openDropdowns, setOpenDropdowns] = useState<Record<string, boolean>>({})
   const pathname = usePathname()
 
   // Handle scroll effect
@@ -25,21 +25,49 @@ export default function Header() {
     }
   }, [])
 
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleDocumentClick = (event: MouseEvent) => {
+      const dropdownMenus = document.querySelectorAll('.dropdown-menu-container');
+      let clickedInsideDropdown = false;
+
+      dropdownMenus.forEach(menu => {
+        if (menu.contains(event.target as Node)) {
+          clickedInsideDropdown = true;
+        }
+      });
+
+      if (!clickedInsideDropdown) {
+        setOpenDropdowns({});
+      }
+    };
+
+    document.addEventListener('click', handleDocumentClick);
+
+    return () => {
+      document.removeEventListener('click', handleDocumentClick);
+    };
+  }, []);
+
   // Close mobile menu when clicking outside
   useEffect(() => {
-    const handleClickOutside = () => {
-      setIsMobileMenuOpen(false)
-      setIsSectorsDropdownOpen(false)
-    }
+    const handleClickOutside = (event: MouseEvent) => {
+      // Check if the click was inside the mobile menu
+      const mobileMenu = document.querySelector('.mobile-menu-container');
+      if (mobileMenu && !mobileMenu.contains(event.target as Node)) {
+        setIsMobileMenuOpen(false);
+        setOpenDropdowns({});
+      }
+    };
 
     if (isMobileMenuOpen) {
-      document.addEventListener('click', handleClickOutside)
+      document.addEventListener('click', handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('click', handleClickOutside)
-    }
-  }, [isMobileMenuOpen])
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
 
   // Handle mobile menu toggle
   const toggleMobileMenu = (e: React.MouseEvent) => {
@@ -47,10 +75,13 @@ export default function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen)
   }
 
-  // Handle sectors dropdown toggle
-  const toggleSectorsDropdown = (e: React.MouseEvent) => {
+  // Handle dropdown toggle
+  const toggleDropdown = (e: React.MouseEvent, name: string) => {
     e.stopPropagation()
-    setIsSectorsDropdownOpen(!isSectorsDropdownOpen)
+    setOpenDropdowns(prev => ({
+      ...prev,
+      [name]: !prev[name]
+    }))
   }
 
   // Navigation links
@@ -105,13 +136,14 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link, index) => (
-              <div key={index} className="relative group">
+              <div key={index} className="relative group dropdown-menu-container">
                 {link.hasDropdown ? (
                   <>
                     <button 
                       onClick={(e) => {
-                        e.preventDefault()
-                        e.stopPropagation()
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleDropdown(e, link.name);
                       }}
                       className={`flex items-center font-medium ${
                         pathname.includes(link.href) ? 'text-primary' : 'text-gray-800 hover:text-primary'
@@ -120,7 +152,7 @@ export default function Header() {
                       {link.name}
                       <svg 
                         xmlns="http://www.w3.org/2000/svg" 
-                        className="h-4 w-4 ml-1" 
+                        className={`h-4 w-4 ml-1 transition-transform ${openDropdowns[link.name] ? 'rotate-180' : ''}`}
                         fill="none" 
                         viewBox="0 0 24 24" 
                         stroke="currentColor"
@@ -129,7 +161,11 @@ export default function Header() {
                       </svg>
                     </button>
                     {/* Dropdown Menu */}
-                    <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left">
+                    <div 
+                      className={`absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 
+                        transition-all duration-300 transform origin-top-left
+                        ${openDropdowns[link.name] ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'}`}
+                    >
                       <div className="py-1">
                         <Link
                           href={link.href}
@@ -201,7 +237,7 @@ export default function Header() {
       <div
         className={`fixed inset-0 bg-white z-40 transform ${
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        } transition-transform duration-300 lg:hidden`}
+        } transition-transform duration-300 lg:hidden mobile-menu-container`}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex flex-col h-full pt-20 overflow-y-auto">
@@ -211,7 +247,11 @@ export default function Header() {
                 {link.hasDropdown ? (
                   <div>
                     <button 
-                      onClick={toggleSectorsDropdown}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleDropdown(e, link.name);
+                      }}
                       className={`flex items-center justify-between w-full py-2 font-medium ${
                         pathname.includes(link.href) ? 'text-primary' : 'text-gray-800'
                       }`}
@@ -219,7 +259,7 @@ export default function Header() {
                       {link.name}
                       <svg 
                         xmlns="http://www.w3.org/2000/svg" 
-                        className={`h-4 w-4 ml-1 transition-transform ${isSectorsDropdownOpen ? 'rotate-180' : ''}`}
+                        className={`h-4 w-4 ml-1 transition-transform ${openDropdowns[link.name] ? 'rotate-180' : ''}`}
                         fill="none" 
                         viewBox="0 0 24 24" 
                         stroke="currentColor"
@@ -228,7 +268,7 @@ export default function Header() {
                       </svg>
                     </button>
                     {/* Mobile Dropdown */}
-                    <div className={`ml-4 mt-2 space-y-2 ${isSectorsDropdownOpen ? 'block' : 'hidden'}`}>
+                    <div className={`ml-4 mt-2 space-y-2 ${openDropdowns[link.name] ? 'block' : 'hidden'}`}>
                       <Link
                         href={link.href}
                         className={`block py-2 text-sm font-semibold ${
