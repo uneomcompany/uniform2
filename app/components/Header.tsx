@@ -29,7 +29,14 @@ export default function Header() {
   useEffect(() => {
     const handleDocumentClick = (event: MouseEvent) => {
       const dropdownMenus = document.querySelectorAll('.dropdown-menu-container');
+      const dropdownButtons = document.querySelectorAll('.dropdown-button');
       let clickedInsideDropdown = false;
+
+      dropdownButtons.forEach(button => {
+        if (button.contains(event.target as Node)) {
+          clickedInsideDropdown = true;
+        }
+      });
 
       dropdownMenus.forEach(menu => {
         if (menu.contains(event.target as Node)) {
@@ -73,10 +80,12 @@ export default function Header() {
   const toggleMobileMenu = (e: React.MouseEvent) => {
     e.stopPropagation()
     setIsMobileMenuOpen(!isMobileMenuOpen)
+    setOpenDropdowns({}) // Close any open dropdowns when toggling mobile menu
   }
 
   // Handle dropdown toggle
   const toggleDropdown = (e: React.MouseEvent, name: string) => {
+    e.preventDefault();
     e.stopPropagation()
     setOpenDropdowns(prev => ({
       ...prev,
@@ -136,18 +145,15 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {navLinks.map((link, index) => (
-              <div key={index} className="relative group dropdown-menu-container">
+              <div key={index} className="relative group">
                 {link.hasDropdown ? (
                   <>
                     <button 
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        toggleDropdown(e, link.name);
-                      }}
-                      className={`flex items-center font-medium ${
+                      className={`dropdown-button flex items-center font-medium ${
                         pathname.includes(link.href) ? 'text-primary' : 'text-gray-800 hover:text-primary'
                       }`}
+                      onClick={(e) => toggleDropdown(e, link.name)}
+                      aria-expanded={openDropdowns[link.name] || false}
                     >
                       {link.name}
                       <svg 
@@ -162,9 +168,12 @@ export default function Header() {
                     </button>
                     {/* Dropdown Menu */}
                     <div 
-                      className={`absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 
-                        transition-all duration-300 transform origin-top-left
-                        ${openDropdowns[link.name] ? 'opacity-100 visible' : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'}`}
+                      className={`dropdown-menu-container absolute top-full left-0 mt-1 w-52 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 transition-all duration-300 transform origin-top-left
+                      ${
+                        openDropdowns[link.name] 
+                          ? 'opacity-100 visible' 
+                          : 'opacity-0 invisible group-hover:opacity-100 group-hover:visible'
+                      }`}
                     >
                       <div className="py-1">
                         <Link
@@ -218,6 +227,7 @@ export default function Header() {
           <button
             className="lg:hidden relative z-10"
             onClick={toggleMobileMenu}
+            aria-expanded={isMobileMenuOpen}
           >
             <span className="sr-only">Open menu</span>
             {isMobileMenuOpen ? (
@@ -247,14 +257,11 @@ export default function Header() {
                 {link.hasDropdown ? (
                   <div>
                     <button 
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        toggleDropdown(e, link.name);
-                      }}
-                      className={`flex items-center justify-between w-full py-2 font-medium ${
+                      onClick={(e) => toggleDropdown(e, link.name)}
+                      className={`dropdown-button flex items-center justify-between w-full py-2 font-medium ${
                         pathname.includes(link.href) ? 'text-primary' : 'text-gray-800'
                       }`}
+                      aria-expanded={openDropdowns[link.name] || false}
                     >
                       {link.name}
                       <svg 
@@ -268,13 +275,20 @@ export default function Header() {
                       </svg>
                     </button>
                     {/* Mobile Dropdown */}
-                    <div className={`ml-4 mt-2 space-y-2 ${openDropdowns[link.name] ? 'block' : 'hidden'}`}>
+                    <div 
+                      className={`ml-4 mt-2 space-y-2 overflow-hidden transition-all duration-300 ${
+                        openDropdowns[link.name] ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                      }`}
+                    >
                       <Link
                         href={link.href}
                         className={`block py-2 text-sm font-semibold ${
                           pathname === link.href ? 'text-primary' : 'text-gray-700'
                         }`}
-                        onClick={() => setIsMobileMenuOpen(false)}
+                        onClick={() => {
+                          setIsMobileMenuOpen(false);
+                          setOpenDropdowns({});
+                        }}
                       >
                         All {link.name}
                       </Link>
@@ -286,7 +300,10 @@ export default function Header() {
                           className={`block py-2 text-sm ${
                             pathname === item.href ? 'text-primary' : 'text-gray-700'
                           }`}
-                          onClick={() => setIsMobileMenuOpen(false)}
+                          onClick={() => {
+                            setIsMobileMenuOpen(false);
+                            setOpenDropdowns({});
+                          }}
                         >
                           {item.name}
                         </Link>
@@ -320,4 +337,4 @@ export default function Header() {
       </div>
     </header>
   )
-} 
+}
