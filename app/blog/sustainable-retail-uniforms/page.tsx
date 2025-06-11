@@ -8,40 +8,44 @@ import TableOfContents from '../../components/TableOfContents'
 
 export const metadata = {
   canonical: 'https://abjdeat.com/blog/sustainable-retail-uniforms',
-  title: 'Sustainable Retail Uniforms: Appealing to Eco-Conscious Saudi Consumers (2025)',
-  description: "دراسة شاملة لكيفية تبني الأزياء الموحدة المستدامة في قطاع التجزئة السعودي كاستراتيجية فعالة لجذب المستهلكين المهتمين بالاستدامة البيئية، مع تحليل متعمق للمواد الصديقة للبيئة، وممارسات التصنيع المسؤولة، وتأثيرها الإيجابي على سمعة العلامة التجارية والمبيعات.",
+  title: 'Sustainable Retail Uniforms: Environmental Excellence and Professional Style in Saudi Arabia (2025)',
+  description: 'Comprehensive guide to implementing sustainable uniform solutions for retail operations in Saudi Arabia. Explore eco-friendly materials, circular economy practices, environmental performance, and professional aesthetics for modern retail environments.',
 }
 
-export default function ArticlePage() {
+export default function SustainableRetailUniforms() {
   // Table of contents data
   const tocItems = [
-    { id: "introduction", title: "مقدمة | Introduction" },
-    { id: "saudi-eco-trends", title: "توجهات المستهلك السعودي البيئية | Saudi Eco Consumer Trends" },
-    { id: "sustainable-materials", title: "المواد المستدامة والتقنيات | Sustainable Materials & Techniques" },
-    { id: "brand-alignment", title: "مواءمة العلامة التجارية والاستدامة | Brand & Sustainability Alignment" },
-    { id: "implementation", title: "تنفيذ برنامج الزي المستدام | Sustainable Uniform Implementation" },
-    { id: "roi-analysis", title: "تحليل العائد على الاستثمار | ROI Analysis" },
-    { id: "conclusion", title: "الخلاصة | Conclusion" },
+    { id: "introduction", title: "Retail Sustainability Revolution" },
+    { id: "eco-materials", title: "Eco-Friendly Materials Innovation" },
+    { id: "circular-economy", title: "Circular Economy Implementation" },
+    { id: "environmental-performance", title: "Environmental Performance Optimization" },
+    { id: "professional-aesthetics", title: "Professional Aesthetics and Style" },
+    { id: "customer-perception", title: "Customer Perception and Brand Value" },
+    { id: "cost-effectiveness", title: "Cost-Effectiveness and ROI" },
+    { id: "certification-standards", title: "Certification and Standards" },
+    { id: "implementation-strategy", title: "Implementation Strategy" },
+    { id: "future-innovations", title: "Future Innovations" },
+    { id: "conclusion", title: "Strategic Conclusion" },
   ]
   
   // Related articles
   const relatedArticles = [
     {
-      title: "The Role of Uniforms in Creating a Cohesive In-Store Experience in KSA",
-      url: "/blog/cohesive-retail-experience-uniforms",
-      category: "Retail",
+      title: "Eco-Friendly Transport Uniforms: Sustainable Innovation",
+      url: "/blog/eco-friendly-transport-uniforms",
+      category: "Sustainability",
+      categoryColor: "bg-green-600"
+    },
+    {
+      title: "Revolutionary Transport Uniform Trends 2025: Shaping Saudi Arabia's Future",
+      url: "/blog/transport-uniform-trends-2025",
+      category: "Transport",
       categoryColor: "bg-blue-600"
     },
     {
-      title: "Future of Retail Fashion: Smart Uniforms & Personalized Experiences in KSA (2025)",
-      url: "/blog/future-retail-uniform-innovations",
-      category: "Retail",
-      categoryColor: "bg-blue-600"
-    },
-    {
-      title: "Adapting Retail Uniforms for Seasonal Promotions and Campaigns in Saudi Arabia",
-      url: "/blog/seasonal-retail-uniform-promotions",
-      category: "Retail",
+      title: "Customer-Facing Transport Uniforms: Professional Excellence",
+      url: "/blog/customer-facing-transport-uniforms",
+      category: "Transport",
       categoryColor: "bg-blue-600"
     }
   ]
@@ -49,13 +53,13 @@ export default function ArticlePage() {
   return (
     <main className="bg-white">
       <BlogHeader 
-        title="Sustainable Retail Uniforms: Appealing to Eco-Conscious Saudi Consumers (2025)"
-        category="Retail"
-        categoryColor="bg-blue-600"
-        publishDate="May 12, 2025"
-        readingTime="14 min read"
-        imageSrc="/images/retail_sector/custom_uniforms.jpg"
-        imageAlt="موظفو متجر سعودي يرتدون أزياء موحدة مصنوعة من مواد مستدامة، تعكس التزام العلامة التجارية بالممارسات البيئية المسؤولة"
+        title="Sustainable Retail Uniforms: Environmental Excellence and Professional Style in Saudi Arabia (2025)"
+        category="Sustainability"
+        categoryColor="bg-green-600"
+        publishDate="December 15, 2024"
+        readingTime="19 min read"
+        imageSrc="/images/retail_sector/retail_uniforms.jpg"
+        imageAlt="Sustainable retail uniforms showcasing environmental excellence and professional style in Saudi Arabia"
       />
 
       <div className="container mx-auto px-4 py-12 max-w-4xl">
@@ -63,378 +67,324 @@ export default function ArticlePage() {
           <div className="md:w-3/4">
             {/* Introduction */}
             <section id="introduction" className="mb-12">
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                مع تزايد الوعي البيئي بين المستهلكين السعوديين، أصبحت الاستدامة عنصراً أساسياً في استراتيجيات العلامات التجارية الناجحة في المملكة. تمثل الأزياء الموحدة للموظفين فرصة قيّمة وغالباً ما تكون غير مستغلة للشركات لإظهار التزامها بالممارسات البيئية المسؤولة بطريقة ملموسة ومرئية للعملاء بشكل يومي.
+              <p className="text-lg leading-relaxed mb-6">
+                The retail sector in Saudi Arabia stands at the forefront of a sustainability revolution, driven by Vision 2030's environmental objectives and growing consumer consciousness about environmental responsibility. Sustainable retail uniforms represent a critical opportunity for businesses to demonstrate environmental leadership while maintaining professional excellence and operational efficiency. This transformation reflects the Kingdom's commitment to environmental stewardship and positions Saudi retailers as pioneers in sustainable business practices.
               </p>
               <p className="text-lg leading-relaxed mb-6">
-                With growing environmental awareness among Saudi consumers, sustainability has become a critical element in successful brand strategies across the Kingdom. Employee uniforms represent a valuable and often overlooked opportunity for companies to demonstrate their commitment to responsible environmental practices in a tangible, visible way that customers experience daily.
+                The integration of sustainability principles into retail uniform design creates unprecedented opportunities for environmental impact reduction while enhancing brand value and customer perception. This comprehensive analysis explores the strategic implementation of sustainable uniform solutions that balance environmental responsibility with professional aesthetics, operational functionality, and cost-effectiveness within Saudi Arabia's dynamic retail landscape.
               </p>
-              <p className="text-lg leading-relaxed mb-6 text-right" dir="rtl">
-                تستكشف هذه المقالة كيف يمكن لتجار التجزئة في المملكة العربية السعودية تطوير برامج أزياء موحدة مستدامة تتماشى مع القيم البيئية المتنامية للمستهلكين المحليين. مع توقع وصول سوق المنتجات المستدامة في المملكة إلى 30 مليار ريال سعودي بحلول عام 2026، فإن دمج الاستدامة في جميع جوانب عمليات البيع بالتجزئة - بما في ذلك أزياء الموظفين - يمثل استراتيجية تنافسية حاسمة للشركات التي تتطلع إلى جذب شريحة المستهلكين المتنامية والواعية بيئياً.
+              <p className="text-lg leading-relaxed mb-6">
+                The 2025 standards for sustainable retail uniforms establish new benchmarks for environmental excellence, incorporating cutting-edge eco-friendly materials, circular economy principles, and innovative production methods. These guidelines position Saudi retailers to lead global sustainability initiatives while delivering superior customer experiences and operational performance.
               </p>
             </section>
 
             {/* Main Image */}
             <div className="mb-12">
               <Image 
-                src="/images/retail_sector/custom_uniforms.jpg"
-                alt="موظفو متجر سعودي يرتدون أزياء موحدة مصنوعة من مواد مستدامة، تعكس التزام العلامة التجارية بالممارسات البيئية المسؤولة"
+                src="/images/retail_sector/staff_uniforms.jpeg"
+                alt="Retail professionals demonstrating sustainable uniform solutions and environmental excellence"
                 width={800}
                 height={500}
                 className="rounded-lg"
               />
-              <p className="text-sm text-gray-600 mt-2 italic text-right" dir="rtl">فريق مبيعات في متجر رائد في مجال الاستدامة في جدة يرتدي أزياء موحدة مصنوعة من قطن عضوي معتمد وألياف معاد تدويرها، مع بطاقات تعريفية توضح المزايا البيئية لهذه الأزياء</p>
+              <p className="text-sm text-gray-600 mt-2 italic">Retail professionals showcasing the integration of environmental sustainability, professional aesthetics, and operational excellence in modern Saudi retail environments</p>
             </div>
 
-            {/* Saudi Eco Trends Section */}
-            <section id="saudi-eco-trends" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">توجهات المستهلك السعودي البيئية | Saudi Eco Consumer Trends</h2>
+            {/* Eco-Friendly Materials Section */}
+            <section id="eco-materials" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Eco-Friendly Materials Innovation</h2>
               
               <p className="mb-6">
-                Understanding the evolving environmental consciousness in the Saudi retail market:
+                Revolutionary material innovations enable sustainable retail uniforms without compromising quality, durability, or professional appearance:
               </p>
-              
-              <h3 className="text-xl font-semibold mb-4">The Growing Eco-Conscious Segment</h3>
-              
-              <p className="mb-6">
-                Analysis of the expanding sustainability-focused consumer demographic:
-              </p>
-              
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Generational shifts</strong> – Saudi youth (18-35) demonstrating significantly stronger preference for environmentally responsible brands, with 67% willing to pay a premium for sustainable products</li>
-                <li><strong>Education correlation</strong> – Increasing correlation between higher education levels and environmental purchasing considerations</li>
-                <li><strong>Urban concentration</strong> – Stronger sustainable consumption trends in major metropolitan areas (Riyadh, Jeddah, Eastern Province)</li>
-                <li><strong>Social signaling value</strong> – Growing importance of visible sustainability practices as status indicators among affluent consumers</li>
-              </ul>
-              
-              <h3 className="text-xl font-semibold mb-4">مواءمة الاستدامة مع القيم الثقافية السعودية | Aligning Sustainability with Saudi Cultural Values</h3>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                كيف ترتبط المفاهيم البيئية الحديثة بالقيم التقليدية في المملكة:
-              </p>
-              
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>مفهوم الاستخلاف</strong> – ارتباط الحفاظ على البيئة بالمفهوم الإسلامي للإنسان كمستخلف مسؤول عن رعاية الأرض</li>
-                <li><strong>الاعتدال والتوازن</strong> – توافق الاستهلاك المستدام مع القيم الإسلامية للاعتدال وتجنب الإسراف</li>
-                <li><strong>التكامل مع رؤية 2030</strong> – مواءمة المبادرات البيئية مع الأهداف الوطنية للاستدامة ضمن رؤية المملكة</li>
-                <li><strong>التراث والمعرفة التقليدية</strong> – إحياء الممارسات التقليدية المستدامة في تصميم المنتجات والمواد</li>
-              </ul>
-              
-              <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold mb-2">Market Research Insight</h4>
-                <p>
-                  According to a 2024 comprehensive survey of Saudi retail consumers, 72% reported that visible sustainability practices significantly influence their perception of brand quality and value. Importantly, 64% specifically mentioned staff uniforms as an indicator they notice when evaluating a company's environmental commitment, ranking it as the third most visible sustainability signal after packaging and store design. This presents a clear opportunity for retailers to leverage sustainable uniforms as a powerful communication tool for their broader environmental initiatives.
-                </p>
-              </div>
-            </section>
 
-            {/* Sustainable Materials Section */}
-            <section id="sustainable-materials" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">المواد المستدامة والتقنيات | Sustainable Materials & Techniques</h2>
+              <h3 className="text-xl font-semibold mb-4">Organic and Natural Fibers</h3>
               
-              <p className="mb-6 text-right" dir="rtl">
-                الخيارات المتاحة لتطوير أزياء موحدة تجمع بين الاستدامة البيئية والأداء العملي:
-              </p>
-              
-              <h3 className="text-xl font-semibold mb-4">الألياف المستدامة المناسبة للمناخ السعودي | Climate-Appropriate Sustainable Fibers</h3>
-              
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>القطن العضوي المعتمد</strong> – منتج بدون مبيدات حشرية أو أسمدة كيميائية، مثالي للمناخ الحار مع تقليل البصمة البيئية بنسبة 46٪ مقارنة بالقطن التقليدي</li>
-                <li><strong>الألياف المعاد تدويرها</strong> – استخدام البوليستر المعاد تدويره من الزجاجات البلاستيكية، يقلل استهلاك النفط ويحول النفايات عن مكبات القمامة</li>
-                <li><strong>ألياف التنزل</strong> – مشتقة من لحاء الأشجار، توفر خصائص تبريد طبيعي مثالية لأشهر الصيف الحارة</li>
-                <li><strong>الكتان العضوي</strong> – يتطلب كميات أقل بكثير من المياه للزراعة مقارنة بالقطن، ويوفر متانة استثنائية مع وزن خفيف</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Organic cotton integration</strong> – Pesticide-free cotton production supporting environmental health and worker safety while maintaining fabric quality and comfort</li>
+                <li><strong>Hemp fiber utilization</strong> – Naturally antimicrobial and durable hemp fibers providing superior longevity and environmental benefits</li>
+                <li><strong>Bamboo textile innovation</strong> – Rapidly renewable bamboo fibers offering natural moisture-wicking and temperature regulation properties</li>
+                <li><strong>Linen and flax applications</strong> – Natural cooling properties ideal for Saudi Arabia's climate while supporting sustainable agriculture practices</li>
               </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Recycled and Upcycled Materials</h3>
               
-              <h3 className="text-xl font-semibold mb-4">Advanced Production Techniques</h3>
-              
-              <p className="mb-6">
-                Manufacturing approaches that enhance environmental performance:
-              </p>
-              
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Water-conserving dyeing processes</strong> – Advanced technologies reducing water usage by up to 90% compared to traditional dyeing methods</li>
-                <li><strong>Zero-waste pattern cutting</strong> – Design methods eliminating fabric waste during uniform production</li>
-                <li><strong>Energy-efficient manufacturing</strong> – Solar-powered production facilities reducing carbon footprint of uniform creation</li>
-                <li><strong>Biodegradable treatments</strong> – Non-toxic finishes and treatments ensuring uniforms break down naturally at end-of-life</li>
-              </ul>
-              
-              <div className="overflow-x-auto mb-6">
-                <table className="min-w-full bg-white border border-gray-200">
-                  <thead>
-                    <tr>
-                      <th className="p-3 border border-gray-200 bg-gray-50 text-left">Material Type</th>
-                      <th className="p-3 border border-gray-200 bg-gray-50 text-left">Environmental Benefits</th>
-                      <th className="p-3 border border-gray-200 bg-gray-50 text-left">Practical Considerations for KSA</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Organic Cotton</td>
-                      <td className="p-3 border border-gray-200">No pesticides, 71% less water usage</td>
-                      <td className="p-3 border border-gray-200">Excellent for direct customer contact, breathable in heat</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Recycled Polyester</td>
-                      <td className="p-3 border border-gray-200">79% lower carbon emissions vs. virgin polyester</td>
-                      <td className="p-3 border border-gray-200">Durable for high-traffic areas, quick-drying properties</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Hemp Blends</td>
-                      <td className="p-3 border border-gray-200">Minimal water needs, no pesticides required</td>
-                      <td className="p-3 border border-gray-200">Natural UV protection, improves with washing</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 border border-gray-200">TENCEL™ Lyocell</td>
-                      <td className="p-3 border border-gray-200">Closed-loop production, biodegradable</td>
-                      <td className="p-3 border border-gray-200">Superior moisture management for Saudi climate</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              
-              <h3 className="text-xl font-semibold mb-4">اعتبارات دورة الحياة الكاملة | Full Lifecycle Considerations</h3>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                نهج شامل للاستدامة يتجاوز مرحلة الإنتاج:
-              </p>
-              
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>توقعات المتانة والعمر الافتراضي</strong> – تصميم أزياء مبنية لتدوم لفترة أطول بنسبة 40-60٪ من الأزياء التقليدية، مما يقلل الحاجة للاستبدال المتكرر</li>
-                <li><strong>قابلية الإصلاح</strong> – تصميمات تتيح إصلاح أو استبدال الأجزاء التالفة بدلاً من استبدال القطعة بأكملها</li>
-                <li><strong>قابلية إعادة التدوير</strong> – تجنب المواد المختلطة التي يصعب فصلها عند انتهاء العمر الافتراضي</li>
-                <li><strong>برامج الاستعادة</strong> – أنظمة لاستعادة الأزياء المستعملة وإعادة تدويرها أو تحويلها إلى منتجات جديدة</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Post-consumer recycled polyester</strong> – High-performance fabrics created from recycled plastic bottles and textile waste</li>
+                <li><strong>Regenerated fiber systems</strong> – Advanced processing technologies converting textile waste into new high-quality fibers</li>
+                <li><strong>Ocean plastic integration</strong> – Innovative materials created from ocean plastic waste contributing to marine environment protection</li>
+                <li><strong>Closed-loop recycling systems</strong> – Comprehensive material recovery and reprocessing enabling continuous material reuse</li>
               </ul>
             </section>
 
-            {/* Brand Alignment Section */}
-            <section id="brand-alignment" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">مواءمة العلامة التجارية والاستدامة | Brand & Sustainability Alignment</h2>
+            {/* Circular Economy Section */}
+            <section id="circular-economy" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Circular Economy Implementation</h2>
               
               <p className="mb-6">
-                Strategies for effectively integrating sustainability initiatives into brand identity:
+                Comprehensive circular economy principles transform retail uniform lifecycle management and environmental impact:
               </p>
+
+              <h3 className="text-xl font-semibold mb-4">Design for Circularity</h3>
               
-              <h3 className="text-xl font-semibold mb-4">Authentic Sustainability Storytelling</h3>
-              
-              <p className="mb-6">
-                Creating meaningful connections through transparent communication:
-              </p>
-              
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Beyond greenwashing</strong> – Developing substantive environmental programs with measurable impacts rather than superficial initiatives</li>
-                <li><strong>Certification leverage</strong> – Utilizing recognized third-party sustainability certifications to validate environmental claims</li>
-                <li><strong>Educational approach</strong> – Training staff to effectively communicate the sustainability features of their uniforms when customers express interest</li>
-                <li><strong>Contextual relevance</strong> – Connecting uniform sustainability to broader environmental challenges relevant to Saudi Arabia (water conservation, reducing plastic waste)</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Modular design architecture</strong> – Component-based uniform systems enabling selective replacement and upgrade without complete uniform disposal</li>
+                <li><strong>Disassembly optimization</strong> – Design features facilitating easy separation of materials for recycling and reprocessing</li>
+                <li><strong>Material compatibility systems</strong> – Strategic material selection ensuring compatibility for recycling and remanufacturing processes</li>
+                <li><strong>Durability enhancement</strong> – Extended lifespan design reducing replacement frequency and environmental impact</li>
               </ul>
+
+              <h3 className="text-xl font-semibold mb-4">End-of-Life Management</h3>
               
-              <h3 className="text-xl font-semibold mb-4">الاتصال المرئي المؤثر | Impactful Visual Communication</h3>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                كيفية جعل الاستدامة مرئية ومفهومة للعملاء:
-              </p>
-              
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>رموز الاستدامة المدمجة</strong> – إضافة عناصر تصميم محددة للأزياء تشير إلى الالتزام البيئي (شعارات معيدة للتدوير، ألوان مستوحاة من الطبيعة)</li>
-                <li><strong>شارات معلوماتية</strong> – شارات صغيرة على الأزياء توضح ميزات الاستدامة بشكل بسيط</li>
-                <li><strong>عناصر بصرية مكملة</strong> – استخدام لافتات المتجر والمواد التسويقية لشرح مزايا الزي المستدام</li>
-                <li><strong>القصص المرئية</strong> – عرض مراحل إنتاج الزي المستدام من خلال صور أو رسوم بيانية داخل المتجر</li>
-              </ul>
-              
-              <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold mb-2">Case Study: Saudi Pharmacy Chain</h4>
-                <p>
-                  A leading Saudi pharmacy retailer successfully integrated sustainable uniforms into their broader environmental initiative with remarkable results. Their program featured uniforms made from 85% recycled water bottles, with each staff member's uniform diverting approximately 25 plastic bottles from landfills. The uniforms included small informational tags highlighting this impact, while in-store displays showed the transformation process from bottles to fabric. The company reported a 34% increase in positive brand perception among environmentally conscious customers, along with a 27% improvement in staff satisfaction. Most notably, the program became a key differentiator that helped secure preferred partner status with several eco-minded international brands seeking regional distribution.
-                </p>
-              </div>
-              
-              <h3 className="text-xl font-semibold mb-4">Competitive Differentiation Strategy</h3>
-              
-              <p className="mb-6">
-                Using sustainable uniforms to establish market distinction:
-              </p>
-              
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Industry leadership positioning</strong> – Establishing first-mover advantage in sustainable uniform adoption within specific retail sectors</li>
-                <li><strong>Sustainability specialization</strong> – Developing category expertise in particular aspects of environmental performance (water conservation, local sourcing)</li>
-                <li><strong>Cross-sector collaboration</strong> – Partnering with sustainability leaders in adjacent industries to create innovative uniform solutions</li>
-                <li><strong>Progressive improvement commitment</strong> – Public pledges to continuously enhance environmental performance of uniform programs</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Take-back programs</strong> – Comprehensive collection systems ensuring proper uniform disposal and material recovery</li>
+                <li><strong>Remanufacturing processes</strong> – Advanced techniques converting used uniforms into new products and materials</li>
+                <li><strong>Biodegradable component integration</strong> – Strategic use of naturally decomposing materials for appropriate uniform elements</li>
+                <li><strong>Zero-waste objectives</strong> – Comprehensive strategies eliminating uniform waste through complete material recovery and reuse</li>
               </ul>
             </section>
 
-            {/* Implementation Section */}
-            <section id="implementation" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">تنفيذ برنامج الزي المستدام | Sustainable Uniform Implementation</h2>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                الخطوات العملية لتطوير وإطلاق برنامج أزياء موحدة مستدامة في البيئة السعودية:
-              </p>
-              
-              <h3 className="text-xl font-semibold mb-4">المراحل الرئيسية للتنفيذ | Key Implementation Phases</h3>
-              
-              <ol className="list-decimal pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>تحليل الوضع الحالي</strong> – تقييم شامل للأزياء الحالية وتأثيرها البيئي، وتحديد فرص التحسين الرئيسية</li>
-                <li><strong>وضع الأهداف القابلة للقياس</strong> – تحديد غايات محددة للتحسين البيئي (خفض البصمة الكربونية، تقليل استهلاك المياه)</li>
-                <li><strong>تطوير المواصفات</strong> – إنشاء معايير تفصيلية للمواد والتصنيع والتغليف والتوزيع</li>
-                <li><strong>اختيار الموردين المناسبين</strong> – العمل مع شركاء يمكنهم تلبية متطلبات الاستدامة مع الحفاظ على الجودة</li>
-                <li><strong>النماذج الأولية والاختبار</strong> – تطوير نماذج للتقييم في بيئات العمل الفعلية قبل التنفيذ الكامل</li>
-                <li><strong>التدريب والتواصل</strong> – إعداد الموظفين لفهم ميزات الاستدامة ومشاركتها مع العملاء</li>
-                <li><strong>الإطلاق والقياس</strong> – جمع بيانات الأداء لتقييم النجاح وتحديد فرص التحسين</li>
-              </ol>
-              
-              <h3 className="text-xl font-semibold mb-4">Supplier Selection Framework</h3>
+            {/* Environmental Performance Section */}
+            <section id="environmental-performance" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Environmental Performance Optimization</h2>
               
               <p className="mb-6">
-                Critical criteria for choosing manufacturing partners in sustainable uniform programs:
+                Advanced environmental performance metrics and optimization strategies maximize sustainability benefits:
               </p>
+
+              <h3 className="text-xl font-semibold mb-4">Carbon Footprint Reduction</h3>
               
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Transparent supply chain documentation</strong> – Ability to verify environmental claims through complete supply chain visibility</li>
-                <li><strong>Recognized certifications</strong> – Validation through standards like Global Organic Textile Standard (GOTS), OEKO-TEX, or Bluesign</li>
-                <li><strong>Local manufacturing capacity</strong> – Saudi-based production capabilities to reduce transportation emissions and support local economy</li>
-                <li><strong>Ethical labor practices</strong> – Demonstrated commitment to fair wages and safe working conditions throughout the production process</li>
-                <li><strong>Innovation capabilities</strong> – Ongoing research and development in sustainable textile technologies</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Local sourcing strategies</strong> – Regional material procurement reducing transportation emissions and supporting local economies</li>
+                <li><strong>Renewable energy manufacturing</strong> – Production facilities powered by solar and wind energy minimizing carbon emissions</li>
+                <li><strong>Carbon-negative processes</strong> – Manufacturing techniques actively removing CO2 from the atmosphere during production</li>
+                <li><strong>Lifecycle carbon assessment</strong> – Comprehensive measurement and optimization of carbon impact throughout uniform lifecycle</li>
               </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Water and Resource Conservation</h3>
               
-              <div className="overflow-x-auto mb-6">
-                <table className="min-w-full bg-white border border-gray-200">
-                  <thead>
-                    <tr>
-                      <th className="p-3 border border-gray-200 bg-gray-50 text-left">Implementation Challenge</th>
-                      <th className="p-3 border border-gray-200 bg-gray-50 text-left">Strategic Solution</th>
-                      <th className="p-3 border border-gray-200 bg-gray-50 text-left">Saudi Market Consideration</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Higher initial costs</td>
-                      <td className="p-3 border border-gray-200">Lifecycle costing approach, calculate long-term savings</td>
-                      <td className="p-3 border border-gray-200">Leverage Vision 2030 green incentives for sustainability initiatives</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Limited local supplier options</td>
-                      <td className="p-3 border border-gray-200">Supplier development programs, international partnerships</td>
-                      <td className="p-3 border border-gray-200">Opportunity to establish leadership in emerging Saudi textile sector</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Staff resistance to change</td>
-                      <td className="p-3 border border-gray-200">Participatory design process, employee education</td>
-                      <td className="p-3 border border-gray-200">Connect to cultural values of stewardship and responsible resource use</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 border border-gray-200">Performance concerns in extreme climate</td>
-                      <td className="p-3 border border-gray-200">Extensive field testing in actual working conditions</td>
-                      <td className="p-3 border border-gray-200">Special focus on heat management and durability in Saudi conditions</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Water-efficient production</strong> – Advanced manufacturing processes minimizing water consumption and wastewater generation</li>
+                <li><strong>Chemical-free processing</strong> – Natural and non-toxic treatment methods eliminating harmful chemical usage</li>
+                <li><strong>Resource optimization systems</strong> – Efficient material utilization minimizing waste and maximizing resource efficiency</li>
+                <li><strong>Closed-loop water systems</strong> – Water recycling and reuse technologies reducing environmental impact</li>
+              </ul>
             </section>
 
-            {/* ROI Analysis Section */}
-            <section id="roi-analysis" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">تحليل العائد على الاستثمار | ROI Analysis</h2>
+            {/* Professional Aesthetics Section */}
+            <section id="professional-aesthetics" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Professional Aesthetics and Style</h2>
               
               <p className="mb-6">
-                Quantifying the business benefits of sustainable uniform programs in Saudi retail:
+                Sustainable retail uniforms maintain superior professional appearance while advancing environmental objectives:
               </p>
+
+              <h3 className="text-xl font-semibold mb-4">Contemporary Design Excellence</h3>
               
-              <h3 className="text-xl font-semibold mb-4">Financial Return Factors</h3>
-              
-              <p className="mb-6">
-                Key components creating tangible business value:
-              </p>
-              
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Extended uniform lifespan</strong> – Premium sustainable materials typically offering 40-60% longer wear life, reducing replacement frequency and total ownership costs</li>
-                <li><strong>Energy and resource savings</strong> – Reduced laundering requirements and lower maintenance needs translating to operational cost reductions</li>
-                <li><strong>Customer acquisition value</strong> – Increased attraction of higher-spending eco-conscious consumer segments, particularly among premium shoppers</li>
-                <li><strong>Staff retention improvement</strong> – Measurable decrease in turnover rates among employees who value employer sustainability commitment</li>
-                <li><strong>Potential tax incentives</strong> – Emerging Saudi government programs offering financial benefits for documented environmental initiatives</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Modern aesthetic integration</strong> – Contemporary styling and design elements ensuring sustainable uniforms meet current fashion and professional standards</li>
+                <li><strong>Color innovation systems</strong> – Natural and low-impact dyeing processes creating vibrant, long-lasting colors</li>
+                <li><strong>Texture and finish optimization</strong> – Advanced sustainable treatments achieving premium fabric feel and appearance</li>
+                <li><strong>Customization capabilities</strong> – Flexible design systems enabling brand-specific customization while maintaining sustainability principles</li>
               </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Comfort and Functionality</h3>
               
-              <h3 className="text-xl font-semibold mb-4">القيمة غير الملموسة | Intangible Value</h3>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                الفوائد الاستراتيجية طويلة المدى التي تتجاوز التحليل المالي المباشر:
-              </p>
-              
-              <ul className="list-disc pr-6 mb-6 space-y-2 text-right" dir="rtl">
-                <li><strong>تعزيز سمعة العلامة التجارية</strong> – تحسين الصورة العامة كشركة مسؤولة بيئياً وأخلاقياً، خاصة على وسائل التواصل الاجتماعي</li>
-                <li><strong>استباق اللوائح التنظيمية</strong> – الاستعداد المبكر للمتطلبات البيئية المستقبلية المتوقعة ضمن التوجهات التنظيمية في المملكة</li>
-                <li><strong>تقوية العلاقات مع الموردين</strong> – تطوير شراكات استراتيجية مع موردين متخصصين في المنتجات المستدامة</li>
-                <li><strong>تحسين ثقافة العمل</strong> – زيادة فخر الموظفين بمكان عملهم وتعزيز الروح المعنوية عبر المنظمة</li>
-                <li><strong>جذب المواهب</strong> – تحسين القدرة على استقطاب جيل جديد من الموظفين السعوديين الذين يبحثون عن شركات تتماشى مع قيمهم البيئية</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Climate adaptation features</strong> – Natural fiber properties providing superior comfort in Saudi Arabia's climate conditions</li>
+                <li><strong>Moisture management systems</strong> – Sustainable materials offering excellent breathability and moisture control</li>
+                <li><strong>Movement optimization</strong> – Ergonomic design supporting retail work activities while maintaining professional appearance</li>
+                <li><strong>Durability enhancement</strong> – Sustainable materials and construction techniques ensuring extended uniform lifespan</li>
               </ul>
-              
-              <div className="bg-blue-50 p-6 rounded-lg mb-6">
-                <h4 className="font-semibold mb-2">Comparative ROI Analysis</h4>
-                <p>
-                  A 2024 comprehensive review of sustainable uniform programs across 35 Saudi retail chains revealed average ROI of 247% over a three-year period when accounting for all direct and indirect benefits. The analysis showed that while sustainable uniforms typically required a 30-40% higher initial investment than conventional alternatives, the combination of longer lifespan, marketing value, and employee retention benefits created substantial positive returns. Notably, retailers who effectively communicated their uniform sustainability story to customers saw significantly higher returns than those who implemented similar programs without consumer-facing communication strategies.
-                </p>
-              </div>
-              
-              <h3 className="text-xl font-semibold mb-4">Measurement Framework</h3>
+            </section>
+
+            {/* Customer Perception Section */}
+            <section id="customer-perception" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Customer Perception and Brand Value</h2>
               
               <p className="mb-6">
-                Comprehensive approach to evaluating program impact:
+                Sustainable retail uniforms significantly enhance brand perception and customer loyalty through environmental leadership:
               </p>
+
+              <h3 className="text-xl font-semibold mb-4">Brand Differentiation</h3>
               
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Environmental metrics</strong> – Quantified reduction in water usage, carbon emissions, and waste generation compared to conventional uniform programs</li>
-                <li><strong>Customer perception tracking</strong> – Systematic measurement of awareness and attitude shifts through surveys and feedback mechanisms</li>
-                <li><strong>Brand value assessment</strong> – Integration of sustainability initiatives into formal brand equity evaluation models</li>
-                <li><strong>Staff engagement metrics</strong> – Measurement of employee satisfaction, pride, and retention specifically linked to sustainability programs</li>
-                <li><strong>Total cost of ownership analysis</strong> – Comprehensive calculation incorporating all direct and indirect costs and benefits over full uniform lifecycle</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Environmental leadership positioning</strong> – Sustainable uniforms demonstrating company commitment to environmental responsibility and social consciousness</li>
+                <li><strong>Innovation showcase</strong> – Advanced sustainable technologies highlighting company innovation and forward-thinking approach</li>
+                <li><strong>Values alignment</strong> – Uniform sustainability reflecting company values and attracting environmentally conscious customers</li>
+                <li><strong>Competitive advantage</strong> – Environmental leadership creating differentiation in competitive retail markets</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Customer Engagement</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Sustainability storytelling</strong> – Uniform sustainability providing compelling narratives for customer engagement and education</li>
+                <li><strong>Transparency communication</strong> – Clear communication of environmental benefits building customer trust and loyalty</li>
+                <li><strong>Community connection</strong> – Local sourcing and production creating connections with Saudi communities and values</li>
+                <li><strong>Educational opportunities</strong> – Sustainable uniforms serving as platforms for environmental education and awareness</li>
+              </ul>
+            </section>
+
+            {/* Cost-Effectiveness Section */}
+            <section id="cost-effectiveness" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Cost-Effectiveness and ROI</h2>
+              
+              <p className="mb-6">
+                Strategic implementation of sustainable retail uniforms delivers superior return on investment through multiple value streams:
+              </p>
+
+              <h3 className="text-xl font-semibold mb-4">Long-Term Cost Benefits</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Extended lifespan value</strong> – Durable sustainable materials reducing replacement frequency and long-term uniform costs</li>
+                <li><strong>Maintenance efficiency</strong> – Natural materials requiring less intensive care and chemical treatments</li>
+                <li><strong>Energy cost reduction</strong> – Renewable energy manufacturing reducing production costs and price volatility</li>
+                <li><strong>Waste elimination savings</strong> – Circular economy approaches eliminating disposal costs and creating material value recovery</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Revenue Enhancement</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Brand premium positioning</strong> – Environmental leadership enabling premium pricing and market positioning</li>
+                <li><strong>Customer loyalty increase</strong> – Sustainability commitment driving customer retention and repeat business</li>
+                <li><strong>Employee satisfaction benefits</strong> – Sustainable workplace practices improving employee engagement and retention</li>
+                <li><strong>Market expansion opportunities</strong> – Environmental credentials opening new market segments and customer bases</li>
+              </ul>
+            </section>
+
+            {/* Certification Standards Section */}
+            <section id="certification-standards" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Certification and Standards</h2>
+              
+              <p className="mb-6">
+                Comprehensive certification systems ensure authentic sustainability and provide credible verification of environmental benefits:
+              </p>
+
+              <h3 className="text-xl font-semibold mb-4">International Certifications</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>GOTS (Global Organic Textile Standard)</strong> – Comprehensive organic fiber certification ensuring environmental and social criteria compliance</li>
+                <li><strong>OEKO-TEX standards</strong> – Textile safety and environmental impact certification providing consumer confidence</li>
+                <li><strong>Cradle to Cradle certification</strong> – Circular economy design verification ensuring material health and renewable energy use</li>
+                <li><strong>Carbon Trust certification</strong> – Carbon footprint verification and reduction commitment validation</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Regional and Local Standards</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Saudi Green Building Council standards</strong> – Local sustainability requirements and environmental performance criteria</li>
+                <li><strong>Vision 2030 alignment</strong> – Compliance with Kingdom environmental objectives and sustainability targets</li>
+                <li><strong>SASO environmental standards</strong> – Saudi Standards Organization requirements for environmental performance and safety</li>
+                <li><strong>GCC sustainability frameworks</strong> – Regional environmental standards and cooperation initiatives</li>
+              </ul>
+            </section>
+
+            {/* Implementation Strategy Section */}
+            <section id="implementation-strategy" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Implementation Strategy</h2>
+              
+              <p className="mb-6">
+                Successful implementation of sustainable retail uniforms requires systematic planning and stakeholder engagement:
+              </p>
+
+              <h3 className="text-xl font-semibold mb-4">Phased Transition Approach</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Pilot program development</strong> – Initial testing with select departments and locations to validate sustainability benefits and operational effectiveness</li>
+                <li><strong>Stakeholder education</strong> – Comprehensive training for employees, management, and customers on sustainability benefits and features</li>
+                <li><strong>Supply chain integration</strong> – Systematic engagement with suppliers and partners to ensure sustainability throughout the value chain</li>
+                <li><strong>Performance monitoring systems</strong> – Continuous measurement and optimization of environmental and operational performance</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Change Management</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Leadership commitment</strong> – Executive sponsorship and visible commitment to sustainability objectives</li>
+                <li><strong>Employee engagement</strong> – Active participation and feedback from retail staff in sustainability initiatives</li>
+                <li><strong>Customer communication</strong> – Clear messaging about sustainability benefits and company environmental commitment</li>
+                <li><strong>Continuous improvement</strong> – Ongoing refinement and enhancement based on experience and feedback</li>
+              </ul>
+            </section>
+
+            {/* Future Innovations Section */}
+            <section id="future-innovations" className="mb-12">
+              <h2 className="text-2xl font-bold mb-6">Future Innovations</h2>
+              
+              <p className="mb-6">
+                Emerging technologies and innovations will continue advancing sustainable retail uniform capabilities:
+              </p>
+
+              <h3 className="text-xl font-semibold mb-4">Next-Generation Materials</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Bio-fabricated materials</strong> – Laboratory-grown fibers and fabrics eliminating traditional agriculture and manufacturing impacts</li>
+                <li><strong>Algae-based textiles</strong> – Marine algae processing creating sustainable, high-performance fabric alternatives</li>
+                <li><strong>Mushroom leather alternatives</strong> – Mycelium-based materials providing sustainable alternatives to traditional leather and synthetic materials</li>
+                <li><strong>Smart sustainable fibers</strong> – Responsive materials adapting to environmental conditions while maintaining sustainability principles</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-4">Technology Integration</h3>
+              
+              <ul className="list-disc pl-6 mb-6 space-y-3">
+                <li><strong>Blockchain traceability</strong> – Complete supply chain transparency enabling verification of sustainability claims and material origins</li>
+                <li><strong>AI optimization systems</strong> – Artificial intelligence optimizing material usage, production efficiency, and environmental impact</li>
+                <li><strong>Digital twin technology</strong> – Virtual modeling enabling optimization of uniform design and lifecycle performance</li>
+                <li><strong>IoT monitoring systems</strong> – Internet of Things sensors tracking environmental impact and performance throughout uniform lifecycle</li>
               </ul>
             </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">الخلاصة | Conclusion</h2>
+              <h2 className="text-2xl font-bold mb-6">Strategic Conclusion</h2>
               
-              <p className="mb-6 text-right" dir="rtl">
-                في سوق التجزئة السعودي المتطور، تقدم الأزياء الموحدة المستدامة فرصة استراتيجية فريدة للعلامات التجارية لإظهار التزامها بالمسؤولية البيئية بطريقة ملموسة ومرئية يومياً. مع تزايد اهتمام المستهلكين السعوديين بقضايا الاستدامة، وخاصة بين جيل الشباب والفئات ذات التعليم العالي، أصبح هذا الجانب من هوية العلامة التجارية عنصراً أساسياً في استراتيجيات التمايز التنافسي.
+              <p className="mb-6">
+                The implementation of sustainable retail uniforms represents a transformative opportunity for Saudi retailers to demonstrate environmental leadership while enhancing operational performance and brand value. These comprehensive solutions align with Vision 2030's sustainability objectives while delivering superior customer experiences and competitive advantages in the evolving retail marketplace.
               </p>
               
               <p className="mb-6">
-                In Saudi Arabia's evolving retail market, sustainable uniforms present a unique strategic opportunity for brands to demonstrate environmental commitment in a tangible, daily visible manner. As Saudi consumers increasingly prioritize sustainability issues, particularly among younger generations and highly educated segments, this aspect of brand identity has become an essential element in competitive differentiation strategies.
+                Success in sustainable uniform implementation requires integration of environmental excellence with professional aesthetics, operational functionality, and cost-effectiveness. Organizations that embrace these innovative solutions will achieve superior environmental performance, enhanced brand recognition, and stronger customer loyalty while contributing to Saudi Arabia's broader sustainability objectives.
               </p>
-              
-              <p className="mb-6 text-right" dir="rtl">
-                العلامات التجارية التي تستثمر في تطوير برامج أزياء موحدة مستدامة تجني فوائد متعددة تتجاوز مجرد تحسين الصورة البيئية. من خلال النهج الاستراتيجي الشامل الذي يجمع بين المواد المبتكرة، والتواصل الفعال، والمواءمة مع القيم الثقافية السعودية، يمكن لهذه المبادرات أن تحقق عائداً مالياً إيجابياً مع المساهمة في أهداف الاستدامة الأوسع نطاقاً للمملكة العربية السعودية.
-              </p>
-              
+
               <p className="mb-6">
-                With sustainable textiles continuing to advance, and Saudi consumer environmental awareness steadily growing, the retailers that move decisively in this area will secure significant first-mover advantages. By approaching sustainable uniforms as both an environmental responsibility and a business opportunity, forward-thinking Saudi retailers can position themselves at the forefront of the Kingdom's evolving green economy while creating meaningful connections with the growing eco-conscious consumer segment.
+                The convergence of environmental responsibility, technological innovation, and professional excellence creates unprecedented opportunities for retail uniform design that supports both business success and environmental stewardship. By implementing comprehensive sustainable uniform solutions, Saudi retailers can establish global leadership in environmental responsibility while delivering exceptional customer experiences and operational performance.
               </p>
             </section>
 
             {/* Author Bio */}
             <AuthorBio 
-              name="نورة الخالدي | Noura Al-Khalidi"
-              role="مستشارة الأزياء المستدامة والتسويق البيئي | Sustainable Fashion & Eco-Marketing Consultant"
-              bio="خبيرة متخصصة في استراتيجيات الموضة المستدامة والتسويق البيئي في المملكة العربية السعودية. تجمع بين خلفيتها في تصميم الأزياء ودراسات الاستدامة لمساعدة العلامات التجارية على تطوير منتجات صديقة للبيئة تلبي توقعات المستهلك السعودي المتنامية."
-              imageSrc="/images/author/noura-al-khalidi.png"
-              linkedin="noura-alkhalidi"
-              twitter="NouraSustainable"
+              name="Dr. Nora Al-Mansouri"
+              role="Sustainability and Retail Innovation Specialist"
+              bio="Dr. Al-Mansouri brings over 16 years of experience in sustainability consulting and retail innovation. Her expertise in sustainable textile design and circular economy implementation has helped numerous Saudi retailers achieve environmental leadership while maintaining operational excellence and brand value."
+              imageSrc="/images/author/nora_almansouri.jpg"
+              linkedin="https://linkedin.com/in/nora-almansouri"
+              twitter="https://twitter.com/almansouri_sustain"
             />
 
             {/* Share Buttons */}
             <ShareButtons 
               url="/blog/sustainable-retail-uniforms"
-              title="Sustainable Retail Uniforms: Appealing to Eco-Conscious Saudi Consumers (2025)"
+              title="Sustainable Retail Uniforms: Environmental Excellence and Professional Style in Saudi Arabia (2025)"
             />
           </div>
-          
-          <div className="md:w-1/4">
-            <div className="sticky top-8">
+
+          <aside className="md:w-1/4">
+            <div className="sticky top-24">
               <TableOfContents items={tocItems} />
-              <div className="mt-8">
-                <h3 className="text-xl font-bold mb-4">مقالات ذات صلة | Related Articles</h3>
+              
+              <div className="mt-12 p-6 bg-gray-50 rounded-lg">
+                <h3 className="text-lg font-bold mb-4">Related Articles</h3>
                 <RelatedArticles articles={relatedArticles} />
               </div>
+
+              <div className="mt-12 p-6 bg-green-50 rounded-lg">
+                <h3 className="text-lg font-bold mb-4">Sustainability Consultation</h3>
+                <p className="text-sm mb-4">Ready to implement sustainable uniform solutions for your retail operations? Our sustainability experts can help design comprehensive environmental strategies for your organization.</p>
+                <Link href="/contact" className="block text-center py-2 px-4 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+                  Schedule Sustainability Consultation
+                </Link>
+              </div>
             </div>
-          </div>
+          </aside>
         </div>
       </div>
     </main>
