@@ -320,9 +320,6 @@ export default function AuthorPage({ params }: { params: { slug: string } }) {
                   alt={author.name}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = '/images/author/placeholder.jpg'
-                  }}
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-4 shadow-lg">

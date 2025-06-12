@@ -1,58 +1,32 @@
 "use client"
 
-import React, { useState } from 'react'
+import Image from 'next/image'
 
 interface StaticImageFixProps {
   src: string
   alt: string
-  width?: number | string
-  height?: number | string
+  width?: number
+  height?: number
   className?: string
-  style?: React.CSSProperties
-  onClick?: () => void
-  fallbackSrc?: string
+  priority?: boolean
 }
 
-export default function StaticImageFix({
-  src,
-  alt,
-  width,
-  height,
-  className = '',
-  style = {},
-  onClick,
-  fallbackSrc = '/images/fallback-image.jpg'
+export default function StaticImageFix({ 
+  src, 
+  alt, 
+  width = 400, 
+  height = 300, 
+  className = "",
+  priority = false 
 }: StaticImageFixProps) {
-  const [imgSrc, setImgSrc] = useState(src)
-  const [hasError, setHasError] = useState(false)
-
-  const handleError = () => {
-    if (!hasError && fallbackSrc) {
-      setImgSrc(fallbackSrc)
-      setHasError(true)
-    }
-  }
-  
-  // Ensure src starts with a slash if it's a relative path
-  const formattedSrc = imgSrc.startsWith('http') || imgSrc.startsWith('/') 
-    ? imgSrc 
-    : `/${imgSrc}`
-
-  const imgStyle = {
-    width: width,
-    height: height,
-    objectFit: 'cover' as 'cover',
-    ...style
-  }
-
   return (
-    <img 
-      src={formattedSrc}
+    <Image
+      src={src}
       alt={alt}
+      width={width}
+      height={height}
       className={className}
-      style={imgStyle}
-      onError={handleError}
-      onClick={onClick}
+      priority={priority}
     />
   )
 } 

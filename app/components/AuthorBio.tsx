@@ -91,12 +91,10 @@ export default function AuthorBio(props: AuthorBioProps) {
           <div className="relative h-16 w-16 overflow-hidden rounded-full">
             <Image 
               src={imgSrc} 
-              alt={`Photo of ${name}`} 
-              width={64}
-              height={64}
-              className="object-cover"
-              onError={() => setImgSrc('/images/author/placeholder.jpg')}
-              priority
+              alt={name}
+              width={80}
+              height={80}
+              className="rounded-full object-cover border-4 border-white shadow-lg"
             />
           </div>
         </div>
