@@ -13,40 +13,40 @@ const articles = [
     title: "Sustainable Uniform Manufacturing: A Growing Trend in Saudi Arabia",
     slug: "sustainable-uniform-manufacturing-growing-trend-saudi-arabia",
     excerpt: "Explore how sustainable practices are transforming uniform manufacturing in Saudi Arabia, with eco-friendly materials and ethical production becoming industry standards.",
-    image: "/images/sustainability_uniform_trends.jpg",
+    image: "/images/industrial_sector/protective_clothing.jpeg",
     author: "نورا_الدوسري",
     authorName: "Noura Al-Dosari",
-    authorImage: "/images/author/نورا_الدوسري.jpg",
+    authorImage: "/images/authors/noura-alkhalidi.jpg",
     date: "2023-12-15",
   },
   {
     title: "The Impact of Vision 2030 on Saudi Arabia's Uniform Industry",
     slug: "impact-vision-2030-saudi-arabia-uniform-industry",
     excerpt: "Analyze how Saudi Arabia's Vision 2030 initiative is reshaping the uniform industry through localization, quality improvements, and new market opportunities.",
-    image: "/images/vision2030_uniform_impact.jpg",
+    image: "/images/banking_finance_sector/banking_uniforms.jpg",
     author: "سامي_الهلالي",
     authorName: "Sami Al-Hilali",
-    authorImage: "/images/author/سامي_الهلالي.jpg",
+    authorImage: "/images/authors/fahad-alanazi.jpg",
     date: "2023-11-28",
   },
   {
     title: "Technology Integration in Modern Saudi Workwear",
     slug: "technology-integration-modern-saudi-workwear",
     excerpt: "Discover how smart textiles, RFID tracking, and other technological innovations are being incorporated into Saudi Arabian workplace uniforms.",
-    image: "/images/tech_smart_uniforms.jpg",
+    image: "/images/industrial_sector/technician_uniforms.jpeg",
     author: "جواد_الحازمي",
     authorName: "Jawad Al-Hazmi",
-    authorImage: "/images/author/جواد_الحازمي.jpg",
+    authorImage: "/images/authors/mohammed-al-otaibi.jpg",
     date: "2023-12-05",
   },
   {
     title: "Cultural Identity and Corporate Uniforms in Modern Saudi Arabia",
     slug: "cultural-identity-corporate-uniforms-modern-saudi-arabia",
     excerpt: "Examining the balance between traditional Saudi cultural elements and contemporary corporate design in modern Saudi workplace uniforms.",
-    image: "/images/cultural_corporate_uniforms.jpg",
+    image: "/images/aviation_sector/pilot_uniforms.jpg",
     author: "فارس_النجدي",
     authorName: "Faris Al-Najdi",
-    authorImage: "/images/author/فارس_النجدي.png",
+    authorImage: "/images/authors/sara-alqahtani.jpg",
     date: "2023-11-10",
   },
 ]
@@ -67,7 +67,7 @@ export default function IndustryInsights() {
             <Link href={`/blog/industry-insights/${article.slug}`}>
               <div className="relative h-60">
                 <Image
-                  src={article.image || '/images/placeholder.jpg'}
+                  src={article.image || '/images/fallback-image.jpg'}
                   alt={article.title}
                   fill
                   className="object-cover"
@@ -81,7 +81,7 @@ export default function IndustryInsights() {
                 <div className="flex items-center">
                   <div className="relative w-10 h-10 rounded-full overflow-hidden mr-4">
                     <Image
-                      src={article.authorImage || '/images/placeholder-author.jpg'}
+                      src={article.authorImage || '/images/fallback-image.jpg'}
                       alt={article.authorName}
                       fill
                       className="object-cover"

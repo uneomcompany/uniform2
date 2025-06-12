@@ -80,7 +80,7 @@ export default function LogisticsDeliveryDriverUniforms() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image 
+        <Image
                 src="/images/transport_sector/delivery_staff_clothing.jpg"
                 alt="Professional logistics and delivery drivers showcasing practical uniform solutions and safety features"
                 width={800}
@@ -88,7 +88,7 @@ export default function LogisticsDeliveryDriverUniforms() {
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-600 mt-2 italic">Logistics professionals demonstrating the integration of practicality, visibility, and professional excellence in modern Saudi delivery services</p>
-            </div>
+      </div>
 
             {/* Visibility and Safety Section */}
             <section id="visibility-safety" className="mb-12">
@@ -169,7 +169,7 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Pressure point elimination</strong> – Strategic design preventing discomfort from seatbelts, equipment, and extended wear</li>
                 <li><strong>Fatigue reduction technology</strong> – Support systems minimizing driver fatigue during long delivery routes</li>
               </ul>
-            </section>
+        </section>
 
             {/* Brand Representation Section */}
             <section id="brand-representation" className="mb-12">
@@ -195,8 +195,8 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Service quality communication</strong> – Design features conveying efficiency, reliability, and customer focus</li>
                 <li><strong>Security and identification</strong> – Clear identification systems building customer confidence and security</li>
                 <li><strong>Approachability enhancement</strong> – Design elements encouraging positive customer interactions and feedback</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Weather Adaptation Section */}
             <section id="weather-adaptation" className="mb-12">
@@ -222,8 +222,8 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Urban heat island adaptation</strong> – Enhanced cooling for delivery operations in hot urban environments</li>
                 <li><strong>Seasonal variation accommodation</strong> – Flexible uniform systems adapting to seasonal climate changes</li>
                 <li><strong>Indoor-outdoor transition capability</strong> – Features supporting operations across air-conditioned vehicles and outdoor delivery points</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Technology Integration Section */}
             <section id="technology-integration" className="mb-12">
@@ -249,8 +249,8 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Health and safety monitoring</strong> – Biometric sensors ensuring driver wellness and fatigue management</li>
                 <li><strong>Package handling tracking</strong> – Technology monitoring proper handling procedures and delivery protocols</li>
                 <li><strong>Training and development support</strong> – Integrated systems providing ongoing professional development opportunities</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Role Specialization Section */}
             <section id="role-specialization" className="mb-12">
@@ -276,8 +276,8 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Rural and remote area drivers</strong> – Durable uniforms with enhanced protection for challenging terrain and extended routes</li>
                 <li><strong>Warehouse and distribution staff</strong> – Heavy-duty uniforms designed for loading, sorting, and distribution center operations</li>
                 <li><strong>Customer service representatives</strong> – Professional uniforms balancing operational functionality with customer interaction requirements</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Maintenance and Care Section */}
             <section id="maintenance-care" className="mb-12">
@@ -303,8 +303,8 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Performance tracking</strong> – Monitoring of uniform effectiveness and driver satisfaction</li>
                 <li><strong>Cost optimization strategies</strong> – Efficient uniform management balancing cost control with quality maintenance</li>
                 <li><strong>Sustainability practices</strong> – Environmentally responsible uniform disposal and recycling programs</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Implementation Framework Section */}
             <section id="implementation" className="mb-12">
@@ -331,7 +331,7 @@ export default function LogisticsDeliveryDriverUniforms() {
                 <li><strong>Customer satisfaction monitoring</strong> – Assessment of uniform impact on customer perception and service quality</li>
                 <li><strong>Continuous improvement processes</strong> – Ongoing refinement based on operational experience and feedback</li>
               </ul>
-            </section>
+        </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">

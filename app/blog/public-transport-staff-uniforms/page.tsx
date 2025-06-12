@@ -80,8 +80,8 @@ export default function PublicTransportStaffUniforms() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image 
-                src="/images/transport_sector/public_transport_professionals.jpeg"
+              <Image
+                src="/images/transport_sector/transport_station_staff_clothing.jpeg"
                 alt="Professional public transport staff demonstrating advanced uniform standards in Saudi Arabia's modern transit systems"
                 width={800}
                 height={500}
@@ -169,7 +169,7 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Customer service representatives</strong> – Approachable designs with information display capabilities and multi-language identification features</li>
                 <li><strong>Security personnel</strong> – Professional security uniforms with equipment integration and authority-establishing design elements</li>
               </ul>
-            </section>
+        </section>
 
             {/* Cultural Integration Section */}
             <section id="cultural-integration" className="mb-12">
@@ -195,8 +195,8 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Heritage pattern integration</strong> – Traditional geometric patterns and design elements reflecting Saudi artistic heritage</li>
                 <li><strong>Vision 2030 alignment</strong> – Design elements reflecting the Kingdom's modernization objectives and future aspirations</li>
                 <li><strong>Regional representation</strong> – Acknowledgment of different regional cultures and traditions within the Kingdom</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Operational Functionality Section */}
             <section id="operational-functionality" className="mb-12">
@@ -222,8 +222,8 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Pressure point elimination</strong> – Strategic padding and construction preventing discomfort during extended wear</li>
                 <li><strong>Weight distribution</strong> – Balanced design minimizing fatigue and maximizing operational efficiency</li>
                 <li><strong>Posture support</strong> – Ergonomic features supporting proper posture during various work activities</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Technology Integration Section */}
             <section id="technology-integration" className="mb-12">
@@ -249,8 +249,8 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Health monitoring integration</strong> – Biometric sensors ensuring staff wellness and preventing health-related incidents</li>
                 <li><strong>Location tracking capabilities</strong> – GPS integration for staff coordination and emergency response</li>
                 <li><strong>Data analytics platforms</strong> – Systems collecting operational data for continuous improvement and optimization</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Maintenance and Durability Section */}
             <section id="maintenance-durability" className="mb-12">
@@ -276,8 +276,8 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Stain resistance properties</strong> – Advanced treatments preventing permanent staining and facilitating easy cleaning</li>
                 <li><strong>Quick-dry technologies</strong> – Rapid drying capabilities enabling efficient uniform rotation and maintenance</li>
                 <li><strong>Professional cleaning protocols</strong> – Specialized care procedures ensuring uniform longevity and appearance standards</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Customer Experience Section */}
             <section id="customer-experience" className="mb-12">
@@ -303,8 +303,8 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Emergency response visibility</strong> – Clear identification enabling passengers to locate help during emergencies</li>
                 <li><strong>Service differentiation</strong> – Visual cues helping passengers identify appropriate staff for specific needs</li>
                 <li><strong>Brand representation</strong> – Uniform design reinforcing positive brand associations and service quality expectations</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Implementation Framework Section */}
             <section id="implementation" className="mb-12">
@@ -331,7 +331,7 @@ export default function PublicTransportStaffUniforms() {
                 <li><strong>Feedback integration systems</strong> – Mechanisms for collecting and incorporating staff and passenger feedback</li>
                 <li><strong>Continuous improvement processes</strong> – Ongoing refinement and enhancement of uniform systems based on operational experience</li>
               </ul>
-            </section>
+        </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">

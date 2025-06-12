@@ -68,11 +68,11 @@ export default function ArticlePage() {
             <section id="introduction" className="mb-12">
               <p className="text-lg leading-relaxed mb-6">
                 Saudi Arabia's extreme climate conditions present unprecedented challenges for transport sector uniforms, demanding revolutionary approaches to durability engineering and weather adaptation. As temperatures soar beyond 50°C and sandstorms create harsh abrasive environments, traditional workwear solutions prove inadequate for maintaining operational efficiency and worker protection.
-              </p>
+          </p>
               <p className="text-lg leading-relaxed mb-6">
                 This comprehensive analysis examines cutting-edge durability technologies and climate adaptation strategies specifically engineered for Saudi Arabia's unique environmental challenges. From quantum-enhanced materials to predictive weather response systems, we explore innovations that ensure uniform performance under the most demanding conditions while optimizing lifecycle value and operational effectiveness.
-              </p>
-            </section>
+          </p>
+        </section>
 
             {/* Main Image */}
             <div className="mb-12">
@@ -263,7 +263,7 @@ export default function ArticlePage() {
                 <li><strong>Gradual technology integration</strong> – Systematic introduction of advanced features minimizing disruption</li>
                 <li><strong>Training and education programs</strong> – Comprehensive staff preparation for new uniform technologies</li>
                 <li><strong>Performance monitoring systems</strong> – Continuous assessment and optimization throughout implementation</li>
-              </ul>
+          </ul>
 
               <h3 className="text-xl font-semibold mb-4">Success Metrics and Evaluation</h3>
               
@@ -272,8 +272,8 @@ export default function ArticlePage() {
                 <li><strong>Worker satisfaction metrics</strong> – Assessment of comfort, functionality, and overall uniform experience</li>
                 <li><strong>Operational efficiency impact</strong> – Analysis of uniform contribution to productivity and safety outcomes</li>
                 <li><strong>Economic performance evaluation</strong> – Comprehensive cost-benefit analysis and ROI measurement</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Emerging Technologies */}
             <section id="future-developments" className="mb-12">
@@ -301,7 +301,7 @@ export default function ArticlePage() {
                 <li><strong>Circular economy integration</strong> – Closed-loop systems maximizing material utilization and minimizing waste</li>
               </ul>
             </section>
-
+            
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">
               <h2 className="text-2xl font-bold mb-6">Strategic Conclusion</h2>
@@ -316,8 +316,8 @@ export default function ArticlePage() {
 
               <p className="mb-6">
                 The convergence of durability engineering and climate adaptation creates unprecedented opportunities for operational optimization. By implementing comprehensive uniform solutions that address Saudi Arabia's unique environmental challenges, transport organizations can establish market leadership while contributing to the Kingdom's broader objectives of technological advancement and economic diversification.
-              </p>
-            </section>
+          </p>
+        </section>
 
             {/* Author Bio */}
             <AuthorBio 

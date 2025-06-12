@@ -80,7 +80,7 @@ export default function TaxiRidehailingDriverUniforms() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image 
+        <Image
                 src="/images/transport_sector/chauffeur_limousine_driver_uniforms.jpeg"
                 alt="Professional taxi and ride-hailing drivers demonstrating excellent uniform standards and customer service approach"
                 width={800}
@@ -88,7 +88,7 @@ export default function TaxiRidehailingDriverUniforms() {
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-600 mt-2 italic">Professional drivers showcasing the integration of trust-building appearance, comfort, and cultural sensitivity in modern Saudi mobility services</p>
-            </div>
+      </div>
 
             {/* Trust Building Section */}
             <section id="trust-building" className="mb-12">
@@ -169,7 +169,7 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>Digital integration features</strong> – QR codes and digital elements enabling passenger verification of driver authenticity</li>
                 <li><strong>Emergency information access</strong> – Quick-access safety information and emergency contact procedures</li>
               </ul>
-            </section>
+        </section>
 
             {/* Comfort and Functionality Section */}
             <section id="comfort-functionality" className="mb-12">
@@ -195,8 +195,8 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>Movement facilitation</strong> – Construction enabling easy entry/exit from vehicles and passenger assistance activities</li>
                 <li><strong>Pressure point elimination</strong> – Strategic design preventing discomfort from seatbelts and driving positions</li>
                 <li><strong>Fatigue reduction features</strong> – Ergonomic elements supporting driver alertness and comfort throughout shifts</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Brand Representation Section */}
             <section id="brand-representation" className="mb-12">
@@ -222,8 +222,8 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>Customer service facilitation</strong> – Design features supporting positive customer interactions and assistance provision</li>
                 <li><strong>Trust building elements</strong> – Uniform components establishing credibility and professional competence</li>
                 <li><strong>Differentiation strategies</strong> – Unique design elements distinguishing premium service offerings and company positioning</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Cultural Considerations Section */}
             <section id="cultural-considerations" className="mb-12">
@@ -249,8 +249,8 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>National pride representation</strong> – Design elements reflecting Saudi identity and cultural heritage</li>
                 <li><strong>Regional sensitivity</strong> – Acknowledgment of different cultural preferences across Saudi regions</li>
                 <li><strong>Hospitality tradition reflection</strong> – Uniform design supporting Saudi traditions of hospitality and service excellence</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Technology Integration Section */}
             <section id="technology-integration" className="mb-12">
@@ -276,8 +276,8 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>Health and wellness tracking</strong> – Biometric monitoring supporting driver health and fatigue management</li>
                 <li><strong>Service quality measurement</strong> – Technology enabling real-time service quality assessment and improvement</li>
                 <li><strong>Training and development support</strong> – Integrated systems providing ongoing professional development opportunities</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Maintenance and Care Section */}
             <section id="maintenance-care" className="mb-12">
@@ -303,8 +303,8 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>Quality monitoring systems</strong> – Regular assessment of uniform condition and performance</li>
                 <li><strong>Cost optimization strategies</strong> – Efficient uniform management minimizing costs while maintaining standards</li>
                 <li><strong>Sustainability considerations</strong> – Environmentally responsible uniform disposal and recycling practices</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Implementation Framework Section */}
             <section id="implementation" className="mb-12">
@@ -331,7 +331,7 @@ export default function TaxiRidehailingDriverUniforms() {
                 <li><strong>Driver feedback integration</strong> – Mechanisms for collecting and incorporating driver input</li>
                 <li><strong>Customer satisfaction monitoring</strong> – Assessment of uniform impact on customer experience and satisfaction</li>
               </ul>
-            </section>
+        </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">

@@ -1,0 +1,160 @@
+# جميع روابط موقع الزي الموحد - Uniform Blog Website URLs
+# Base URL: http://localhost:3000
+# تاريخ الإنشاء: ديسمبر 2024
+
+## الصفحات الرئيسية - Main Pages
+http://localhost:3000
+http://localhost:3000/about
+http://localhost:3000/contact
+http://localhost:3000/blog
+http://localhost:3000/sectors
+http://localhost:3000/case-studies
+http://localhost:3000/industry-insights
+http://localhost:3000/request-quote
+http://localhost:3000/privacy
+http://localhost:3000/terms
+
+## صفحات القطاعات - Sector Pages
+http://localhost:3000/sectors/aviation
+http://localhost:3000/sectors/banking-finance
+http://localhost:3000/sectors/industrial
+http://localhost:3000/sectors/restaurants
+http://localhost:3000/sectors/retail
+http://localhost:3000/sectors/transport
+
+## مقالات قطاع النقل - Transport Sector Blog Posts
+http://localhost:3000/blog/transport
+http://localhost:3000/blog/transport-fleet-uniform-sourcing
+http://localhost:3000/blog/custom-logistics-uniform-design
+http://localhost:3000/blog/transport-uniforms-safety-security
+http://localhost:3000/blog/durable-weather-appropriate-uniforms
+http://localhost:3000/blog/maritime-port-worker-uniforms
+http://localhost:3000/blog/taxi-ridehailing-driver-uniforms
+http://localhost:3000/blog/train-rail-operator-uniform-standards
+http://localhost:3000/blog/logistics-delivery-driver-uniforms
+http://localhost:3000/blog/transport-uniform-trends-2025
+http://localhost:3000/blog/transport-uniform-materials
+http://localhost:3000/blog/public-transport-staff-uniforms
+http://localhost:3000/blog/smart-transport-uniform-features
+http://localhost:3000/blog/customer-facing-transport-uniforms
+http://localhost:3000/blog/eco-friendly-transport-uniforms
+http://localhost:3000/blog/future-transport-workwear-innovations
+
+## مقالات قطاع التجزئة - Retail Sector Blog Posts
+http://localhost:3000/blog/retail
+http://localhost:3000/blog/retail-uniform-suppliers-guide
+http://localhost:3000/blog/tiered-retail-uniform-strategies
+http://localhost:3000/blog/retail-name-badges-customer-service
+http://localhost:3000/blog/seasonal-retail-uniform-promotions
+http://localhost:3000/blog/ecommerce-fulfillment-uniforms
+http://localhost:3000/blog/future-retail-uniform-innovations
+http://localhost:3000/blog/retail-uniforms-employee-performance
+http://localhost:3000/blog/sustainable-retail-uniforms
+http://localhost:3000/blog/retail-uniform-trends-2025
+http://localhost:3000/blog/retail-uniforms-brand-personality
+http://localhost:3000/blog/retail-uniforms-customer-engagement
+http://localhost:3000/blog/luxury-mass-market-retail-uniforms
+http://localhost:3000/blog/comfortable-retail-uniforms
+http://localhost:3000/blog/cohesive-retail-experience-uniforms
+http://localhost:3000/blog/customizing-retail-uniforms-branding
+
+## مقالات قطاع الطيران - Aviation Sector Blog Posts
+http://localhost:3000/blog/aviation
+http://localhost:3000/blog/pilot-flight-crew-uniforms-ksa
+http://localhost:3000/blog/ground-staff-uniforms-brand-identity
+http://localhost:3000/blog/vip-aviation-uniform-requirements
+http://localhost:3000/blog/unified-aviation-uniform-strategies
+http://localhost:3000/blog/aviation-uniform-trends-2025
+http://localhost:3000/blog/aviation-uniform-suppliers-ksa
+http://localhost:3000/blog/aviation-uniform-compliance
+http://localhost:3000/blog/aviation-uniforms-passenger-trust
+http://localhost:3000/blog/comprehensive-aviation-uniform-solutions
+http://localhost:3000/blog/customizing-aviation-uniforms-branding
+http://localhost:3000/blog/eco-friendly-aviation-uniforms
+http://localhost:3000/blog/future-aviation-workwear-innovations
+http://localhost:3000/blog/smart-aviation-uniforms
+
+## مقالات القطاع المصرفي والمالي - Banking & Finance Sector Blog Posts
+http://localhost:3000/blog/banking-finance
+http://localhost:3000/blog/traditional-modern-banking-uniforms
+http://localhost:3000/blog/islamic-finance-uniform-solutions
+http://localhost:3000/blog/bank-uniforms-customer-perception
+http://localhost:3000/blog/banking-uniform-suppliers-guide
+http://localhost:3000/blog/bank-uniform-guidelines
+http://localhost:3000/blog/bank-uniform-styles-2025
+http://localhost:3000/blog/bank-uniforms-security-identification
+http://localhost:3000/blog/banking-uniform-accessories-trends
+http://localhost:3000/blog/banking-uniform-fabrics-ksa
+http://localhost:3000/blog/banking-uniforms-employee-morale
+http://localhost:3000/blog/cohesive-bank-branch-uniforms
+http://localhost:3000/blog/custom-financial-institution-uniforms
+http://localhost:3000/blog/future-financial-workwear
+http://localhost:3000/blog/modern-banking-uniform-solutions
+http://localhost:3000/blog/subtle-bank-logo-branding
+http://localhost:3000/blog/banking-finance/top-5-trends-in-banking-uniforms
+
+## مقالات قطاع المطاعم - Restaurant Sector Blog Posts
+http://localhost:3000/blog/restaurants
+http://localhost:3000/blog/chef-uniforms-professionalism-hygiene
+http://localhost:3000/blog/waitstaff-uniforms-customer-experience
+http://localhost:3000/blog/restaurant-uniform-color-ambiance
+http://localhost:3000/blog/sustainable-restaurant-uniforms
+http://localhost:3000/blog/restaurant-uniform-trends-2025
+http://localhost:3000/blog/restaurant-uniforms-sourcing-guide
+http://localhost:3000/blog/restaurant-uniforms-staff-morale
+http://localhost:3000/blog/restaurant-uniform-accessories
+http://localhost:3000/blog/restaurant-uniform-categories
+http://localhost:3000/blog/restaurant-delivery-driver-uniforms
+http://localhost:3000/blog/custom-restaurant-uniform-design
+http://localhost:3000/blog/future-restaurant-uniform-technology
+http://localhost:3000/blog/modern-cultural-restaurant-uniforms
+http://localhost:3000/blog/outdoor-dining-cafe-uniforms
+http://localhost:3000/blog/stain-resistant-restaurant-fabrics
+
+## مقالات القطاع الصناعي - Industrial Sector Blog Posts
+http://localhost:3000/blog/industrial
+http://localhost:3000/blog/high-visibility-protective-workwear
+http://localhost:3000/blog/flame-resistant-oil-gas-uniforms
+http://localhost:3000/blog/manufacturing-plant-uniform-solutions
+http://localhost:3000/blog/construction-engineering-uniforms
+http://localhost:3000/blog/top-industrial-uniforms-2025
+http://localhost:3000/blog/sourcing-heavy-duty-uniforms
+http://localhost:3000/blog/smart-fabric-industrial-workwear
+http://localhost:3000/blog/comfortable-industrial-uniforms
+http://localhost:3000/blog/custom-industrial-safety-uniforms
+http://localhost:3000/blog/eco-friendly-industrial-uniforms
+http://localhost:3000/blog/factory-floor-branding-uniforms
+http://localhost:3000/blog/future-industrial-uniform-innovations
+http://localhost:3000/blog/labor-law-protective-uniforms
+http://localhost:3000/blog/mining-heavy-industry-uniforms
+http://localhost:3000/blog/ppe-uniform-integration-guide
+http://localhost:3000/blog/industrial/essential-features-of-workwear
+
+## صفحات المؤلفين - Author Pages
+http://localhost:3000/blog/fahad-alanazi
+http://localhost:3000/blog/mohammed-al-otaibi
+http://localhost:3000/blog/noura-alkhalidi
+http://localhost:3000/blog/sara-alqahtani
+http://localhost:3000/blog/sara-alqahtani-tech
+http://localhost:3000/blog/FahadSupplyChain
+http://localhost:3000/blog/MohammedDesign
+http://localhost:3000/blog/NouraSustainable
+http://localhost:3000/blog/SaraRetailKSA
+http://localhost:3000/blog/SaraRetailTech
+
+## أدلة الشراء - Buying Guides
+http://localhost:3000/blog/buying-guides/how-to-choose-reliable-uniform-supplier-saudi-arabia
+
+## صفحات خاصة - Special Pages
+http://localhost:3000/author/سامي_الهلالي
+http://localhost:3000/sitemap.xml
+http://localhost:3000/robots.txt
+
+## إجمالي عدد الصفحات: 132+ صفحة
+## Total Pages: 132+ pages
+
+# ملاحظات:
+# - جميع الروابط تستخدم localhost:3000 للتطوير المحلي
+# - يمكن استبدال localhost:3000 بالدومين الفعلي عند النشر
+# - تم تنظيم الروابط حسب القطاعات لسهولة التصفح
+# - تشمل القائمة جميع صفحات المدونة والقطاعات والصفحات الرئيسية 

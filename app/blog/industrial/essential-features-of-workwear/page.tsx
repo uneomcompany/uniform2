@@ -65,7 +65,7 @@ export default function BlogPost() {
           <div className="flex items-center mb-8">
             <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
               <Image
-                src="/images/authors/ahmed-khan.jpg"
+                src="/images/authors/tech_expert.jpeg"
                 alt="Ahmed Khan"
                 fill
                 className="object-cover"
@@ -83,7 +83,7 @@ export default function BlogPost() {
           <div className="rounded-xl overflow-hidden">
             <div className="aspect-w-16 aspect-h-9 relative">
               <Image
-                src="/images/blog/industrial_workwear_hero.jpg"
+                src="/images/industrial_sector/safety_wear.jpeg"
                 alt="Industrial workwear in a factory setting"
                 fill
                 className="object-cover"
@@ -117,7 +117,7 @@ export default function BlogPost() {
 
               <div className="my-8 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/blog/industrial_fr_clothing.jpg"
+                  src="/images/industrial_sector/fire_resistant_uniforms.jpeg"
                   alt="Fire resistant industrial clothing"
                   width={800}
                   height={450}
@@ -144,7 +144,7 @@ export default function BlogPost() {
 
               <div className="my-8 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/blog/industrial_chemical_resistant.jpg"
+                  src="/images/industrial_sector/oil_chemical_resistant_uniforms.jpeg"
                   alt="Chemical resistant industrial clothing"
                   width={800}
                   height={450}
@@ -193,7 +193,7 @@ export default function BlogPost() {
 
               <div className="my-8 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/blog/industrial_cooling_features.jpg"
+                  src="/images/industrial_sector/durable_work_clothing.jpeg"
                   alt="Cooling features in industrial workwear"
                   width={800}
                   height={450}
@@ -266,7 +266,7 @@ export default function BlogPost() {
                 <div className="flex items-center">
                   <div className="relative h-16 w-16 rounded-full overflow-hidden mr-4">
                     <Image
-                      src="/images/authors/ahmed-khan.jpg"
+                      src="/images/authors/tech_expert.jpeg"
                       alt="Ahmed Khan"
                       fill
                       className="object-cover"

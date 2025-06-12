@@ -109,7 +109,7 @@ export default function ArticlePage() {
             {/* Main Image */}
             <div className="mb-12">
               <OptimizedImage 
-                src="/images/transport_sector/strategic_uniform_procurement.jpeg"
+                src="/images/transport_sector/transport_fleet_uniform_solutions.jpeg"
                 alt="Strategic uniform procurement processes for transport fleet operations"
                 priority
                 className="rounded-lg"

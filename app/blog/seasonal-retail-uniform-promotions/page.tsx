@@ -142,7 +142,7 @@ export default function SeasonalRetailUniformPromotions() {
                 <li><strong>Seasonal overlays</strong> – Temporary uniform additions such as vests or jackets that can be easily implemented and removed</li>
                 <li><strong>Complete seasonal uniforms</strong> – Comprehensive uniform changes for major cultural periods requiring maximum impact and cultural alignment</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Brand Consistency Maintenance</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -178,7 +178,7 @@ export default function SeasonalRetailUniformPromotions() {
                 <li><strong>Comfort optimization</strong> – Ensuring uniform modifications support staff comfort during extended Ramadan retail hours and fasting periods</li>
                 <li><strong>Cultural authenticity</strong> – Integrating traditional Saudi elements that reflect the Kingdom's unique Ramadan traditions and customs</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Eid Celebration Adaptations</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -267,7 +267,7 @@ export default function SeasonalRetailUniformPromotions() {
                 <li><strong>Implementation coordination</strong> – Ensuring consistent deployment across all retail locations and departments</li>
                 <li><strong>Performance monitoring</strong> – Tracking implementation effectiveness and staff compliance with seasonal uniform standards</li>
                 <li><strong>Feedback collection</strong> – Gathering staff and customer feedback for continuous improvement of seasonal programs</li>
-              </ul>
+                </ul>
             </section>
 
             {/* Design Considerations Section */}
@@ -394,7 +394,7 @@ export default function SeasonalRetailUniformPromotions() {
                 <li><strong>Community consultation</strong> – Engaging with cultural advisors and community representatives during design development</li>
                 <li><strong>Regional adaptation</strong> – Customizing seasonal approaches for different cultural preferences across Saudi regions</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Implementation Excellence</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -425,7 +425,7 @@ export default function SeasonalRetailUniformPromotions() {
               <p className="mb-6">
                 Effective seasonal uniform programs extend beyond simple visual changes to create comprehensive frameworks that support cultural authenticity, brand differentiation, and customer loyalty. Retailers that invest in well-designed seasonal adaptation strategies will achieve superior customer satisfaction, enhanced cultural connection, and stronger commercial performance while contributing to the preservation and celebration of Saudi cultural heritage.
               </p>
-
+              
               <p className="mb-6">
                 The convergence of cultural sensitivity, operational excellence, and commercial effectiveness creates unprecedented opportunities for seasonal uniform innovation that supports both business success and cultural alignment. By implementing comprehensive seasonal strategies that address the unique requirements of Saudi retail environments, retailers can establish competitive advantages that enhance customer experience while building lasting cultural connections and brand loyalty.
               </p>
@@ -447,7 +447,7 @@ export default function SeasonalRetailUniformPromotions() {
               title="Seasonal Retail Uniform Promotions and Campaign Integration in Saudi Arabia (2025)"
             />
           </div>
-
+          
           <aside className="md:w-1/4">
             <div className="sticky top-24">
               <TableOfContents items={tocItems} />

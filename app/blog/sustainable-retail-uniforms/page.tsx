@@ -106,7 +106,7 @@ export default function SustainableRetailUniforms() {
                 <li><strong>Bamboo textile innovation</strong> – Rapidly renewable bamboo fibers offering natural moisture-wicking and temperature regulation properties</li>
                 <li><strong>Linen and flax applications</strong> – Natural cooling properties ideal for Saudi Arabia's climate while supporting sustainable agriculture practices</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Recycled and Upcycled Materials</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -160,7 +160,7 @@ export default function SustainableRetailUniforms() {
                 <li><strong>Carbon-negative processes</strong> – Manufacturing techniques actively removing CO2 from the atmosphere during production</li>
                 <li><strong>Lifecycle carbon assessment</strong> – Comprehensive measurement and optimization of carbon impact throughout uniform lifecycle</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Water and Resource Conservation</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -187,7 +187,7 @@ export default function SustainableRetailUniforms() {
                 <li><strong>Texture and finish optimization</strong> – Advanced sustainable treatments achieving premium fabric feel and appearance</li>
                 <li><strong>Customization capabilities</strong> – Flexible design systems enabling brand-specific customization while maintaining sustainability principles</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Comfort and Functionality</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -295,7 +295,7 @@ export default function SustainableRetailUniforms() {
                 <li><strong>Supply chain integration</strong> – Systematic engagement with suppliers and partners to ensure sustainability throughout the value chain</li>
                 <li><strong>Performance monitoring systems</strong> – Continuous measurement and optimization of environmental and operational performance</li>
               </ul>
-
+              
               <h3 className="text-xl font-semibold mb-4">Change Management</h3>
               
               <ul className="list-disc pl-6 mb-6 space-y-3">
@@ -344,7 +344,7 @@ export default function SustainableRetailUniforms() {
               <p className="mb-6">
                 Success in sustainable uniform implementation requires integration of environmental excellence with professional aesthetics, operational functionality, and cost-effectiveness. Organizations that embrace these innovative solutions will achieve superior environmental performance, enhanced brand recognition, and stronger customer loyalty while contributing to Saudi Arabia's broader sustainability objectives.
               </p>
-
+              
               <p className="mb-6">
                 The convergence of environmental responsibility, technological innovation, and professional excellence creates unprecedented opportunities for retail uniform design that supports both business success and environmental stewardship. By implementing comprehensive sustainable uniform solutions, Saudi retailers can establish global leadership in environmental responsibility while delivering exceptional customer experiences and operational performance.
               </p>
@@ -366,7 +366,7 @@ export default function SustainableRetailUniforms() {
               title="Sustainable Retail Uniforms: Environmental Excellence and Professional Style in Saudi Arabia (2025)"
             />
           </div>
-
+          
           <aside className="md:w-1/4">
             <div className="sticky top-24">
               <TableOfContents items={tocItems} />

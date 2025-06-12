@@ -65,7 +65,7 @@ export default function BlogPost() {
           <div className="flex items-center mb-8">
             <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
               <Image
-                src="/images/authors/sarah-johnson.jpg"
+                src="/images/authors/sustainability_expert.jpeg"
                 alt="Sarah Johnson"
                 fill
                 className="object-cover"
@@ -83,7 +83,7 @@ export default function BlogPost() {
           <div className="rounded-xl overflow-hidden">
             <div className="aspect-w-16 aspect-h-9 relative">
               <Image
-                src="/images/blog/banking_trends_hero.jpg"
+                src="/images/banking_finance_sector/bank_uniform_visual_identity.jpeg"
                 alt="Modern banking uniform trends"
                 fill
                 className="object-cover"
@@ -117,7 +117,7 @@ export default function BlogPost() {
 
               <div className="my-8 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/blog/banking_sustainable_fabrics.jpg"
+                  src="/images/banking_finance_sector/premium_uniform_fabrics.jpeg"
                   alt="Sustainable fabrics in banking uniforms"
                   width={800}
                   height={450}
@@ -144,7 +144,7 @@ export default function BlogPost() {
 
               <div className="my-8 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/blog/banking_traditional_modern.jpg"
+                  src="/images/banking_finance_sector/bank_uniform_visual_identity.jpeg"
                   alt="Traditional elements in modern banking uniforms"
                   width={800}
                   height={450}
@@ -171,7 +171,7 @@ export default function BlogPost() {
 
               <div className="my-8 rounded-lg overflow-hidden">
                 <Image
-                  src="/images/blog/banking_color_psychology.jpg"
+                  src="/images/banking_finance_sector/elegant_banking_uniforms.jpeg"
                   alt="Color psychology in banking uniforms"
                   width={800}
                   height={450}
@@ -193,7 +193,7 @@ export default function BlogPost() {
                 <div className="flex items-center">
                   <div className="relative h-16 w-16 rounded-full overflow-hidden mr-4">
                     <Image
-                      src="/images/authors/sarah-johnson.jpg"
+                      src="/images/authors/sustainability_expert.jpeg"
                       alt="Sarah Johnson"
                       fill
                       className="object-cover"

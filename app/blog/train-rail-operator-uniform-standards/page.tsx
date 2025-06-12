@@ -80,7 +80,7 @@ export default function TrainRailOperatorUniformStandards() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image 
+        <Image
                 src="/images/transport_sector/transport_station_staff_clothing.jpeg"
                 alt="Professional train and rail operators showcasing precision uniform standards and operational excellence"
                 width={800}
@@ -88,7 +88,7 @@ export default function TrainRailOperatorUniformStandards() {
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-600 mt-2 italic">Railway professionals demonstrating the integration of precision, safety, and professional excellence in Saudi Arabia's advanced rail operations</p>
-            </div>
+      </div>
 
             {/* Safety Protocols Section */}
             <section id="safety-protocols" className="mb-12">
@@ -142,7 +142,7 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>Time-critical operation support</strong> – Features facilitating rapid, accurate responses to operational requirements</li>
                 <li><strong>Quality control facilitation</strong> – Uniform elements supporting systematic inspection and quality assurance procedures</li>
               </ul>
-            </section>
+        </section>
 
             {/* Operational Functionality Section */}
             <section id="operational-functionality" className="mb-12">
@@ -168,8 +168,8 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>Vehicle access facilitation</strong> – Uniform construction enabling safe entry and exit from railway vehicles and equipment</li>
                 <li><strong>Emergency mobility enhancement</strong> – Features supporting rapid movement during emergency response situations</li>
                 <li><strong>Equipment operation support</strong> – Ergonomic design facilitating operation of railway-specific equipment and machinery</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Role Specialization Section */}
             <section id="role-specialization" className="mb-12">
@@ -204,8 +204,8 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>Electrical system technicians</strong> – Specialized protection against electrical hazards with precision tool access</li>
                 <li><strong>Rolling stock maintenance</strong> – Durable uniforms designed for mechanical work with enhanced protection and functionality</li>
                 <li><strong>Infrastructure specialists</strong> – Comprehensive protection uniforms for complex infrastructure maintenance and inspection</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Technology Integration Section */}
             <section id="technology-integration" className="mb-12">
@@ -231,8 +231,8 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>Health and fatigue monitoring</strong> – Biometric systems ensuring operator wellness and alertness</li>
                 <li><strong>Environmental monitoring</strong> – Sensors detecting hazardous conditions and environmental changes</li>
                 <li><strong>Training and certification tracking</strong> – Systems monitoring ongoing professional development and certification status</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* International Compliance Section */}
             <section id="international-compliance" className="mb-12">
@@ -258,8 +258,8 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>SASO certification compliance</strong> – Saudi Standards Organization requirements for safety equipment and materials</li>
                 <li><strong>GCC railway coordination</strong> – Alignment with Gulf Cooperation Council railway development standards</li>
                 <li><strong>International operator requirements</strong> – Compliance with standards for international railway operators and partnerships</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Environmental Adaptation Section */}
             <section id="environmental-adaptation" className="mb-12">
@@ -285,8 +285,8 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>Urban pollution protection</strong> – Filtration and protection against urban air quality challenges</li>
                 <li><strong>Multi-climate functionality</strong> – Adaptive systems accommodating diverse Saudi climate zones</li>
                 <li><strong>Seasonal adaptation features</strong> – Flexible uniform systems for varying seasonal conditions</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Maintenance Standards Section */}
             <section id="maintenance-standards" className="mb-12">
@@ -312,8 +312,8 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>Quality assurance protocols</strong> – Regular inspection and quality control maintaining safety and performance standards</li>
                 <li><strong>Cost optimization strategies</strong> – Efficient uniform management balancing cost control with safety requirements</li>
                 <li><strong>Environmental impact management</strong> – Sustainable practices for uniform disposal and recycling</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Implementation Strategy Section */}
             <section id="implementation" className="mb-12">
@@ -340,7 +340,7 @@ export default function TrainRailOperatorUniformStandards() {
                 <li><strong>International compliance monitoring</strong> – Ongoing verification of adherence to global railway standards</li>
                 <li><strong>Performance metrics tracking</strong> – Comprehensive measurement of uniform effectiveness and operational impact</li>
               </ul>
-            </section>
+        </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">

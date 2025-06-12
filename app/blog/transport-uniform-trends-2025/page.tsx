@@ -80,8 +80,8 @@ export default function TransportUniformTrends2025() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image 
-                src="/images/transport_sector/future_transport_uniforms.jpeg"
+              <Image
+                src="/images/transport_sector/transport_supervisor_uniforms.jpeg"
                 alt="Futuristic transport uniforms showcasing 2025 design trends and technological integration"
                 width={800}
                 height={500}
@@ -196,7 +196,7 @@ export default function TransportUniformTrends2025() {
                 <li><strong>Generational bridge design</strong> – Aesthetic approaches appealing to both traditional values and contemporary preferences</li>
                 <li><strong>Global-local fusion</strong> – International design standards enhanced with distinctly Saudi cultural characteristics</li>
               </ul>
-            </section>
+        </section>
 
             {/* Performance Enhancement Section */}
             <section id="performance-enhancement" className="mb-12">
@@ -222,8 +222,8 @@ export default function TransportUniformTrends2025() {
                 <li><strong>Productivity analytics integration</strong> – Real-time performance measurement and optimization suggestions through embedded monitoring systems</li>
                 <li><strong>Skill augmentation platforms</strong> – Uniform-integrated training and skill development systems providing continuous professional enhancement</li>
                 <li><strong>Team coordination enhancement</strong> – Communication and coordination features improving team efficiency and collaborative performance</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Sector-Specific Analysis Section */}
             <section id="sector-specific" className="mb-12">
@@ -258,8 +258,8 @@ export default function TransportUniformTrends2025() {
                 <li><strong>Pollution protection systems</strong> – Advanced filtration and protection against urban air quality challenges</li>
                 <li><strong>Customer interaction optimization</strong> – Design elements enhancing professional appearance and customer service capabilities</li>
                 <li><strong>Multi-modal compatibility</strong> – Uniform features supporting workers across different urban transport modes</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Material Science Section */}
             <section id="material-science" className="mb-12">
@@ -285,8 +285,8 @@ export default function TransportUniformTrends2025() {
                 <li><strong>Symbiotic microorganism integration</strong> – Beneficial bacteria providing natural odor control, UV protection, and health monitoring</li>
                 <li><strong>Genetic optimization</strong> – Customized materials engineered for individual genetic profiles and physiological requirements</li>
                 <li><strong>Evolutionary adaptation</strong> – Materials that continuously improve and adapt based on usage patterns and environmental exposure</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Implementation Strategies Section */}
             <section id="implementation" className="mb-12">
@@ -312,8 +312,8 @@ export default function TransportUniformTrends2025() {
                 <li><strong>Traditional value preservation</strong> – Careful balance between innovation and respect for established cultural practices</li>
                 <li><strong>Generational bridge building</strong> – Approaches appealing to both traditional and contemporary workforce segments</li>
                 <li><strong>Community involvement initiatives</strong> – Local participation in uniform design and implementation processes</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Future Outlook Section */}
             <section id="future-outlook" className="mb-12">
@@ -340,7 +340,7 @@ export default function TransportUniformTrends2025() {
                 <li><strong>Research and development leadership</strong> – Saudi institutions leading global research in uniform technology and innovation</li>
                 <li><strong>Cultural influence expansion</strong> – Saudi design aesthetics influencing international uniform design trends</li>
               </ul>
-            </section>
+        </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">

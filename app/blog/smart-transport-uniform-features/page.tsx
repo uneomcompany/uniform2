@@ -80,15 +80,15 @@ export default function SmartTransportUniforms() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image 
-                src="/images/transport_sector/smart_uniform_technology.jpeg"
+        <Image
+                src="/images/transport_sector/driver_uniform_design.jpeg"
                 alt="Transport worker wearing smart uniform with integrated sensors and communication systems"
                 width={800}
                 height={500}
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-600 mt-2 italic">Advanced smart uniforms featuring integrated sensors, communication systems, and environmental monitoring capabilities for enhanced safety and efficiency</p>
-            </div>
+      </div>
 
             {/* Core Technologies Section */}
             <section id="core-technologies" className="mb-12">
@@ -115,7 +115,7 @@ export default function SmartTransportUniforms() {
                 <li><strong>Self-cleaning nanotechnology</strong> – Advanced surface treatments reducing maintenance requirements and extending uniform lifecycle</li>
                 <li><strong>Shape-memory alloys</strong> – Adaptive fit technologies automatically adjusting to movement patterns and environmental conditions</li>
               </ul>
-            </section>
+        </section>
 
             {/* IoT Connectivity Section */}
             <section id="iot-connectivity" className="mb-12">
@@ -141,8 +141,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Route optimization algorithms</strong> – Worker location and status data feeding into intelligent routing systems for improved efficiency</li>
                 <li><strong>Predictive maintenance systems</strong> – Integration with vehicle maintenance schedules based on driver behavior patterns and environmental exposure</li>
                 <li><strong>Automated compliance reporting</strong> – Real-time documentation of safety protocols and regulatory compliance for transport authorities</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Safety Innovations Section */}
             <section id="safety-innovations" className="mb-12">
@@ -168,8 +168,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Impact protection systems</strong> – Smart materials providing enhanced protection during impacts while maintaining flexibility during normal operations</li>
                 <li><strong>Environmental hazard shields</strong> – Automated deployment of protective barriers against chemical spills, extreme temperatures, or toxic gas exposure</li>
                 <li><strong>Emergency extraction aids</strong> – Quick-release mechanisms and location beacons facilitating rapid rescue operations in emergency situations</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Performance Monitoring Section */}
             <section id="performance-monitoring" className="mb-12">
@@ -195,8 +195,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Training needs identification</strong> – Data-driven insights identifying skills gaps and training opportunities for individual workers</li>
                 <li><strong>Ergonomic assessment</strong> – Posture and movement analysis preventing repetitive strain injuries and optimizing workplace ergonomics</li>
                 <li><strong>Benchmarking and comparison</strong> – Anonymous performance comparisons enabling identification of best practices and improvement opportunities</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Communication Systems Section */}
             <section id="communication-systems" className="mb-12">
@@ -222,8 +222,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Flexible display panels</strong> – Integrated OLED displays showing status information, alerts, and communication messages</li>
                 <li><strong>Haptic feedback systems</strong> – Tactile alerts for safety warnings and important notifications without audio or visual distraction</li>
                 <li><strong>Digital badge systems</strong> – Dynamic identification displaying worker credentials, certifications, and real-time status information</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Environmental Adaptation Section */}
             <section id="environmental-adaptation" className="mb-12">
@@ -249,8 +249,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>UV exposure tracking</strong> – Cumulative UV dose monitoring with alerts for protective action against skin damage</li>
                 <li><strong>Sand and dust detection</strong> – Specialized sensors monitoring particulate levels and activating protective systems during sandstorms</li>
                 <li><strong>Weather pattern integration</strong> – Connection to meteorological data for proactive environmental protection measures</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Implementation Strategy Section */}
             <section id="implementation-strategy" className="mb-12">
@@ -276,8 +276,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Management buy-in development</strong> – Executive education on ROI potential and competitive advantages of smart uniform technologies</li>
                 <li><strong>Regulatory compliance planning</strong> – Ensuring smart uniform systems meet Saudi labor law requirements and international safety standards</li>
                 <li><strong>Continuous improvement processes</strong> – Feedback mechanisms for ongoing system refinement and feature enhancement</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* ROI Analysis Section */}
             <section id="roi-analysis" className="mb-12">
@@ -303,8 +303,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Training cost reduction</strong> – Accelerated onboarding and continuous skill development through integrated learning systems</li>
                 <li><strong>Quality improvement</strong> – Enhanced service delivery through better worker preparation and real-time performance monitoring</li>
                 <li><strong>Competitive advantage development</strong> – Technology leadership positioning for premium service contracts and market differentiation</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Future Developments Section */}
             <section id="future-developments" className="mb-12">
@@ -330,8 +330,8 @@ export default function SmartTransportUniforms() {
                 <li><strong>Renewable energy harvesting</strong> – Self-powered systems utilizing solar energy and kinetic movement for complete energy independence</li>
                 <li><strong>Advanced materials science</strong> – Self-repairing fabrics and adaptive materials responding to environmental changes</li>
                 <li><strong>Blockchain integration</strong> – Secure, immutable records of safety compliance and worker performance data</li>
-              </ul>
-            </section>
+          </ul>
+        </section>
 
             {/* Conclusion */}
             <section id="conclusion" className="mb-12">
@@ -347,15 +347,15 @@ export default function SmartTransportUniforms() {
 
               <p className="mb-6">
                 The convergence of IoT technologies, artificial intelligence, and advanced materials science creates unprecedented opportunities for workplace transformation. By embracing these innovations, Saudi transport organizations can achieve superior safety outcomes, enhanced operational efficiency, and sustainable competitive advantages in an increasingly technology-driven marketplace.
-              </p>
-            </section>
+          </p>
+        </section>
 
             {/* Author Bio */}
             <AuthorBio 
               name="Dr. Fahad Al-Thani"
               role="Smart Textile Technology Specialist"
               bio="Dr. Al-Thani is a leading expert in wearable technology and IoT integration for industrial applications. With over 15 years of experience in smart textile development, he has guided numerous Saudi organizations in implementing cutting-edge uniform technologies."
-              imageSrc="/images/author/fahad_althani.jpg"
+              imageSrc="/images/authors/tech_expert.jpeg"
               linkedin="https://linkedin.com/in/fahad-althani"
               twitter="https://twitter.com/althani_tech"
             />
