@@ -1,7 +1,6 @@
 [build]
   command = "npm run build:netlify"
   publish = "out"
-  ignore = "git diff --quiet HEAD^ HEAD ./"
 
 [build.environment]
   NEXT_PUBLIC_SITE_URL = "https://gregarious-sawine-ed40c7.netlify.app"
