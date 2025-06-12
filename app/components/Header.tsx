@@ -123,6 +123,7 @@ export default function Header() {
         { name: 'Retail Sector', href: '/blog/retail' }
       ]
     },
+    { name: 'Resources', href: '/resources' },
     { name: 'Contact', href: '/contact' }
   ]
 
