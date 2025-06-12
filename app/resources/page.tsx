@@ -140,14 +140,14 @@ const resourceCategories = [
         description: 'Understanding uniform costs and pricing factors',
         type: 'Information Guide',
         downloadSize: 'View Online',
-        downloadUrl: '/blog/uniform-cost-guide'
+        downloadUrl: '/contact'
       },
       {
         title: 'Budget Planning Tips',
         description: 'How to plan and budget for uniform programs',
         type: 'Planning Guide',
         downloadSize: 'View Online',
-        downloadUrl: '/blog/budget-planning'
+        downloadUrl: '/contact'
       },
       {
         title: 'Get Custom Quote',
@@ -170,7 +170,7 @@ const resourceCategories = [
         description: 'Best practices for uniform procurement',
         type: 'Guide',
         downloadSize: 'View Online',
-        downloadUrl: '/blog/procurement-guide'
+        downloadUrl: '/contact'
       },
       {
         title: 'Specification Requirements',
@@ -207,7 +207,7 @@ const resourceCategories = [
         description: 'How to incorporate your brand into uniforms',
         type: 'Branding Guide',
         downloadSize: 'View Online',
-        downloadUrl: '/blog/branding-guide'
+        downloadUrl: '/contact'
       },
       {
         title: 'Custom Design Service',
@@ -230,14 +230,14 @@ const resourceCategories = [
         description: 'Proper care and maintenance of professional uniforms',
         type: 'Care Guide',
         downloadSize: 'View Online',
-        downloadUrl: '/blog/uniform-care-guide'
+        downloadUrl: '/contact'
       },
       {
         title: 'Maintenance Tips',
         description: 'Extending the life of your uniforms',
         type: 'Tips & Tricks',
         downloadSize: 'View Online',
-        downloadUrl: '/blog/maintenance-tips'
+        downloadUrl: '/contact'
       },
       {
         title: 'Professional Cleaning',

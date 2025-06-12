@@ -405,12 +405,10 @@ export default function ArticlePage() {
 
             {/* Author Bio */}
             <AuthorBio 
-              name="Abdullah Al-Harbi"
-              role="Corporate Procurement Specialist"
-              bio="With extensive experience optimizing supply chain partnerships for Saudi financial institutions, Abdullah specializes in developing strategic supplier relationships that enhance operational performance while ensuring exceptional quality standards."
-              imageSrc="/images/author/عبدالله_الحربي.jpg"
-              linkedin="https://linkedin.com/in/abdullah-alharbi"
-              twitter="https://twitter.com/alharbi_abdullah"
+              name="عبدالله الحربي"
+              role="Banking Uniform Specialist"
+              bio="خبير في أزياء القطاع المصرفي مع أكثر من 12 عاماً من الخبرة في تطوير حلول الأزياء الموحدة للمؤسسات المالية في المملكة العربية السعودية."
+              imageSrc="/images/author/placeholder.jpg"
             />
 
             {/* Share Buttons */}
