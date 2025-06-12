@@ -1,6 +1,21 @@
-# Uniform Blog - Saudi Arabia
+# Saudi Uniform Solutions Blog
 
-A professional blog focused on uniform solutions for various sectors in Saudi Arabia. This SEO-optimized blog targets businesses in the Saudi market looking for high-quality uniforms.
+A comprehensive Next.js 14 blog for uniform solutions in Saudi Arabia, targeting 6 key sectors: Transport, Aviation, Banking & Finance, Industrial, Restaurants, and Retail.
+
+**Last Updated:** December 17, 2024 - Deployment optimized and Arabic author support completed
+
+## Features
+
+- ✅ 139 static pages generated
+- ✅ Arabic author URLs supported 
+- ✅ All images fixed and optimized
+- ✅ Netlify deployment ready
+- ✅ SEO optimized with sitemap
+- ✅ Professional content in 6 sectors
+
+## Deployment
+
+The site is configured for automatic deployment on Netlify when changes are pushed to the master branch.
 
 ## Project Structure
 
