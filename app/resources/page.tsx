@@ -76,32 +76,25 @@ const resourceCategories = [
     color: 'bg-blue-500',
     resources: [
       {
-        title: 'Universal Sizing Chart',
-        description: 'Complete sizing guide for all body types and measurements',
-        type: 'PDF Guide',
-        downloadSize: '2.1 MB',
-        downloadUrl: '/downloads/universal-sizing-chart.pdf'
+        title: 'Standard Sizing Information',
+        description: 'Basic sizing guidelines for uniform selection',
+        type: 'Information Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/about#sizing-info'
       },
       {
-        title: 'Men\'s Uniform Sizing',
-        description: 'Detailed sizing charts for men\'s workwear and formal uniforms',
-        type: 'Interactive Tool',
-        downloadSize: 'Online Tool',
-        downloadUrl: '/tools/mens-sizing'
+        title: 'Measurement Guidelines',
+        description: 'How to take accurate measurements for uniform fitting',
+        type: 'Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/sizing-measurement-guide'
       },
       {
-        title: 'Women\'s Uniform Sizing',
-        description: 'Comprehensive sizing guide for women\'s professional uniforms',
-        type: 'Interactive Tool',
-        downloadSize: 'Online Tool',
-        downloadUrl: '/tools/womens-sizing'
-      },
-      {
-        title: 'Safety Gear Sizing',
-        description: 'PPE and safety equipment sizing specifications',
-        type: 'PDF Guide',
-        downloadSize: '1.8 MB',
-        downloadUrl: '/downloads/safety-gear-sizing.pdf'
+        title: 'Size Chart Reference',
+        description: 'Standard size chart for different uniform categories',
+        type: 'Reference',
+        downloadSize: 'View Online',
+        downloadUrl: '/contact'
       }
     ]
   },
@@ -113,180 +106,145 @@ const resourceCategories = [
     color: 'bg-green-500',
     resources: [
       {
-        title: 'SASO Uniform Standards',
-        description: 'Saudi Standards Organization requirements for workwear',
-        type: 'Official Document',
-        downloadSize: '3.4 MB',
-        downloadUrl: '/downloads/saso-uniform-standards.pdf'
+        title: 'Saudi Uniform Standards',
+        description: 'Overview of local uniform standards and requirements',
+        type: 'Information',
+        downloadSize: 'View Online',
+        downloadUrl: '/sectors'
       },
       {
-        title: 'ISO 13688 Protective Clothing',
-        description: 'International standard for protective clothing requirements',
-        type: 'Standard Document',
-        downloadSize: '2.7 MB',
-        downloadUrl: '/downloads/iso-13688-protective-clothing.pdf'
+        title: 'Quality Guidelines',
+        description: 'Quality standards for professional uniforms',
+        type: 'Guidelines',
+        downloadSize: 'View Online',
+        downloadUrl: '/about#quality'
       },
       {
-        title: 'Flame Resistant Standards',
-        description: 'Comprehensive guide to flame-resistant uniform requirements',
+        title: 'Safety Requirements',
+        description: 'Safety standards for industrial and protective uniforms',
         type: 'Safety Guide',
-        downloadSize: '4.1 MB',
-        downloadUrl: '/downloads/flame-resistant-standards.pdf'
-      },
-      {
-        title: 'Chemical Resistance Guide',
-        description: 'Chemical protection standards for industrial uniforms',
-        type: 'Technical Guide',
-        downloadSize: '2.9 MB',
-        downloadUrl: '/downloads/chemical-resistance-guide.pdf'
+        downloadSize: 'View Online',
+        downloadUrl: '/sectors/industrial'
       }
     ]
   },
   {
-    id: 'cost-calculators',
-    title: 'Cost Calculators & ROI Tools',
-    description: 'Calculate uniform costs, bulk pricing, and return on investment',
+    id: 'cost-information',
+    title: 'Cost Information & Planning',
+    description: 'Information about uniform costs and budget planning',
     icon: FaCalculator,
     color: 'bg-purple-500',
     resources: [
       {
-        title: 'Uniform Cost Calculator',
-        description: 'Calculate total uniform costs including customization and accessories',
-        type: 'Interactive Calculator',
-        downloadSize: 'Online Tool',
-        downloadUrl: '/tools/cost-calculator'
+        title: 'Cost Estimation Guide',
+        description: 'Understanding uniform costs and pricing factors',
+        type: 'Information Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/uniform-cost-guide'
       },
       {
-        title: 'Bulk Order Pricing Tool',
-        description: 'Get accurate pricing for large quantity uniform orders',
-        type: 'Pricing Tool',
-        downloadSize: 'Online Tool',
-        downloadUrl: '/tools/bulk-pricing'
+        title: 'Budget Planning Tips',
+        description: 'How to plan and budget for uniform programs',
+        type: 'Planning Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/budget-planning'
       },
       {
-        title: 'ROI Calculator',
-        description: 'Calculate return on investment for uniform programs',
-        type: 'Business Tool',
-        downloadSize: 'Excel Template',
-        downloadUrl: '/downloads/uniform-roi-calculator.xlsx'
-      },
-      {
-        title: 'Budget Planning Template',
-        description: 'Annual uniform budget planning and tracking spreadsheet',
-        type: 'Excel Template',
-        downloadSize: '156 KB',
-        downloadUrl: '/downloads/uniform-budget-template.xlsx'
+        title: 'Get Custom Quote',
+        description: 'Request personalized pricing for your uniform needs',
+        type: 'Quote Request',
+        downloadSize: 'Online Form',
+        downloadUrl: '/contact'
       }
     ]
   },
   {
-    id: 'procurement-tools',
-    title: 'Procurement & Specification Tools',
-    description: 'Templates and tools for uniform procurement and specifications',
+    id: 'procurement-guides',
+    title: 'Procurement & Specification Guides',
+    description: 'Guidelines for uniform procurement and specifications',
     icon: FaFileContract,
     color: 'bg-orange-500',
     resources: [
       {
-        title: 'RFQ Template',
-        description: 'Request for Quote template for uniform procurement',
-        type: 'Word Template',
-        downloadSize: '89 KB',
-        downloadUrl: '/downloads/uniform-rfq-template.docx'
+        title: 'Procurement Guidelines',
+        description: 'Best practices for uniform procurement',
+        type: 'Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/procurement-guide'
       },
       {
-        title: 'Specification Sheet Template',
-        description: 'Detailed uniform specification template for suppliers',
-        type: 'Excel Template',
-        downloadSize: '234 KB',
-        downloadUrl: '/downloads/uniform-specification-template.xlsx'
+        title: 'Specification Requirements',
+        description: 'How to specify uniform requirements clearly',
+        type: 'Guidelines',
+        downloadSize: 'View Online',
+        downloadUrl: '/contact'
       },
       {
-        title: 'Quality Control Checklist',
-        description: 'Comprehensive quality inspection checklist for uniform delivery',
-        type: 'PDF Checklist',
-        downloadSize: '567 KB',
-        downloadUrl: '/downloads/quality-control-checklist.pdf'
-      },
-      {
-        title: 'Vendor Evaluation Matrix',
-        description: 'Supplier evaluation and comparison tool',
-        type: 'Excel Tool',
-        downloadSize: '178 KB',
-        downloadUrl: '/downloads/vendor-evaluation-matrix.xlsx'
+        title: 'Quality Assurance',
+        description: 'Ensuring quality in uniform delivery',
+        type: 'QA Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/about#quality'
       }
     ]
   },
   {
     id: 'design-customization',
-    title: 'Design & Customization Resources',
-    description: 'Brand guidelines, logo templates, and customization tools',
+    title: 'Design & Customization Information',
+    description: 'Information about uniform design and customization options',
     icon: FaLightbulb,
     color: 'bg-red-500',
     resources: [
       {
-        title: 'Logo Placement Guide',
-        description: 'Best practices for logo placement on uniforms',
-        type: 'Design Guide',
-        downloadSize: '1.2 MB',
-        downloadUrl: '/downloads/logo-placement-guide.pdf'
+        title: 'Design Options',
+        description: 'Available design and customization options',
+        type: 'Design Info',
+        downloadSize: 'View Online',
+        downloadUrl: '/sectors'
       },
       {
-        title: 'Color Matching Guide',
-        description: 'Corporate color matching and brand consistency guide',
-        type: 'Color Guide',
-        downloadSize: '2.8 MB',
-        downloadUrl: '/downloads/color-matching-guide.pdf'
+        title: 'Branding Guidelines',
+        description: 'How to incorporate your brand into uniforms',
+        type: 'Branding Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/branding-guide'
       },
       {
-        title: 'Embroidery Specifications',
-        description: 'Technical specifications for uniform embroidery',
-        type: 'Technical Guide',
-        downloadSize: '1.5 MB',
-        downloadUrl: '/downloads/embroidery-specifications.pdf'
-      },
-      {
-        title: 'Design Template Kit',
-        description: 'Customizable uniform design templates',
-        type: 'Design Kit',
-        downloadSize: '5.2 MB',
-        downloadUrl: '/downloads/uniform-design-templates.zip'
+        title: 'Custom Design Service',
+        description: 'Professional custom design consultation',
+        type: 'Service Info',
+        downloadSize: 'Contact Us',
+        downloadUrl: '/contact'
       }
     ]
   },
   {
-    id: 'training-materials',
-    title: 'Training & Educational Materials',
-    description: 'Training resources for uniform care, safety, and best practices',
+    id: 'care-maintenance',
+    title: 'Care & Maintenance Guides',
+    description: 'Information on proper uniform care and maintenance',
     icon: FaGraduationCap,
     color: 'bg-indigo-500',
     resources: [
       {
-        title: 'Uniform Care Training',
-        description: 'Complete training module for proper uniform care and maintenance',
-        type: 'Training Module',
-        downloadSize: '3.7 MB',
-        downloadUrl: '/downloads/uniform-care-training.pdf'
+        title: 'Uniform Care Instructions',
+        description: 'Proper care and maintenance of professional uniforms',
+        type: 'Care Guide',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/uniform-care-guide'
       },
       {
-        title: 'Safety Compliance Training',
-        description: 'Safety uniform compliance and proper usage training',
-        type: 'Safety Course',
-        downloadSize: '4.3 MB',
-        downloadUrl: '/downloads/safety-compliance-training.pdf'
+        title: 'Maintenance Tips',
+        description: 'Extending the life of your uniforms',
+        type: 'Tips & Tricks',
+        downloadSize: 'View Online',
+        downloadUrl: '/blog/maintenance-tips'
       },
       {
-        title: 'Employee Handbook Template',
-        description: 'Uniform policy and guidelines handbook template',
-        type: 'Word Template',
-        downloadSize: '234 KB',
-        downloadUrl: '/downloads/employee-uniform-handbook.docx'
-      },
-      {
-        title: 'Best Practices Guide',
-        description: 'Industry best practices for uniform management',
-        type: 'Best Practices',
-        downloadSize: '2.1 MB',
-        downloadUrl: '/downloads/uniform-best-practices.pdf'
+        title: 'Professional Cleaning',
+        description: 'Information about professional uniform cleaning services',
+        type: 'Service Info',
+        downloadSize: 'View Online',
+        downloadUrl: '/contact'
       }
     ]
   }
@@ -294,31 +252,31 @@ const resourceCategories = [
 
 const quickTools = [
   {
-    title: 'Fabric Selector Tool',
-    description: 'Find the perfect fabric for your industry and climate',
-    icon: FaSearch,
-    url: '/tools/fabric-selector',
+    title: 'Size Guide',
+    description: 'Find the right size for your uniform needs',
+    icon: FaRuler,
+    url: '/contact',
     color: 'bg-blue-100 text-blue-700'
   },
   {
-    title: 'Size Converter',
-    description: 'Convert between international sizing standards',
-    icon: FaRuler,
-    url: '/tools/size-converter',
+    title: 'Get Quote',
+    description: 'Request a personalized quote for your uniforms',
+    icon: FaCalculator,
+    url: '/contact',
     color: 'bg-green-100 text-green-700'
   },
   {
-    title: 'Color Matcher',
-    description: 'Match corporate colors to available uniform options',
+    title: 'Design Consultation',
+    description: 'Discuss custom design options with our experts',
     icon: FaLightbulb,
-    url: '/tools/color-matcher',
+    url: '/contact',
     color: 'bg-purple-100 text-purple-700'
   },
   {
-    title: 'Compliance Checker',
-    description: 'Verify uniform compliance with Saudi regulations',
+    title: 'Quality Information',
+    description: 'Learn about our quality standards and compliance',
     icon: FaShieldAlt,
-    url: '/tools/compliance-checker',
+    url: '/about',
     color: 'bg-red-100 text-red-700'
   }
 ];
