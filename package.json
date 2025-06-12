@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm install && node scripts/fix-blog-imports.js && next build && node scripts/fix-static-export.js",
+    "build:netlify": "node scripts/fix-blog-imports.js && next build && node scripts/fix-static-export.js",
     "start": "next start",
     "lint": "next lint"
   },

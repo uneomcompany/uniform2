@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:netlify"
   publish = "out"
   ignore = "git diff --quiet HEAD^ HEAD ./"
 
@@ -13,6 +13,7 @@
   NPM_FLAGS = "--legacy-peer-deps"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
   CI = "false"
+  DISABLE_ESLINT_PLUGIN = "true"
 
 [[headers]]
   for = "/*"
