@@ -80,7 +80,7 @@ export default function TransportUniformTrends2025() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image
+        <Image
                 src="/images/transport_sector/transport_supervisor_uniforms.jpeg"
                 alt="Futuristic transport uniforms showcasing 2025 design trends and technological integration"
                 width={800}
@@ -88,7 +88,7 @@ export default function TransportUniformTrends2025() {
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-600 mt-2 italic">Next-generation transport uniforms featuring advanced materials, smart technology integration, and culturally-inspired design elements representing Saudi Arabia's transport sector evolution</p>
-            </div>
+      </div>
 
             {/* Design Innovations Section */}
             <section id="design-innovations" className="mb-12">

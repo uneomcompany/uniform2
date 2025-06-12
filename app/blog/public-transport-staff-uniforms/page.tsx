@@ -80,7 +80,7 @@ export default function PublicTransportStaffUniforms() {
 
             {/* Main Image */}
             <div className="mb-12">
-              <Image
+        <Image
                 src="/images/transport_sector/transport_station_staff_clothing.jpeg"
                 alt="Professional public transport staff demonstrating advanced uniform standards in Saudi Arabia's modern transit systems"
                 width={800}
@@ -88,7 +88,7 @@ export default function PublicTransportStaffUniforms() {
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-600 mt-2 italic">Public transport professionals showcasing the integration of authority, comfort, and cultural sensitivity in modern Saudi transit uniform design</p>
-            </div>
+      </div>
 
             {/* Design Principles Section */}
             <section id="design-principles" className="mb-12">
